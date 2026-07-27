@@ -20,7 +20,7 @@ Puedes unirte al grupo [Datos Bolivia en Telegram](https://t.me/+AWyKECHAM9IyZWZ
 
 ## Buenas prácticas para la publicación de GTFS
 
-El idioma principal de los archivos es el castellano (es)
+El idioma principal de los archivos es el castellano (es).
 
 Un GTFS corresponde a una sola agencia de transporte (o grupo coherente de agencias). La idea es que se podría delegar o transferir la responsabilidad de la publicación de los datos a una agencia (digamos el Teleférico) si es pertinente. También puede ayudar a repartir los esfuerzos de la comunidad.
 
@@ -29,3 +29,13 @@ El GTFS será generado, validado y publicado automáticamente usando una GitHub 
 Cada modificación de los datos se tiene que hacer mediante una Pull Request, lo que permite validar los cambios con una GitHub Action antes de modificar el GTFS.
 
 Se recomienda empezar con lo mínimo, pero con calidad, y luego ampliar si se puede. Para cada GTFS, trataremos de analizar y publicar las funcionalidades incluidas, y las fechas de actualización.
+
+## Código
+
+El código para generar y validar los GTFS se encuentra en scripts/ y Makefile. Se utiliza el inglés. Para generar los GTFS:
+
+```bash
+make build
+```
+
+El sitio, con los GTFS y los archivos index.html, se encuentra en dist/. Se puede abrir el archivo dist/index.html en un navegador para explorarlo.
