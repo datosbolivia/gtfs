@@ -16,4 +16,4 @@ El proyecto está empezando. Los primeros pasos son:
 
 ## Cómo colaborar?
 
-Puedes unirte al grupo [Datos Bolivia en Telegram](https://t.me/+AWyKECHAM9IyZWZh), comentar en https://github.com/public-transport/transitous/issues/2318, o abrir una issue aquí: podemos tener una issue por cada proyecto de nuevo GTFS (es decir, por "agencia").
+Puedes unirte al grupo [Datos Bolivia en Telegram](https://t.me/+AWyKECHAM9IyZWZh), comentar en https://github.com/public-transport/transitous/issues/2318, o [abrir una issue aquí](https://github.com/datosbolivia/gtfs/issues) (podemos tener una issue por cada proyecto de nuevo GTFS, es decir, por "agencia").
