@@ -1,10 +1,10 @@
 all: build
 
 create_gtfs:
-	./scripts/create_gtfs.sh
+	./scripts/create_gtfs.sh dist
 
 create_index: create_gtfs
-	./scripts/create_index.sh
+	./scripts/create_index.sh dist
 
 build: create_index
 

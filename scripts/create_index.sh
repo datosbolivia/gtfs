@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Creates an index.html file in dist/ and each subdirectory
-cd dist
+set -eu
+
+cd "$1"
 find . -type d -print -exec sh -c 'tree "$0" \
     -H "" \
     -L 1 \

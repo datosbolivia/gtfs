@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # for now, only create the directory
-mkdir -p dist
+mkdir -p $1
