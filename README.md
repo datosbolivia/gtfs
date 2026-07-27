@@ -6,8 +6,14 @@ El objetivo principal es **publicar datos en formato GTFS** para que los mapas e
 
 Más información sobre el formato GTFS (en español) en la página https://gtfs.org/es/getting-started/.
 
-Para iniciar el trabajo, pueden encontrar un inventario de los datos existentes en https://github.com/public-transport/transitous/issues/2318.
+## Estado del proyecto
+
+El proyecto está empezando. Los primeros pasos son:
+
+1. realizar un inventario de los datos e iniciativas existentes en Bolivia acerca del transporte público. La discusión se encuentra en https://github.com/public-transport/transitous/issues/2318.
+2. si existen GTFS de calidad suficiente, proponerlos para inclusión en los catálogos de GTFS ([Transitous](https://transitous.org/doc/#adding-a-region), [Mobility Database](Mobility Database), [Transitland](https://www.transit.land/documentation/atlas#how-to-add-a-new-feed), 
+3. juntar esfuerzos para generar y mantener unos GTFS de manera comunitaria.
 
 ## Cómo colaborar?
 
-Puedes unirte al grupo [Datos Bolivia en Telegram](https://t.me/+AWyKECHAM9IyZWZh).
+Puedes unirte al grupo [Datos Bolivia en Telegram](https://t.me/+AWyKECHAM9IyZWZh), comentar en https://github.com/public-transport/transitous/issues/2318, o abrir una issue aquí.
