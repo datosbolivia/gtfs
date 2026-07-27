@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     environment:
       name: github-pages
@@ -33,7 +33,9 @@ jobs:
       #     key: dist
 
       - name: Build the GTFS and the index files
-        run: make
+        run: |
+          tree --version
+          make
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
