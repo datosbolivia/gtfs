@@ -3,10 +3,10 @@ all: build
 create_gtfs:
 	./scripts/create_gtfs.sh
 
-create_index: create_gtfs
-	./scripts/create_index.sh
+create_indexes: create_gtfs
+	./scripts/create_indexes.sh
 
-build: create_index
+build: create_indexes
 
 # test: dist/index.html
 # 	./scripts/test.sh
@@ -14,4 +14,4 @@ build: create_index
 clean: ## Clean temporary files 
 	rm -rf dist
 
-.PHONY: all build clean create_gtfs create_index
+.PHONY: all build clean create_gtfs create_indexes
