@@ -32,10 +32,10 @@ Se recomienda empezar con lo mínimo, pero con calidad, y luego ampliar si se pu
 
 ## Código
 
-El código para generar y validar los GTFS se encuentra en scripts/ y Makefile. Se utiliza el inglés. Para generar los GTFS:
+El código para generar y validar los GTFS se encuentra en scripts/ y Makefile. Se utiliza el inglés. Para generar los GTFS (se requiere [make](https://www.gnu.org/software/make/)):
 
 ```bash
-make build
+make
 ```
 
 El sitio, con los GTFS y los archivos index.html, se encuentra en dist/. Se puede abrir el archivo dist/index.html en un navegador para explorarlo.

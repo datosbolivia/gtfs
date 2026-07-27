@@ -33,7 +33,7 @@ jobs:
       #     key: dist
 
       - name: Build the GTFS and the index files
-        run: make build
+        run: make
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
