@@ -1,0 +1,5 @@
+trip_id,arrival_time,
+1,
+2,
+3,
+4,
