@@ -14,11 +14,11 @@ Para agency_lang, puse "es", pero podría ser "es-BO" para especificar el españ
 
 ## stops.txt
 
-Solo puse un stop por estación en la línea Roja, o sea 3 stops, de tipo "station". Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
+Solo puse un stop por estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
 
 Se podría poner más detalles:
 
-- añadir 4 stops por estación (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión, además del stop que define la estación como tal (tipo "station").
+- añadir 4 stops por estación (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión, además de cambiar el stop que define la estación como tal a tipo "station".
 - agregar stops para las entradas del edificio de la estación (ver "platforms.txt")
 
 Puse números enteros (1, 2, 3) como "stop_id". Está bien? Tal vez retomar un código existente, si hay (OSM?).
