@@ -61,9 +61,15 @@ Cree dos service_id: semana y fin_de_semana, porque los horarios son diferentes 
 
 Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá que ampliar end_date antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo 20260801-20301231.
 
+Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/.
+
 ## calendar_dates.txt
 
 Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio "semana" y di de alta el servicio "fin_de_semana".
+
+Abrá que actualizar este archivo, porque el estandar recomiendo no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/).
+
+Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/.
 
 ## fare_attributes.txt
 
