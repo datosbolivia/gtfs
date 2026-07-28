@@ -41,7 +41,11 @@ Solo la línea Roja por el momento.
 
 Puse "roja" como "route_id". Tal vez retomar un código existente, si hay (OSM?).
 
+No puse route_desc. Se podría añadir si hay una descripción larga y con información adicional en comparación con route_long_name.
+
 No puse network_id todavía, no sé si es necesario.
+
+Para los colores, busqué un plano del teleférico. Ver https://github.com/datosbolivia/gtfs/issues/2#issuecomment-5096536344.
 
 ## trips.txt
 
