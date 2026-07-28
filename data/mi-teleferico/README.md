@@ -1,6 +1,8 @@
 # Mi Teleférico
 
-Ver https://gtfs.org/documentation/schedule/reference/ para los detalles de los archivos y de los campos.
+Para Mi Teleférico, publicamos un GTFS de tipo "Schedule". Ver https://gtfs.org/documentation/schedule/reference/ para los detalles de los archivos y de los campos.
+
+Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay información de tiempo real, y además las cabinas de teleférico llegan de manera continua, no son como los buses o trenes.
 
 ## agency.txt
 
