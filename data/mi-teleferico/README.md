@@ -5,9 +5,9 @@ Para Mi Teleférico, publicamos un GTFS de tipo "Schedule". Ver https://gtfs.org
 Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay información de tiempo real, y además las cabinas de teleférico llegan de manera continua, no son como los buses o trenes.
 
 Para todos los archivos:
-- no incluí los campos vacíos para todas las líneas
-- ordene los campos poniendo los campos más estables a la izquierda, y los campos más cambiantes (en valor, y en tamaño) a la derecha. De esta forma, la mayor parte del archivo está alineado verticalmente.
-- para los códigos (***_id), trate de tener un tamaño constante, para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo.
+- no incluí los campos vacíos para todas las líneas,
+- ordene los campos poniendo los campos de identificacióna a la izquierda, y los campos menos importantes a la derecha,
+- para los códigos (***_id), establecí un tamaño constante para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo cuando se pueda.
 
 ## feed_info.txt
 
@@ -32,7 +32,7 @@ Se podría poner más detalles:
 - añadir 4 stops por estación (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión, además de cambiar el stop que define la estación como tal a tipo "station".
 - agregar stops para las entradas del edificio de la estación (ver "platforms.txt")
 
-Puse números enteros (1, 2, 3) como "stop_id". Está bien? Tal vez retomar un código existente, si hay (OSM?).
+Puse números enteros pero con tamaño de 4 digitos (0001, 0002, 0003) como "stop_id", para tener lugar para todos los próximos puntos (estación, anden, entrada, etc.) Lamentablemente, no es auto-explicativo, pero sería demasiado complicado creo. Está bien? Tal vez retomar un código existente, si hay (OSM?).
 
 Para los nombres, evité poner "Estación" al inicio, como recomendado en https://gtfs.org/documentation/schedule/best-practices/#stopstxt. Excepción: "Estación Central", porque se refiere a la estación central de trenes.
 
@@ -52,7 +52,7 @@ Para simplificar, no incluí los campos vacíos: stop_code, tts_stop_name, zone_
 
 Solo la línea Roja por el momento.
 
-Puse "roja" como "route_id". Tal vez retomar un código existente, si hay (OSM?).
+Puse "roja" como "route_id". Usar las cuatro primeras letras del color, en minúsculas (amarilla -> amar). Tal vez retomar un código existente, si hay (OSM?).
 
 No puse route_desc. Se podría añadir si hay una descripción larga y con información adicional en comparación con route_long_name.
 
@@ -66,7 +66,7 @@ Para simplificar, no incluí los campos vacíos: route_desc, continuous_pickup, 
 
 Solo pusé para la línea Roja. Son 4 trayectos (trips): dos direcciones, y uno para la semana y otro para fin de semana.
 
-Puse números enteros (1, 2, 3, 4) como "trip_id". Está bien?
+Puse números enteros con tamaño fijo de 3 dígitos (001, 002, 003, 004) como "trip_id". Lamentablemente, no es auto-explicativo, pero sería demasiado complejo en este caso. Está bien?
 
 Hay que verificar "trip_headsign" en los paneles en las estaciones.
 
@@ -94,7 +94,7 @@ Para simplificar, no incluí los campos vacíos: location_group_id, location_id,
 
 ## calendar.txt
 
-Cree dos service_id: semana y fin_de_semana, porque los horarios son diferentes en días de la semana y en la semana. Tal vez retomar un código existente, si hay (OSM?). O usar otro código (1, 2, 3, 4, ...).
+Cree dos service_id: semana y fin_de (mismo tamaño), porque los horarios son diferentes en días de la semana y en la semana. Tal vez retomar un código existente, si hay (OSM?). O usar otro código (1, 2, 3, 4, ...).
 
 Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá que ampliar end_date antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo 20260801-20301231.
 
@@ -102,7 +102,7 @@ Añadí service_name, aunque no esta en estandar, pero es recomendado en https:/
 
 ## calendar_dates.txt
 
-Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio "semana" y di de alta el servicio "fin_de_semana".
+Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio "semana" y di de alta el servicio "fin_de".
 
 Abrá que actualizar este archivo, porque el estandar recomiendo no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/).
 

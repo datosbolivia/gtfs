@@ -1,4 +1,4 @@
-wheelchair_boarding,location_type,stop_id,stop_name,stop_desc,stop_lat,stop_lon
-1,0,1,Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4915020,-68.1447706
-1,0,2,Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.4981477,-68.1528137
-1,0,3,16 de Julio,"El Alto, zona 16 de julio, avenida Panorámica Norte.",-16.4974263,-68.1645596
+stop_id,location_type,stop_name,stop_desc,stop_lat,stop_lon,wheelchair_boarding
+0001,0,Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4915020,-68.1447706,1
+0002,0,Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.4981477,-68.1528137,1
+0003,0,16 de Julio,"El Alto, zona 16 de julio, avenida Panorámica Norte.",-16.4974263,-68.1645596,1
