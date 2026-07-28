@@ -4,6 +4,15 @@ Para Mi Teleférico, publicamos un GTFS de tipo "Schedule". Ver https://gtfs.org
 
 Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay información de tiempo real, y además las cabinas de teleférico llegan de manera continua, no son como los buses o trenes.
 
+Para todos los archivos:
+- no incluí los campos vacíos para todas las líneas
+- ordene los campos poniendo los campos más estables a la izquierda, y los campos más cambiantes (en valor, y en tamaño) a la derecha. De esta forma, la mayor parte del archivo está alineado verticalmente.
+- para los códigos (***_id), trate de tener un tamaño constante, para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo.
+
+## feed_info.txt
+
+Puse "Datos Bolivia" como "feed_publisher_name".
+
 ## agency.txt
 
 Puse "mi_teleferico" como "agency_id". Tal vez retomar un código existente, si hay (OSM?).
