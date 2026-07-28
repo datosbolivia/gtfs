@@ -32,7 +32,7 @@ Se podría poner más detalles:
 - añadir 4 stops por estación (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión, además de cambiar el stop que define la estación como tal a tipo "station".
 - agregar stops para las entradas del edificio de la estación (ver "platforms.txt")
 
-Puse números enteros pero con tamaño de 4 digitos (0001, 0002, 0003) como "stop_id", para tener lugar para todos los próximos puntos (estación, anden, entrada, etc.) Lamentablemente, no es auto-explicativo, pero sería demasiado complicado creo. Está bien? Tal vez retomar un código existente, si hay (OSM?).
+Para el código (stop_id), el formato es `estacion_c/stop/001` para el primer punto de tipo "stop" en la Estación Central: primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos, y truncando a 10 caracteres. Luego, el tipo de "stop" (ver location_type, codificada con 4 caracteres: "stop", "stat", "entr", "gene", "boar"), y luego el número de punto (001, 002, 003, ...) de forma iterativa. Los tres subcampos están separados por "/".
 
 Para los nombres, evité poner "Estación" al inicio, como recomendado en https://gtfs.org/documentation/schedule/best-practices/#stopstxt. Excepción: "Estación Central", porque se refiere a la estación central de trenes.
 
@@ -66,7 +66,7 @@ Para simplificar, no incluí los campos vacíos: route_desc, continuous_pickup, 
 
 Solo pusé para la línea Roja. Son 4 trayectos (trips): dos direcciones, y uno para la semana y otro para fin de semana.
 
-Puse números enteros con tamaño fijo de 3 dígitos (001, 002, 003, 004) como "trip_id". Lamentablemente, no es auto-explicativo, pero sería demasiado complejo en este caso. Está bien?
+Para el código (trip_id), el formato es `roja/16_de_julio/semana` para el trayecto de la línea roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación destino, y luego el código del servicio (semana o fin_de). Los tres subcampos están separados por "/".
 
 Hay que verificar "trip_headsign" en los paneles en las estaciones.
 

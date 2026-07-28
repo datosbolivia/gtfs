@@ -1,5 +1,5 @@
 trip_id,route_id,direction_id,trip_headsign,service_id,wheelchair_accessible,bikes_allowed,cars_allowed
-001,roja,0,16 de Julio,semana,1,1,2
-002,roja,0,16 de Julio,fin_de,1,1,2
-003,roja,1,Central,semana,1,1,2
-004,roja,1,Central,fin_de,1,1,2
+roja/16_de_julio/semana,roja,0,16 de Julio,semana,1,1,2
+roja/16_de_julio/fin_de,roja,0,16 de Julio,fin_de,1,1,2
+roja/estacion_ce/semana,roja,1,Central,semana,1,1,2
+roja/estacion_ce/fin_de,roja,1,Central,fin_de,1,1,2
