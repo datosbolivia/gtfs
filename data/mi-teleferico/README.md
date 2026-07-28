@@ -57,6 +57,10 @@ Habrá que agregar shape_id una vez se tenga el archivo de shapes.txt.
 
 ## calendar.txt
 
+Cree dos service_id: semana y fin_de_semana, porque los horarios son diferentes en días de la semana y en la semana. Tal vez retomar un código existente, si hay (OSM?). O usar otro código (1, 2, 3, 4, ...).
+
+Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá que ampliar end_date antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo 20260801-20301231.
+
 ## calendar_dates.txt
 
 ## fare_attributes.txt
