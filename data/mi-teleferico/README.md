@@ -27,9 +27,12 @@ Para simplificar, no incluí el campo vacío: agency_fare_url.
 
 Solo puse un stop por estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
 
+Para la estación Libertador, donde llegan la línea Verde y la línea Amarilla, puse un stop por cada línea, porque no están exactamente en el mismo lugar (https://www.openstreetmap.org/node/3088943775 vs https://www.openstreetmap.org/node/6648434407).
+
 Se podría poner más detalles:
 
-- añadir 4 stops por estación (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión, además de cambiar el stop que define la estación como tal a tipo "station".
+- añadir 4 stops por parada (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión
+- añadir un stop para la estación como tal (tipo "station"), y colocar este valor en parent_station de los stops de cada anden
 - agregar stops para las entradas del edificio de la estación (ver "platforms.txt")
 
 Para el código (stop_id), el formato es `estacion_c/stop/001` para el primer punto de tipo "stop" en la Estación Central: primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos, y truncando a 10 caracteres. Luego, el tipo de "stop" (ver location_type, codificada con 4 caracteres: "stop", "stat", "entr", "gene", "boar"), y luego el número de punto (001, 002, 003, ...) de forma iterativa. Los tres subcampos están separados por "/".
