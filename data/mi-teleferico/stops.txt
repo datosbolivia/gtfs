@@ -1,4 +1,4 @@
 stop_id,stop_code,stop_name,tts_stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding,level_id,platform_code,stop_access
-1,,Estación Central,,,-16.4915020,-68.1447706,,,0,,,1,,,
-2,,Estación Cementario,,,-16.4981477,-68.1528137,,,0,,,1,,,
-3,,Estación 16 de Julio,,,-16.4974263,-68.1645596,,,0,,,1,,,
+1,,Estación Central,,Avenida Manco Cápac. Ex-estación de ferrocarriles.,-16.4915020,-68.1447706,,,1,,,1,,,
+2,,Estación Cementario,,Avenida Entre Ríos. Detrás del Cementerio.,-16.4981477,-68.1528137,,,1,,,1,,,
+3,,Estación 16 de Julio,,El Alto. Zona 16 de julio. Avenida Panorámica Norte.,-16.4974263,-68.1645596,,,1,,,1,,,
