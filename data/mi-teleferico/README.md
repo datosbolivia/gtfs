@@ -12,6 +12,8 @@ No puse agency_fare_url porque no hay página oficial con los precios, o para co
 
 Para agency_lang, puse "es", pero podría ser "es-BO" para especificar el español de Bolivia.
 
+Para simplificar, no incluí el campo vacío: agency_fare_url.
+
 ## stops.txt
 
 Solo puse un stop por estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
@@ -35,6 +37,8 @@ No puse stop_timezone, se utiliza la zona horaria de la agencia (America/La_Paz)
 
 No puse los campos de ubicación de los stops como "level_id" o "stop_access". Se podrá hacer luego.
 
+Para simplificar, no incluí los campos vacíos: stop_code, tts_stop_name, zone_id, stop_url, parent_station, stop_timezone, level_id, platform_code y stop_access.
+
 ## routes.txt
 
 Solo la línea Roja por el momento.
@@ -47,6 +51,8 @@ No puse network_id todavía, no sé si es necesario.
 
 Para los colores, busqué un plano del teleférico. Ver https://github.com/datosbolivia/gtfs/issues/2#issuecomment-5096536344.
 
+Para simplificar, no incluí los campos vacíos: route_desc, continuous_pickup, continuous_drop_off, network_id y cemv_support.
+
 ## trips.txt
 
 Solo pusé para la línea Roja. Son 4 trayectos (trips): dos direcciones, y uno para la semana y otro para fin de semana.
@@ -58,6 +64,8 @@ Hay que verificar "trip_headsign" en los paneles en las estaciones.
 Creo que block_id no es necesario, a verificar.
 
 Habrá que agregar shape_id una vez se tenga el archivo de shapes.txt.
+
+Para simplificar, no incluí los campos vacíos: trip_short_name, block_id, shape_id, safe_duration_factor y safe_duration_offset.
 
 ## stop_times.txt
 
@@ -72,6 +80,8 @@ Puse pickup_type y drop_off_type como 1 (no permitido), porque no se puede subir
 No puse shape_dist_traveled, porque no tenemos shapes.txt todavía. Se podría poner un valor una vez se tenga shapes.txt, para indicar la distancia recorrida desde el inicio del trayecto. No estoy seguro si es necesario, sin embargo.
 
 Puse timepoint como 0, porque el tiempo de recorrida entre estaciones solo es aproximado. Depende de la velocidad del cable, que puede variar según la fecha, la hora, el flujo de pasajeros.
+
+Para simplificar, no incluí los campos vacíos: location_group_id, location_id, stop_headsign,start_pickup_drop_off_window, end_pickup_drop_off_window, pickup_type, drop_off_type, continuous_pickup, continuous_drop_off, shape_dist_traveled, pickup_booking_rule_id and drop_off_booking_rule_id.
 
 ## calendar.txt
 
@@ -149,8 +159,12 @@ No puse feed_start_date y feed_end_date, creo que no es necesario en nuestro cas
 
 Para feed_version, inicie con 1. Sería bueno incrementarlo para cada cambio, o por lo menos para cada cambio importante. Nota: solo es para información de los desarrolladores.
 
+Para simplificar, no incluí los campos vacíos: feed_start_date, feed_end_date y feed_contact_email.
+
 ## attributions.txt
 
 Di la atribución a Datos Bolivia, porque entiendo que es una referencia hacia la organización que genera los datos (data producer), segun https://gtfs.org/documentation/schedule/examples/attributions/. Hay algo de redundancia con feed_info.txt.
 
 Puse "datos_bolivia" como "attribution_id". Está bien?
+
+Para simplificar, no incluí los campos vacíos: agency_id, route_id, trip_id, attribution_email y attribution_phone.
