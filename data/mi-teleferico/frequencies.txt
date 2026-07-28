@@ -3,3 +3,7 @@ roja/16_de_julio/semana,06:30:00,22:30:00,15,1
 roja/16_de_julio/fin_de,07:00:00,21:00:00,15,1
 roja/estacion_ce/semana,06:30:00,22:30:00,15,1
 roja/estacion_ce/fin_de,07:00:00,21:00:00,15,1
+amar/libertador_/semana,06:30:00,22:30:00,15,1
+amar/libertador_/fin_de,07:00:00,21:00:00,15,1
+amar/mirador____/semana,06:30:00,22:30:00,15,1
+amar/mirador____/fin_de,07:00:00,21:00:00,15,1

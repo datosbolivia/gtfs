@@ -3,3 +3,7 @@ roja/16_de_julio/semana,roja,0,JACH'A QHATHU - 16 de Julio,semana,1,1,2
 roja/16_de_julio/fin_de,roja,0,JACH'A QHATHU - 16 de Julio,fin_de,1,1,2
 roja/estacion_ce/semana,roja,1,TAYPI UTA - Estación Central,semana,1,1,2
 roja/estacion_ce/fin_de,roja,1,TAYPI UTA - Estación Central,fin_de,1,1,2
+amar/libertador_/semana,amar,0,CHUQI APU - Libertador,semana,1,1,2
+amar/libertador_/fin_de,amar,0,CHUQI APU - Libertador,fin_de,1,1,2
+amar/mirador____/semana,amar,1,QHANA PATA - Mirador,semana,1,1,2
+amar/mirador____/fin_de,amar,1,QHANA PATA - Mirador,fin_de,1,1,2
