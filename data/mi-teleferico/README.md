@@ -63,6 +63,8 @@ Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá
 
 ## calendar_dates.txt
 
+Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio "semana" y di de alta el servicio "fin_de_semana".
+
 ## fare_attributes.txt
 
 ## fare_rules.txt

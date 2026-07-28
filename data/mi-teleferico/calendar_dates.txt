@@ -1,0 +1,9 @@
+service_id,date,exception_type
+semana,20260806,2
+fin_de_semana,20260806,1
+semana,20260807,2
+fin_de_semana,20260807,1
+semana,20261102,2
+fin_de_semana,20261102,1
+semana,20261225,2
+fin_de_semana,20261225,1
