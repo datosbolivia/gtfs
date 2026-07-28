@@ -61,6 +61,18 @@ Habrá que agregar shape_id una vez se tenga el archivo de shapes.txt.
 
 ## stop_times.txt
 
+Como incluímos el archivo frequencies.txt, no es necesario poner los horarios de llegada y salida de cada cabina en cada estación en cada momento del día. Como recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/#frequenciestxt, puse unicamente una entrada para el horario ficticio 00:00:00 en la primera estación, y en las siguientes estaciones, para definir el tiempo de recorrido.
+
+Para los tiempos de recorrida entre estaciones, use los valores en https://www.miteleferico.bo/lineas/linea-roja: estación central -> cementerio: 5 min 09 s, cementerio -> 16 de julio: 5 min 38 s.
+
+No puse stop_headsign, lo que implica que se usa el valor de stop_headsign del "trip". Hay que verificar si el panel de destino cambia según la parada, en tal caso, habría que poner el valor de stop_headsign en cada parada.
+
+Puse pickup_type y drop_off_type como 1 (no permitido), porque no se puede subir ni bajar en el medio del trayecto, solo en las estaciones.
+
+No puse shape_dist_traveled, porque no tenemos shapes.txt todavía. Se podría poner un valor una vez se tenga shapes.txt, para indicar la distancia recorrida desde el inicio del trayecto. No estoy seguro si es necesario, sin embargo.
+
+Puse timepoint como 0, porque el tiempo de recorrida entre estaciones solo es aproximado. Depende de la velocidad del cable, que puede variar según la fecha, la hora, el flujo de pasajeros.
+
 ## calendar.txt
 
 Cree dos service_id: semana y fin_de_semana, porque los horarios son diferentes en días de la semana y en la semana. Tal vez retomar un código existente, si hay (OSM?). O usar otro código (1, 2, 3, 4, ...).
@@ -106,6 +118,10 @@ Añadí service_name, aunque no esta en estandar, pero es recomendado en https:/
 ## shapes.txt
 
 ## frequencies.txt
+
+Utilicé este archivo para indicar el tiempo entre las cabinas, y el tiempo de apertura de la línea Roja. De esta forma, el archivo stop_times.txt es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
+
+Puse valor ficticio para headway_secs, porque no encontré información oficial. Iré a medirlo en una estación. También, escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo.
 
 ## transfers.txt
 
