@@ -7,3 +7,7 @@ amar/libertador_/semana,amar,0,CHUQI APU - Libertador,semana,1,1,2
 amar/libertador_/fin_de,amar,0,CHUQI APU - Libertador,fin_de,1,1,2
 amar/mirador____/semana,amar,1,QHANA PATA - Mirador,semana,1,1,2
 amar/mirador____/fin_de,amar,1,QHANA PATA - Mirador,fin_de,1,1,2
+verd/irpavi_____/semana,verd,0,IRPAWI - Irpavi,semana,1,1,2
+verd/irpavi_____/fin_de,verd,0,IRPAWI - Irpavi,fin_de,1,1,2
+verd/libertador_/semana,verd,1,CHUQI APU - Libertador,semana,1,1,2
+verd/libertador_/fin_de,verd,1,CHUQI APU - Libertador,fin_de,1,1,2

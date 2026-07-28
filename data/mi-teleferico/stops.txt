@@ -6,3 +6,7 @@ mirador____/stop/001,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la reg
 buenos_aire/stop/001,0,QUTA UMA - Buenos Aires,"Av. Buenos Aires y Calle Moxos",-16.5154431,-68.1440911,1
 sopocachi__/stop/001,0,SUPU KACHI - Sopocachi,"Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos.",-16.5146566,-68.1302667,1
 libertador_/stop/001,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín.",-16.5190807,-68.1161684,1
+libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín.",-16.5191482,-68.1159577,1
+alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro",-16.5215813,-68.1104087,1
+obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza)",-16.5268092,-68.1007035,1
+irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.5381069,-68.0873791,1
