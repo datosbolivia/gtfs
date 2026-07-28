@@ -6,10 +6,6 @@ Puse "mi_teleferico" como "agency_id". Tal vez retomar un código existente, si 
 
 No puse agency_fare_url porque no hay página oficial con los precios, o para comprar boletos en línea.
 
-## attributions.txt
-
-Puse "datos_bolivia" como "attribution_id". Está bien?
-
 ## routes.txt
 
 Solo la línea Roja por el momento.
@@ -48,3 +44,17 @@ No puse parent_station, pero si creamos un stop por anden, entonces sí habrá q
 No puse stop_timezone, se utiliza la zona horaria de la agencia (America/La_Paz) por defecto.
 
 No puse los campos de ubicación de los stops como "level_id" o "stop_access". Se podrá hacer luego.
+
+## feed_info.txt
+
+Puse default_lang a es, porque solo tenemos el español. Si traducimos, se puede poner otro idioma (en?).
+
+No puse feed_start_date y feed_end_date, creo que no es necesario en nuestro caso, ya que no tenemos autoridad ni conocimiento sobre los horarios previstos.
+
+Para feed_version, inicie con 1. Sería bueno incrementarlo para cada cambio, o por lo menos para cada cambio importante. Nota: solo es para información de los desarrolladores.
+
+## attributions.txt
+
+Di la atribución a Datos Bolivia, porque entiendo que es una referencia hacia la organización que genera los datos (data producer), segun https://gtfs.org/documentation/schedule/examples/attributions/. Hay algo de redundancia con feed_info.txt.
+
+Puse "datos_bolivia" como "attribution_id". Está bien?
