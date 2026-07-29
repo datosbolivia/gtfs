@@ -31,3 +31,7 @@ mor2/san_jose___/semana,06:30:00,22:30:00,20,1
 mor2/san_jose___/fin_de,07:00:00,21:00:00,20,1
 mor2/6_de_marzo_/semana,06:30:00,22:30:00,20,1
 mor2/6_de_marzo_/fin_de,07:00:00,21:00:00,20,1
+cafe/las_villas_/semana,06:30:00,22:30:00,20,1
+cafe/las_villas_/fin_de,07:00:00,21:00:00,20,1
+cafe/busch______/semana,06:30:00,22:30:00,20,1
+cafe/busch______/fin_de,07:00:00,21:00:00,20,1

@@ -107,3 +107,11 @@ mor2/6_de_marzo_/semana,1,san_jose___/stop/001,00:00:00,00:00:00,0
 mor2/6_de_marzo_/semana,2,faro_murill/stop/002,00:08:00,00:08:00,0
 mor2/6_de_marzo_/fin_de,1,san_jose___/stop/001,00:00:00,00:00:00,0
 mor2/6_de_marzo_/fin_de,2,faro_murill/stop/002,00:08:00,00:08:00,0
+cafe/las_villas_/semana,1,busch______/stop/002,00:00:00,00:00:00,0
+cafe/las_villas_/semana,2,las_villas_/stop/001,00:03:47,00:03:47,0
+cafe/las_villas_/fin_de,1,busch______/stop/002,00:00:00,00:00:00,0
+cafe/las_villas_/fin_de,2,las_villas_/stop/001,00:03:47,00:03:47,0
+cafe/busch______/semana,1,las_villas_/stop/001,00:00:00,00:00:00,0
+cafe/busch______/semana,2,busch______/stop/002,00:03:47,00:03:47,0
+cafe/busch______/fin_de,1,las_villas_/stop/001,00:00:00,00:00:00,0
+cafe/busch______/fin_de,2,busch______/stop/002,00:03:47,00:03:47,0

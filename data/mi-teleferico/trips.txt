@@ -31,3 +31,7 @@ mor2/san_jose___/semana,mor2,0,UTJÄWI - San José,semana,1,1,2
 mor2/san_jose___/fin_de,mor2,0,UTJÄWI - San José,fin_de,1,1,2
 mor2/6_de_marzo_/semana,mor2,1,JACH'A THAKI - 6 de Marzo,semana,1,1,2
 mor2/6_de_marzo_/fin_de,mor2,1,JACH'A THAKI - 6 de Marzo,fin_de,1,1,2
+cafe/las_villas_/semana,cafe,0,PALLQA THAKI - Las Villas,semana,1,1,2
+cafe/las_villas_/fin_de,cafe,0,PALLQA THAKI - Las Villas,fin_de,1,1,2
+cafe/busch______/semana,cafe,1,QHUIRWA UMA - Defensores del Chaco,semana,1,1,2
+cafe/busch______/fin_de,cafe,1,QHUIRWA UMA - Defensores del Chaco,fin_de,1,1,2

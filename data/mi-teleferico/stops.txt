@@ -26,3 +26,5 @@ libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin",-16.5185279,-68
 faro_murill/stop/001,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5123847,-68.1539026,1
 faro_murill/stop/002,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5121791,-68.1535252,1
 san_jose___/stop/001,0,UTJÄWI - San José,"Calle Almirante Grau",-16.5000243,-68.1351531,1
+busch______/stop/002,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch",-16.4937997,-68.1208793,1
+las_villas_/stop/001,0,PALLQA THAKI - Las Villas,"Villa Copacabana",-16.4976675,-68.1151193,1
