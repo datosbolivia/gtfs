@@ -11,3 +11,7 @@ verd/irpavi_____/semana,verd,0,IRPAWI - Irpavi,semana,1,1,2
 verd/irpavi_____/fin_de,verd,0,IRPAWI - Irpavi,fin_de,1,1,2
 verd/libertador_/semana,verd,1,CHUQI APU - Libertador,semana,1,1,2
 verd/libertador_/fin_de,verd,1,CHUQI APU - Libertador,fin_de,1,1,2
+nara/estacion_ce/semana,nara,0,TAYPI UTA - Estación Central,semana,1,1,2
+nara/estacion_ce/fin_de,nara,0,TAYPI UTA - Estación Central,fin_de,1,1,2
+nara/villarroel_/semana,nara,1,INALMAMA - Villarroel,semana,1,1,2
+nara/villarroel_/fin_de,nara,1,INALMAMA - Villarroel,fin_de,1,1,2

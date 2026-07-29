@@ -10,3 +10,7 @@ libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la
 alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro",-16.5215813,-68.1104087,1
 obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza)",-16.5268092,-68.1007035,1
 irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.5381069,-68.0873791,1
+estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4920683,-68.1447801,1
+armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia",-16.4903582,-68.1368540,1
+periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica",-16.4864868,-68.1312901,1
+villarroel_/stop/001,0,INALMAMA - Villarroel,"Plaza Villarroel",-16.4847532,-68.1221015,1
