@@ -1,0 +1,9 @@
+date,service_name,service_id,exception_type
+20260806,Día de la Patría (feriado nacional),fin_de,1
+20260806,Día de la Patría (feriado nacional),semana,2
+20260807,Día de la Patría (feriado nacional extendido),fin_de,1
+20260807,Día de la Patría (feriado nacional extendido),semana,2
+20261102,Día de los Difuntos (feriado nacional),fin_de,1
+20261102,Día de los Difuntos (feriado nacional),semana,2
+20261225,Navidad (feriado nacional),fin_de,1
+20261225,Navidad (feriado nacional),semana,2

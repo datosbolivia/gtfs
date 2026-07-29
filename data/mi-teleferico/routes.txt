@@ -1,0 +1,4 @@
+route_id,agency_id,route_type,route_sort_order,route_short_name,route_long_name,route_url,route_color,route_text_color
+roja,mi_teleferico,6,0,Roja,Línea Roja de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-roja,e40613,ffffff
+amar,mi_teleferico,6,1,Amarilla,Línea Amarilla de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-amarilla,ffed03,000000
+verd,mi_teleferico,6,2,Verde,Línea Verde de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-verde,0b983a,ffffff

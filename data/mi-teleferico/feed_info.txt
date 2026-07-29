@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,default_lang,feed_version,feed_contact_url
+Datos Bolivia,https://github.com/datosbolivia/gtfs,es,es,1,https://github.com/datosbolivia/gtfs/issues
