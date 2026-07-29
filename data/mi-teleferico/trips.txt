@@ -11,6 +11,10 @@ verd/irpavi_____/semana,verd,0,IRPAWI - Irpavi,semana,1,1,2
 verd/irpavi_____/fin_de,verd,0,IRPAWI - Irpavi,fin_de,1,1,2
 verd/libertador_/semana,verd,1,CHUQI APU - Libertador,semana,1,1,2
 verd/libertador_/fin_de,verd,1,CHUQI APU - Libertador,fin_de,1,1,2
+azul/rio_seco___/semana,azul,0,WAÑA JAWIRA - Rio Seco,semana,1,1,2
+azul/rio_seco___/fin_de,azul,0,WAÑA JAWIRA - Rio Seco,fin_de,1,1,2
+azul/16_de_julio/semana,azul,1,JACH'A QHATHU - 16 de Julio,semana,1,1,2
+azul/16_de_julio/fin_de,azul,1,JACH'A QHATHU - 16 de Julio,fin_de,1,1,2
 nara/estacion_ce/semana,nara,0,TAYPI UTA - Estación Central,semana,1,1,2
 nara/estacion_ce/fin_de,nara,0,TAYPI UTA - Estación Central,fin_de,1,1,2
 nara/villarroel_/semana,nara,1,INALMAMA - Héroes de la Revolución,semana,1,1,2
@@ -23,3 +27,19 @@ cele/prado______/semana,cele,0,CHUKIYA MARKA - Prado,semana,1,1,2
 cele/prado______/fin_de,cele,0,CHUKIYA MARKA - Prado,fin_de,1,1,2
 cele/libertador_/semana,cele,1,CHUQI APU - Libertador,semana,1,1,2
 cele/libertador_/fin_de,cele,1,CHUQI APU - Libertador,fin_de,1,1,2
+mor1/san_jose___/semana,mor1,0,UTJÄWI - San José,semana,1,1,2
+mor1/san_jose___/fin_de,mor1,0,UTJÄWI - San José,fin_de,1,1,2
+mor1/6_de_marzo_/semana,mor1,1,JACH'A THAKI - 6 de Marzo,semana,1,1,2
+mor1/6_de_marzo_/fin_de,mor1,1,JACH'A THAKI - 6 de Marzo,fin_de,1,1,2
+mor2/san_jose___/semana,mor2,0,UTJÄWI - San José,semana,1,1,2
+mor2/san_jose___/fin_de,mor2,0,UTJÄWI - San José,fin_de,1,1,2
+mor2/6_de_marzo_/semana,mor2,1,JACH'A THAKI - 6 de Marzo,semana,1,1,2
+mor2/6_de_marzo_/fin_de,mor2,1,JACH'A THAKI - 6 de Marzo,fin_de,1,1,2
+cafe/las_villas_/semana,cafe,0,PALLQA THAKI - Las Villas,semana,1,1,2
+cafe/las_villas_/fin_de,cafe,0,PALLQA THAKI - Las Villas,fin_de,1,1,2
+cafe/busch______/semana,cafe,1,QHUIRWA UMA - Defensores del Chaco,semana,1,1,2
+cafe/busch______/fin_de,cafe,1,QHUIRWA UMA - Defensores del Chaco,fin_de,1,1,2
+plat/mirador____/semana,plat,0,QHANA PATA - Mirador,semana,1,1,2
+plat/mirador____/fin_de,plat,0,QHANA PATA - Mirador,fin_de,1,1,2
+plat/16_de_julio/semana,plat,1,JACH'A QHATHU - 16 de Julio,semana,1,1,2
+plat/16_de_julio/fin_de,plat,1,JACH'A QHATHU - 16 de Julio,fin_de,1,1,2

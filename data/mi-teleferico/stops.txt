@@ -1,7 +1,7 @@
 stop_id,location_type,stop_name,stop_desc,stop_lat,stop_lon,wheelchair_boarding
 estacion_ce/stop/001,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4915020,-68.1447706,1
 cementerio_/stop/001,0,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.4981477,-68.1528137,1
-16_de_julio/stop/001,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, avenida Panorámica Norte.",-16.4974263,-68.1645596,1
+16_de_julio/stop/001,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.4974263,-68.1645596,1
 mirador____/stop/001,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales.",-16.5182222,-68.1498873,1
 buenos_aire/stop/001,0,QUTA UMA - Buenos Aires,"Av. Buenos Aires y Calle Moxos",-16.5154431,-68.1440911,1
 sopocachi__/stop/001,0,SUPU KACHI - Sopocachi,"Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos.",-16.5146566,-68.1302667,1
@@ -10,6 +10,11 @@ libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la
 alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro",-16.5215813,-68.1104087,1
 obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza)",-16.5268092,-68.1007035,1
 irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.5381069,-68.0873791,1
+rio_seco___/stop/001,0,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana",-16.4899312,-68.2097341,1
+upea_______/stop/001,0,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B",-16.4894805,-68.1931996,1
+plaza_la_pa/stop/001,0,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz",-16.4922800,-68.1830731,1
+plaza_liber/stop/001,0,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio",-16.4948425,-68.1735982,1
+16_de_julio/stop/002,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.4983623,-68.1647188,1
 estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4920683,-68.1447801,1
 armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia",-16.4903582,-68.1368540,1
 periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica",-16.4864868,-68.1312901,1
@@ -22,3 +27,12 @@ prado______/stop/001,0,CHUKIYA MARKA - Prado,"Prado",-16.5004242,-68.1327225,1
 teatro_al_a/stop/001,0,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta",-16.5041419,-68.1260507,1
 del_poeta__/stop/002,0,JALSURI - Del Poeta,"Av. Del Poeta",-16.5112384,-68.1202467,1
 libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin",-16.5185279,-68.1162404,1
+6_de_marzo_/stop/001,0,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N",-16.5227094,-68.1694835,1
+faro_murill/stop/001,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5123847,-68.1539026,1
+faro_murill/stop/002,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5121791,-68.1535252,1
+san_jose___/stop/001,0,UTJÄWI - San José,"Calle Almirante Grau",-16.5000243,-68.1351531,1
+busch______/stop/002,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch",-16.4937997,-68.1208793,1
+las_villas_/stop/001,0,PALLQA THAKI - Las Villas,"Villa Copacabana",-16.4976675,-68.1151193,1
+16_de_julio/stop/003,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.4987228,-68.1644860,1
+faro_murill/stop/003,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5122591,-68.1537373,1
+mirador____/stop/002,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales de televisión.",-16.5192511,-68.1498635,1

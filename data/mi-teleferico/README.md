@@ -55,7 +55,7 @@ Para simplificar, no incluí los campos vacíos: stop_code, tts_stop_name, zone_
 
 Solo la línea Roja por el momento.
 
-Puse "roja" como "route_id". Usar las cuatro primeras letras del color, en minúsculas (amarilla -> amar). Tal vez retomar un código existente, si hay (OSM?).
+Puse "roja" como "route_id". Usar las cuatro primeras letras del color, en minúsculas (amarilla -> amar). Tal vez retomar un código existente, si hay (OSM?). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos route_id: mor1 y mor2.
 
 No puse route_desc. Se podría añadir si hay una descripción larga y con información adicional en comparación con route_long_name.
 
