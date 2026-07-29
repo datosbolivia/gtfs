@@ -22,3 +22,7 @@ prado______/stop/001,0,CHUKIYA MARKA - Prado,"Prado",-16.5004242,-68.1327225,1
 teatro_al_a/stop/001,0,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta",-16.5041419,-68.1260507,1
 del_poeta__/stop/002,0,JALSURI - Del Poeta,"Av. Del Poeta",-16.5112384,-68.1202467,1
 libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin",-16.5185279,-68.1162404,1
+6_de_marzo_/stop/001,0,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N",-16.5227094,-68.1694835,1
+faro_murill/stop/001,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5123847,-68.1539026,1
+faro_murill/stop/002,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo",-16.5121791,-68.1535252,1
+san_jose___/stop/001,0,UTJÄWI - San José,"Calle Almirante Grau",-16.5000243,-68.1351531,1

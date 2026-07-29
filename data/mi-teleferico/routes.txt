@@ -5,3 +5,5 @@ verd,mi_teleferico,6,2,Verde,Línea Verde de Mi Teleférico,https://www.mitelefe
 nara,mi_teleferico,6,3,Naranja,Línea Naranja de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-naranja,ea5b0d,ffffff
 blan,mi_teleferico,6,4,Blanca,Línea Blanca de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-blanca,ffffff,000000
 cele,mi_teleferico,6,5,Celeste,Línea Celeste de Mi Teleférico,https://www.miteleferico.bo/lineas/linea-celeste,009fe3,ffffff
+mor1,mi_teleferico,6,6,Morada,Línea Morada de Mi Teleférico - 6 de Marzo ↔ Faro Murillo,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff
+mor2,mi_teleferico,6,7,Morada,Línea Morada de Mi Teleférico - Faro Murillo ↔ Obelisco,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff

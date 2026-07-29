@@ -23,3 +23,11 @@ cele/prado______/semana,cele,0,CHUKIYA MARKA - Prado,semana,1,1,2
 cele/prado______/fin_de,cele,0,CHUKIYA MARKA - Prado,fin_de,1,1,2
 cele/libertador_/semana,cele,1,CHUQI APU - Libertador,semana,1,1,2
 cele/libertador_/fin_de,cele,1,CHUQI APU - Libertador,fin_de,1,1,2
+mor1/san_jose___/semana,mor1,0,UTJÄWI - San José,semana,1,1,2
+mor1/san_jose___/fin_de,mor1,0,UTJÄWI - San José,fin_de,1,1,2
+mor1/6_de_marzo_/semana,mor1,1,JACH'A THAKI - 6 de Marzo,semana,1,1,2
+mor1/6_de_marzo_/fin_de,mor1,1,JACH'A THAKI - 6 de Marzo,fin_de,1,1,2
+mor2/san_jose___/semana,mor2,0,UTJÄWI - San José,semana,1,1,2
+mor2/san_jose___/fin_de,mor2,0,UTJÄWI - San José,fin_de,1,1,2
+mor2/6_de_marzo_/semana,mor2,1,JACH'A THAKI - 6 de Marzo,semana,1,1,2
+mor2/6_de_marzo_/fin_de,mor2,1,JACH'A THAKI - 6 de Marzo,fin_de,1,1,2
