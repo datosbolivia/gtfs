@@ -13,10 +13,10 @@ verd/libertador_/semana,verd,1,CHUQI APU - Libertador,semana,1,1,2
 verd/libertador_/fin_de,verd,1,CHUQI APU - Libertador,fin_de,1,1,2
 nara/estacion_ce/semana,nara,0,TAYPI UTA - Estación Central,semana,1,1,2
 nara/estacion_ce/fin_de,nara,0,TAYPI UTA - Estación Central,fin_de,1,1,2
-nara/villarroel_/semana,nara,1,INALMAMA - Villarroel,semana,1,1,2
-nara/villarroel_/fin_de,nara,1,INALMAMA - Villarroel,fin_de,1,1,2
-blan/villarroel_/semana,blan,0,INALMAMA - Villarroel,semana,1,1,2
-blan/villarroel_/fin_de,blan,0,INALMAMA - Villarroel,fin_de,1,1,2
+nara/villarroel_/semana,nara,1,INALMAMA - Héroes de la Revolución,semana,1,1,2
+nara/villarroel_/fin_de,nara,1,INALMAMA - Héroes de la Revolución,fin_de,1,1,2
+blan/villarroel_/semana,blan,0,INALMAMA - Héroes de la Revolución,semana,1,1,2
+blan/villarroel_/fin_de,blan,0,INALMAMA - Héroes de la Revolución,fin_de,1,1,2
 blan/del_poeta__/semana,blan,1,JALSURI - Del Poeta,semana,1,1,2
 blan/del_poeta__/fin_de,blan,1,JALSURI - Del Poeta,fin_de,1,1,2
 cele/prado______/semana,cele,0,CHUKIYA MARKA - Prado,semana,1,1,2
