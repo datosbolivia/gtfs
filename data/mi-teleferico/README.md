@@ -101,7 +101,7 @@ Cree dos service_id: semana y fin_de (mismo tamaño), porque los horarios son di
 
 Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá que ampliar end_date antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo 20260801-20301231.
 
-Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como warning en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
+Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
 
 ## calendar_dates.txt
 
@@ -109,7 +109,7 @@ Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados
 
 Abrá que actualizar este archivo, porque el estandar recomiendo no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/).
 
-Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como warning en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
+Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
 
 ## fare_attributes.txt
 
