@@ -57,17 +57,26 @@ Puse stop_access a 0 en todos los stops, porque no se puede acceder a los andene
 
 ## routes.txt
 
-Solo la línea Roja por el momento.
+[Referencia](https://gtfs.org/documentation/schedule/reference/#routestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#routestxt).
 
-Puse "roja" como "route_id". Usar las cuatro primeras letras del color, en minúsculas (amarilla -> amar). Tal vez retomar un código existente, si hay (OSM?). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos route_id: mor1 y mor2.
+### código
 
-No puse route_desc. Se podría añadir si hay una descripción larga y con información adicional en comparación con route_long_name.
+`route_id`: "roja". Usar las cuatro primeras letras del color, en minúsculas (amarilla -> amar). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos route_id: mor1 y mor2.
 
-No puse network_id todavía, no sé si es necesario.
+### justificaciones
 
-Para los colores, busqué un plano del teleférico. Ver https://github.com/datosbolivia/gtfs/issues/2#issuecomment-5096536344.
+Para los colores, busqué un plano del teleférico y usé la pipeta para copiar los colores. Ver https://github.com/datosbolivia/gtfs/issues/2#issuecomment-5096536344.
 
-Para simplificar, no incluí los campos vacíos: route_desc, continuous_pickup, continuous_drop_off, network_id y cemv_support.
+Para `route_sort_order`, seguí el orden en https://www.miteleferico.bo/nuestras-lineas.
+
+Para `route_desc`, describí las dos zonas que conecta cada línea para dar más contexto.
+
+### campos no incluidos
+
+- continuous_pickup: no aplica
+- continuous_drop_off: no aplica (no trates de saltar de una cabina de teleférico, por favor)
+- network_id: creo que no aplica, pero revisar en https://github.com/datosbolivia/gtfs/issues/14.
+- cemv_support: ya está definido en agency.txt, no es necesario repetirlo en routes.txt ya que es el mismo valor para todas las líneas.
 
 ## trips.txt
 
