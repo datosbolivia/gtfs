@@ -11,40 +11,49 @@ Para todos los archivos:
 
 ## agency.txt
 
-Puse "mi_teleferico" como "agency_id". Tal vez retomar un código existente, si hay (OSM?).
+[Referencia](https://gtfs.org/documentation/schedule/reference/#agencytxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#agencytxt).
 
-No puse agency_fare_url porque no hay página oficial con los precios, o para comprar boletos en línea.
+### código
 
-Para agency_lang, puse "es", pero podría ser "es-BO" para especificar el español de Bolivia.
+`agency_id`: solo hay un registro, y puse "mi_teleferico".
 
-Para simplificar, no incluí el campo vacío: agency_fare_url.
+### justificaciones
+
+Nada especial.
+
+### campos no incluidos
+
+- `agency_fare_url`. Ver https://github.com/datosbolivia/gtfs/issues/14.
 
 ## stops.txt
 
-Solo puse un stop por andenes de una estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
+[Referencia](https://gtfs.org/documentation/schedule/reference/#stopstxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#stopstxt).
 
-Para la estación Libertador, donde llegan la línea Verde y la línea Amarilla, puse un stop por cada línea, porque no están exactamente en el mismo lugar (https://www.openstreetmap.org/node/3088943775 vs https://www.openstreetmap.org/node/6648434407).
+### código
 
-También coloqué un stop de tipo "station" para cada estación, y puse el valor de parent_station en los stops de cada anden.
+`stop_id`: el formato es `estacion_c/stat/001` para el stop de tipo `station` de la Estación Central, y `estacion_c/stop/001` para el primer punto de tipo "stop" (andenes de la línea roja) en la Estación Central. Primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos, y truncando a 10 caracteres. Luego, el tipo de "stop" (ver location_type, codificada con 4 caracteres: "stop", "stat", "entr", "gene", "boar"), y luego el número de punto (001, 002, 003, ...) de forma iterativa. Los tres subcampos están separados por "/".
 
-Se podría poner más detalles:
+### justificaciones
 
-- añadir 4 stops por parada (dos direcciones, anden de subida y anden de bajada en cada dirección), de tipo "stop", precisamente ubicados con algunos metros de precisión
-- agregar stops para las entradas del edificio de la estación (ver "platforms.txt")
+Para la ubicación de los stops de tipo "stop", usé las coordenadas de OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para los andenes de la línea roja en la Estación Central).
 
-Para el código (stop_id), el formato es `estacion_c/stop/001` para el primer punto de tipo "stop" en la Estación Central: primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos, y truncando a 10 caracteres. Luego, el tipo de "stop" (ver location_type, codificada con 4 caracteres: "stop", "stat", "entr", "gene", "boar"), y luego el número de punto (001, 002, 003, ...) de forma iterativa. Los tres subcampos están separados por "/".
+Para la ubicación de los stops de tipo "station", usé las coordenadas del punto de la etiqueta del polígono de la estación en OSM (por ejemplo, https://www.openstreetmap.org/way/549632678#map=19/-16.491656/-68.144576, mientras la estación es https://www.openstreetmap.org/relation/8703332).
 
 Para los nombres, evité poner "Estación" al inicio, como recomendado en https://gtfs.org/documentation/schedule/best-practices/#stopstxt. Excepción: "Estación Central", porque se refiere a la estación central de trenes.
 
-No puse stop_url porque hay una página oficial para la línea Roja: https://www.miteleferico.bo/lineas/linea-roja, y haciendo clic en una estación, se actualiza el estado interno de la página para mostrar los detalles de esa estación, pero no hay una URL directa hacia esta página.
-
 En stop_desc, copie la información en https://www.miteleferico.bo/lineas/linea-roja, y mencioné que son andenes, con el nombre de la línea cuando corresponda.
 
-No puse stop_timezone, se utiliza la zona horaria de la agencia (America/La_Paz) por defecto.
+Puse stop_access a 0 en todos los stops, porque no se puede acceder a los andenes directamente desde la calle, hay que ingresar a la estación primero.
 
-No puse los campos de ubicación de los stops como "level_id" o "stop_access". Se podrá hacer luego.
+### campos no incluidos
 
-Para simplificar, no incluí los campos vacíos: stop_code, tts_stop_name, zone_id, stop_url, stop_timezone, level_id, platform_code y stop_access.
+- `stop_code`: no existe tal código de estación, se usa el nombre completo en los carteles.
+- `tts_stop_name`: no creo que sea necesario, todos los nombres de estaciones deberían ser pronunciables.
+- `zone_id`: ver https://github.com/datosbolivia/gtfs/issues/14.
+- `stop_url`: hay una página oficial para la línea Roja: https://www.miteleferico.bo/lineas/linea-roja, y haciendo clic en una estación, se actualiza el estado interno de la página para mostrar los detalles de esa estación, pero no hay una URL directa hacia esta página.
+- `stop_timezone`: se utiliza la zona horaria de la agencia (America/La_Paz) por defecto.
+- `level_id`: ver https://github.com/datosbolivia/gtfs/issues/17.
+- `platform_code`: no existe tal código de plataforma (es más para estaciones de trenes, con multiples plataformas paralelas).
 
 ## routes.txt
 
