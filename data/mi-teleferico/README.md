@@ -143,7 +143,7 @@ Añadí service_name, aunque no esta en estandar, pero es recomendado en https:/
 
 Utilicé este archivo para indicar el tiempo entre las cabinas, y el tiempo de apertura de la línea Roja. De esta forma, el archivo stop_times.txt es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
 
-Puse valor ficticio para headway_secs, porque no encontré información oficial. Iré a medirlo en una estación. También, escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo.
+Medí headway_secs a 20s entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo.
 
 ## transfers.txt
 
