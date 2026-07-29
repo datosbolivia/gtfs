@@ -13,8 +13,8 @@ irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altu
 estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4920683,-68.1447801,1
 armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia",-16.4903582,-68.1368540,1
 periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica",-16.4864868,-68.1312901,1
-villarroel_/stop/001,0,INALMAMA - Villarroel,"Plaza Villarroel",-16.4847532,-68.1221015,1
-villarroel_/stop/002,0,INALMAMA - Villarroel,"Plaza Villarroel",-16.4846913,-68.1218263,1
+villarroel_/stop/001,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel",-16.4847532,-68.1221015,1
+villarroel_/stop/002,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel",-16.4846913,-68.1218263,1
 busch______/stop/001,0,QUIRWA UMA - Busch,"Av. Busch",-16.4936829,-68.1213664,1
 triangular_/stop/001,0,KIMSACHATA - Triangular,"Miraflores plaza triangular",-16.5041008,-68.1208521,1
 del_poeta__/stop/001,0,JALSURI - Del Poeta,"Av. Del Poeta",-16.5108267,-68.1211001,1
