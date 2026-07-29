@@ -11,6 +11,10 @@ verd/irpavi_____/semana,06:30:00,22:30:00,20,1
 verd/irpavi_____/fin_de,07:00:00,21:00:00,20,1
 verd/libertador_/semana,06:30:00,22:30:00,20,1
 verd/libertador_/fin_de,07:00:00,21:00:00,20,1
+azul/rio_seco___/semana,06:30:00,22:30:00,20,1
+azul/rio_seco___/fin_de,07:00:00,21:00:00,20,1
+azul/16_de_julio/semana,06:30:00,22:30:00,20,1
+azul/16_de_julio/fin_de,07:00:00,21:00:00,20,1
 nara/estacion_ce/semana,06:30:00,22:30:00,20,1
 nara/estacion_ce/fin_de,07:00:00,21:00:00,20,1
 nara/villarroel_/semana,06:30:00,22:30:00,20,1

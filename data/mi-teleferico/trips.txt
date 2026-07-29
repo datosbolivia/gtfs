@@ -11,6 +11,10 @@ verd/irpavi_____/semana,verd,0,IRPAWI - Irpavi,semana,1,1,2
 verd/irpavi_____/fin_de,verd,0,IRPAWI - Irpavi,fin_de,1,1,2
 verd/libertador_/semana,verd,1,CHUQI APU - Libertador,semana,1,1,2
 verd/libertador_/fin_de,verd,1,CHUQI APU - Libertador,fin_de,1,1,2
+azul/rio_seco___/semana,azul,0,WAÑA JAWIRA - Rio Seco,semana,1,1,2
+azul/rio_seco___/fin_de,azul,0,WAÑA JAWIRA - Rio Seco,fin_de,1,1,2
+azul/16_de_julio/semana,azul,1,JACH'A QHATHU - 16 de Julio,semana,1,1,2
+azul/16_de_julio/fin_de,azul,1,JACH'A QHATHU - 16 de Julio,fin_de,1,1,2
 nara/estacion_ce/semana,nara,0,TAYPI UTA - Estación Central,semana,1,1,2
 nara/estacion_ce/fin_de,nara,0,TAYPI UTA - Estación Central,fin_de,1,1,2
 nara/villarroel_/semana,nara,1,INALMAMA - Héroes de la Revolución,semana,1,1,2

@@ -10,6 +10,11 @@ libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la
 alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro",-16.5215813,-68.1104087,1
 obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza)",-16.5268092,-68.1007035,1
 irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.5381069,-68.0873791,1
+rio_seco___/stop/001,0,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana",-16.4899312,-68.2097341,1
+upea_______/stop/001,0,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B",-16.4894805,-68.1931996,1
+plaza_la_pa/stop/001,0,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz",-16.4922800,-68.1830731,1
+plaza_liber/stop/001,0,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio",-16.4948425,-68.1735982,1
+16_de_julio/stop/002,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.4983623,-68.1647188,1
 estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.4920683,-68.1447801,1
 armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia",-16.4903582,-68.1368540,1
 periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica",-16.4864868,-68.1312901,1
