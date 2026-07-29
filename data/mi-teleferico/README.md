@@ -21,7 +21,7 @@ Para simplificar, no incluí el campo vacío: agency_fare_url.
 
 ## stops.txt
 
-Solo puse un stop por ándenes de una estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
+Solo puse un stop por andenes de una estación en la línea Roja, o sea 3 stops, de tipo "stop" (porque solo se permite usar de tipo 'stop' en stop_times.txt). Para las coordenadas, copie desde OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para la Estación Central).
 
 Para la estación Libertador, donde llegan la línea Verde y la línea Amarilla, puse un stop por cada línea, porque no están exactamente en el mismo lugar (https://www.openstreetmap.org/node/3088943775 vs https://www.openstreetmap.org/node/6648434407).
 
@@ -38,7 +38,7 @@ Para los nombres, evité poner "Estación" al inicio, como recomendado en https:
 
 No puse stop_url porque hay una página oficial para la línea Roja: https://www.miteleferico.bo/lineas/linea-roja, y haciendo clic en una estación, se actualiza el estado interno de la página para mostrar los detalles de esa estación, pero no hay una URL directa hacia esta página.
 
-En stop_desc, copie la información en https://www.miteleferico.bo/lineas/linea-roja, y mencioné que son ándenes, con el nombre de la línea cuando corresponda.
+En stop_desc, copie la información en https://www.miteleferico.bo/lineas/linea-roja, y mencioné que son andenes, con el nombre de la línea cuando corresponda.
 
 No puse stop_timezone, se utiliza la zona horaria de la agencia (America/La_Paz) por defecto.
 
