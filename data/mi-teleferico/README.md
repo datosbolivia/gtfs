@@ -9,10 +9,6 @@ Para todos los archivos:
 - ordene los campos poniendo los campos de identificacióna a la izquierda, y los campos menos importantes a la derecha,
 - para los códigos (***_id), establecí un tamaño constante para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo cuando se pueda.
 
-## feed_info.txt
-
-Puse "Datos Bolivia" como "feed_publisher_name".
-
 ## agency.txt
 
 Puse "mi_teleferico" como "agency_id". Tal vez retomar un código existente, si hay (OSM?).
@@ -161,6 +157,8 @@ Medí headway_secs a 20s entre dos cabinas. Escuché que el tiempo entre cabinas
 ## translations.txt
 
 ## feed_info.txt
+
+Puse "Datos Bolivia" como "feed_publisher_name".
 
 Puse default_lang a es, porque solo tenemos el español. Si traducimos, se puede poner otro idioma (en?).
 
