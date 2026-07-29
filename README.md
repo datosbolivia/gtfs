@@ -38,4 +38,11 @@ El código para generar y validar los GTFS se encuentra en scripts/ y Makefile. 
 make
 ```
 
-El sitio, con los GTFS y los archivos index.html, se encuentra en dist/. Se puede abrir el archivo dist/index.html en un navegador para explorarlo.
+Eso genera el sitio, con los GTFS y los archivos index.html, se encuentra en dist/. Se puede abrir el archivo dist/index.html en un navegador para explorarlo.
+
+Para validar un GTFS manualmente:
+
+1. generar el GTFS con `make`
+2. subir el GTFS en https://gtfs-validator.mobilitydata.org, y verificar que no haya errores (o warnings, si es posible).
+
+Toda actualización de la rama principal (push en la rama main) genera automáticamente los GTFS y el sitio, y los publica en https://datosbolivia.github.io/gtfs/. No validar una PR (pull request) sin haber validado el GTFS manualmente antes, para evitar que se publique un GTFS con errores.
