@@ -35,3 +35,7 @@ cafe/las_villas_/semana,cafe,0,PALLQA THAKI - Las Villas,semana,1,1,2
 cafe/las_villas_/fin_de,cafe,0,PALLQA THAKI - Las Villas,fin_de,1,1,2
 cafe/busch______/semana,cafe,1,QHUIRWA UMA - Defensores del Chaco,semana,1,1,2
 cafe/busch______/fin_de,cafe,1,QHUIRWA UMA - Defensores del Chaco,fin_de,1,1,2
+plat/mirador____/semana,plat,0,QHANA PATA - Mirador,semana,1,1,2
+plat/mirador____/fin_de,plat,0,QHANA PATA - Mirador,fin_de,1,1,2
+plat/16_de_julio/semana,plat,1,JACH'A QHATHU - 16 de Julio,semana,1,1,2
+plat/16_de_julio/fin_de,plat,1,JACH'A QHATHU - 16 de Julio,fin_de,1,1,2

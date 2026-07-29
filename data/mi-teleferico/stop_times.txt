@@ -115,3 +115,15 @@ cafe/busch______/semana,1,las_villas_/stop/001,00:00:00,00:00:00,0
 cafe/busch______/semana,2,busch______/stop/002,00:03:47,00:03:47,0
 cafe/busch______/fin_de,1,las_villas_/stop/001,00:00:00,00:00:00,0
 cafe/busch______/fin_de,2,busch______/stop/002,00:03:47,00:03:47,0
+plat/mirador____/semana,1,16_de_julio/stop/003,00:00:00,00:00:00,0
+plat/mirador____/semana,2,faro_murill/stop/003,00:08:36,00:08:36,0
+plat/mirador____/semana,3,mirador____/stop/002,00:12:42,00:12:42,0
+plat/mirador____/fin_de,1,16_de_julio/stop/003,00:00:00,00:00:00,0
+plat/mirador____/fin_de,2,faro_murill/stop/003,00:08:36,00:08:36,0
+plat/mirador____/fin_de,3,mirador____/stop/002,00:12:42,00:12:42,0
+plat/16_de_julio/semana,1,mirador____/stop/002,00:00:00,00:00:00,0
+plat/16_de_julio/semana,2,faro_murill/stop/003,00:04:06,00:04:06,0
+plat/16_de_julio/semana,3,16_de_julio/stop/003,00:12:42,00:12:42,0
+plat/16_de_julio/fin_de,1,mirador____/stop/002,00:00:00,00:00:00,0
+plat/16_de_julio/fin_de,2,faro_murill/stop/003,00:04:06,00:04:06,0
+plat/16_de_julio/fin_de,3,16_de_julio/stop/003,00:12:42,00:12:42,0

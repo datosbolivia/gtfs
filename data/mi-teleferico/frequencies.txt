@@ -35,3 +35,7 @@ cafe/las_villas_/semana,06:30:00,22:30:00,20,1
 cafe/las_villas_/fin_de,07:00:00,21:00:00,20,1
 cafe/busch______/semana,06:30:00,22:30:00,20,1
 cafe/busch______/fin_de,07:00:00,21:00:00,20,1
+plat/mirador____/semana,06:30:00,22:30:00,20,1
+plat/mirador____/fin_de,07:00:00,21:00:00,20,1
+plat/16_de_julio/semana,06:30:00,22:30:00,20,1
+plat/16_de_julio/fin_de,07:00:00,21:00:00,20,1
