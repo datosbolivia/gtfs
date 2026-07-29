@@ -19,3 +19,7 @@ blan/villarroel_/semana,06:30:00,22:30:00,20,1
 blan/villarroel_/fin_de,07:00:00,21:00:00,20,1
 blan/del_poeta__/semana,06:30:00,22:30:00,20,1
 blan/del_poeta__/fin_de,07:00:00,21:00:00,20,1
+cele/prado______/semana,06:30:00,22:30:00,20,1
+cele/prado______/fin_de,07:00:00,21:00:00,20,1
+cele/libertador_/semana,06:30:00,22:30:00,20,1
+cele/libertador_/fin_de,07:00:00,21:00:00,20,1

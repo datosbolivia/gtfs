@@ -18,3 +18,7 @@ villarroel_/stop/002,0,INALMAMA - Villarroel,"Plaza Villarroel",-16.4846913,-68.
 busch______/stop/001,0,QUIRWA UMA - Busch,"Av. Busch",-16.4936829,-68.1213664,1
 triangular_/stop/001,0,KIMSACHATA - Triangular,"Miraflores plaza triangular",-16.5041008,-68.1208521,1
 del_poeta__/stop/001,0,JALSURI - Del Poeta,"Av. Del Poeta",-16.5108267,-68.1211001,1
+prado______/stop/001,0,CHUKIYA MARKA - Prado,"Prado",-16.5004242,-68.1327225,1
+teatro_al_a/stop/001,0,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta",-16.5041419,-68.1260507,1
+del_poeta__/stop/002,0,JALSURI - Del Poeta,"Av. Del Poeta",-16.5112384,-68.1202467,1
+libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin",-16.5185279,-68.1162404,1
