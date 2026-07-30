@@ -1,0 +1,5 @@
+amount,currency,fare_media_id,fare_product_id,fare_product_name
+3.00,BOB,boleto_univiaje,tarifa_regular_base,Tarifa Regular Primera Línea
+2.00,BOB,boleto_univiaje,transbordo_regular,Transbordo Regular
+1.50,BOB,tarjeta_teleferico,tarifa_preferencial_base,Tarifa Preferencial / Estudiantil Primera Línea
+1.00,BOB,tarjeta_teleferico,transbordo_preferencial,Transbordo Preferencial / Estudiantil

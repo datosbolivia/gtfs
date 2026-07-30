@@ -1,0 +1,3 @@
+fare_product_id,leg_group_id
+tarifa_regular_base,leg_regular
+tarifa_preferencial_base,leg_preferencial

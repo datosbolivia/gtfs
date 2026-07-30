@@ -1,0 +1,23 @@
+direction,direction_id,route_id
+JACH'A QHATHU - 16 de Julio,0,roja
+TAYPI UTA - Estación Central,1,roja
+CHUQI APU - Libertador,0,amar
+QHANA PATA - Mirador,1,amar
+IRPAWI - Irpavi,0,verd
+CHUQI APU - Libertador,1,verd
+WAÑA JAWIRA - Rio Seco,0,azul
+JACH'A QHATHU - 16 de Julio,1,azul
+TAYPI UTA - Estación Central,0,nara
+INALMAMA - Héroes de la Revolución,1,nara
+INALMAMA - Héroes de la Revolución,0,blan
+JALSURI - Del Poeta,1,blan
+CHUKIYA MARKA - Prado,0,cele
+CHUQI APU - Libertador,1,cele
+UTJÄWI - San José,0,mor1
+JACH'A THAKI - 6 de Marzo,1,mor1
+UTJÄWI - San José,0,mor2
+JACH'A THAKI - 6 de Marzo,1,mor2
+PALLQA THAKI - Las Villas,0,cafe
+QHUIRWA UMA - Defensores del Chaco,1,cafe
+QHANA PATA - Mirador,0,plat
+JACH'A QHATHU - 16 de Julio,1,plat

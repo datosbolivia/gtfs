@@ -1,2 +1,2 @@
-agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_email,cemv_support
-mi_teleferico,Mi Teleférico,http://www.miteleferico.bo,America/La_Paz,es,(591)-2-2179300,info@miteleferico.bo,2
+agency_email,agency_id,agency_lang,agency_name,agency_phone,agency_timezone,agency_url,cemv_support
+info@miteleferico.bo,mi_teleferico,es,Mi Teleférico,(591)-2-2179300,America/La_Paz,http://www.miteleferico.bo,2

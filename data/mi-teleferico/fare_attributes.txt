@@ -1,0 +1,7 @@
+agency_id,currency_type,fare_id,payment_method,price,transfer_duration,transfers
+mi_teleferico,BOB,regular_0_transfers,1,3.00,,0
+mi_teleferico,BOB,regular_1_transfer,1,5.00,7200,1
+mi_teleferico,BOB,regular_2_transfers,1,7.00,7200,2
+mi_teleferico,BOB,preferencial_0_transfers,1,1.50,,0
+mi_teleferico,BOB,preferencial_1_transfer,1,2.50,7200,1
+mi_teleferico,BOB,preferencial_2_transfers,1,3.50,7200,2

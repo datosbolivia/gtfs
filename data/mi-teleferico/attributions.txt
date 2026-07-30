@@ -1,2 +1,2 @@
-attribution_id,organization_name,is_producer,is_operator,is_authority,attribution_url
-datos_bolivia,Datos Bolivia,1,0,0,https://github.com/datosbolivia/gtfs
+attribution_id,attribution_url,is_authority,is_operator,is_producer,organization_name
+datos_bolivia,https://github.com/datosbolivia/gtfs,0,0,1,Datos Bolivia
