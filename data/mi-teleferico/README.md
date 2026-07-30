@@ -270,7 +270,7 @@ No se definen códigos en este archivo.
 
 Puse `Datos Bolivia` como `feed_publisher_name`.
 
-Puse `default_lang` a `es`, porque solo tenemos el español. Si traducimos, se puede poner otro idioma (`en`?).
+Puse `default_lang` a `en`, para que los usuarios de GTFS con otro idioma que el español vean las traducciones al inglés.
 
 Puse `feed_start_date` y `feed_end_date` a las mismas fechas que en `calendar.txt`, es importante que sea el mismo porque sino implica que no hay servicio en las fechas que faltan. Ver https://github.com/datosbolivia/gtfs/issues/25.
 
