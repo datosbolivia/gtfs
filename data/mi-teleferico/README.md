@@ -80,17 +80,27 @@ Para `route_desc`, describí las dos zonas que conecta cada línea para dar más
 
 ## trips.txt
 
-Solo pusé para la línea Roja. Son 4 trayectos (trips): dos direcciones, y uno para la semana y otro para fin de semana.
+[Referencia](https://gtfs.org/documentation/schedule/reference/#tripstxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#tripstxt).
 
-Para el código (trip_id), el formato es `roja/16_de_julio/semana` para el trayecto de la línea roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación destino, y luego el código del servicio (semana o fin_de). Los tres subcampos están separados por "/".
+### código
 
-Hay que verificar "trip_headsign" en los paneles en las estaciones.
+`trip_id`: el formato es `roja/16_de_julio/semana` para el trayecto de la línea roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación destino (11 carácteres, minusculas, y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de`). Los tres subcampos están separados por "/".
 
-Creo que block_id no es necesario, a verificar.
+### justificaciones
 
-Habrá que agregar shape_id una vez se tenga el archivo de shapes.txt.
+Para cada ruta, hay cuatro trips: dos direcciones, y uno para la semana y otro para fin de semana. Por ejemplo, para la línea Roja, hay cuatro trips: roja/16_de_julio/semana, roja/16_de_julio/fin_de, roja/estacion_c/semana y roja/estacion_c/fin_de.
 
-Para simplificar, no incluí los campos vacíos: trip_short_name, block_id, shape_id, safe_duration_factor y safe_duration_offset.
+Para la dirección, hay que ser coherente entre las líneas, para que la dirección `0` sea la misma para dos líneas sucesivas.
+
+Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openstreetmap.org/relation/9845910), que son más precisos que el sitio del teleférico (lo que importa es lo que los usuarios del teleférico ven cuando buscan su camino en la estación). Pero en algunos casos, tuve que corregir porque el nombre mostrado en la estación no era el mismo, por ejemplo: `INALMAMA - Héroes de la Revolución` en la estación del monumento Busch. Usé el nombre completo `INALMAMA - Héroes de la Revolución` aunque son dos idiomas, porque es lo que se ve en la estación. Hay que verificar `trip_headsign` en los paneles en las estaciones: ver https://github.com/datosbolivia/gtfs/issues/22.
+
+### campos no incluidos
+
+- trip_short_name: no aplica, es más para trenes
+- block_id: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distinctas, pero no se cobra trasbordo cuando uno pasa de `mor1` a `mor2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
+- shape_id: llenar cuando se tenga el archivo de shapes.txt. Ver https://github.com/datosbolivia/gtfs/issues/23.
+- safe_duration_factor: no aplica
+- safe_duration_offset: no aplica
 
 ## stop_times.txt
 
