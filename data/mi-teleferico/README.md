@@ -201,9 +201,21 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## frequencies.txt
 
-Utilicé este archivo para indicar el tiempo entre las cabinas, y el tiempo de apertura de la línea Roja. De esta forma, el archivo stop_times.txt es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
+[Referencia](https://gtfs.org/documentation/schedule/reference/#frequenciestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#frequenciestxt).
 
-Medí headway_secs a 20s entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo.
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Utilicé este archivo para indicar el tiempo de espera entre dos cabinas sucesivas, y los horarios de servicio de cada línea. De esta forma, el archivo `stop_times.txt` es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
+
+Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo. Ver https://github.com/datosbolivia/gtfs/issues/24.
+
+### campos no incluidos
+
+- `block_id`: no está en el estándar, pero las [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#frequenciestxt) mencionan que se puede incluir. Tal vez sea necesario para la línea Morada (ver https://github.com/datosbolivia/gtfs/issues/14).
 
 ## transfers.txt
 
