@@ -40,6 +40,22 @@ make
 
 Eso genera el sitio, con los GTFS y los archivos index.html, se encuentra en dist/. Se puede abrir el archivo dist/index.html en un navegador para explorarlo.
 
+### Linter de columnas CSV
+
+Para mantener el orden alfabético de las columnas en los archivos CSV/GTFS (`.txt`, `.csv`):
+
+- **Verificar el orden de las columnas:**
+  ```bash
+  make lint
+  # o también: python3 scripts/lint_csv.py
+  ```
+
+- **Reordenar columnas automáticamente (en orden alfabético):**
+  ```bash
+  make fix-columns
+  # o también: python3 scripts/lint_csv.py --fix
+  ```
+
 Para validar un GTFS manualmente:
 
 1. generar el GTFS con `make`
