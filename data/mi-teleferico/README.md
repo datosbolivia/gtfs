@@ -153,11 +153,23 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## calendar_dates.txt
 
-Aquí puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio "semana" y di de alta el servicio "fin_de".
+[Referencia](https://gtfs.org/documentation/schedule/reference/#calendar_datestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#calendar_datestxt).
 
-Abrá que actualizar este archivo, porque el estandar recomiendo no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/).
+### código
 
-Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `semana` y di de alta el servicio `fin_de`, porque se aplica el horario de fin de semana en feriados.
+
+Abrá que actualizar este archivo, porque el estándar recomienda no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/). Ver https://github.com/datosbolivia/gtfs/issues/25.
+
+Añadí `service_name`, aunque no está en el estándar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien. Es útil para que los desarrolladores puedan entender mejor a qué se refiere la excepción de servicio, por ejemplo: `Día de la Patría (feriado nacional)`.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_attributes.txt
 
