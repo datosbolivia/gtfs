@@ -257,8 +257,20 @@ Para `feed_version`, inicie con `1`. Sería bueno incrementarlo para cada cambio
 
 ## attributions.txt
 
-Di la atribución a Datos Bolivia, porque entiendo que es una referencia hacia la organización que genera los datos (data producer), segun https://gtfs.org/documentation/schedule/examples/attributions/. Hay algo de redundancia con feed_info.txt.
+[Referencia](https://gtfs.org/documentation/schedule/reference/#attributionstxt).
 
-Puse "datos_bolivia" como "attribution_id". Está bien?
+### código
 
-Para simplificar, no incluí los campos vacíos: agency_id, route_id, trip_id, attribution_email y attribution_phone.
+- `attribution_id`: puse `datos_bolivia`, porque es la organización que genera los datos (data producer). Ver https://gtfs.org/documentation/schedule/examples/attributions/.
+
+### justificaciones
+
+Di la atribución a Datos Bolivia, porque entiendo que es una referencia hacia la organización que genera los datos (data producer), segun https://gtfs.org/documentation/schedule/examples/attributions/. Hay algo de redundancia con `feed_info.txt`.
+
+### campos no incluidos
+
+- `agency_id`: vacío para indicar que se aplica a todo el juego de datos.
+- `route_id`: vacío para indicar que se aplica a todo el juego de datos.
+- `trip_id`: vacío para indicar que se aplica a todo el juego de datos.
+- `attribution_email`: no tenemos un email de contacto como comunidad.
+- `attribution_phone`: no tenemos un teléfono de contacto como comunidad.
