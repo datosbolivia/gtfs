@@ -135,11 +135,21 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 
 ## calendar.txt
 
-Cree dos service_id: semana y fin_de (mismo tamaño), porque los horarios son diferentes en días de la semana y en la semana. Tal vez retomar un código existente, si hay (OSM?). O usar otro código (1, 2, 3, 4, ...).
+[Referencia](https://gtfs.org/documentation/schedule/reference/#calendartxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#calendartxt).
 
-Puse "20260801" como start_date y "20261231" como end_date. Significa que habrá que ampliar end_date antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo 20260801-20301231.
+### código
 
-Añadí service_name, aunque no esta en estandar, pero es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien.
+`service_id`: puse `semana` para los días de la semana, y `fin_de` para los fines de semana y feriados.
+
+### justificaciones
+
+Puse `20260701` como `start_date` y `20261231` como `end_date`. Significa que habrá que ampliar `end_date` antes del fin del año, y regularmente. Otra opción es poner un rango más amplio, por ejemplo `2026001` -> `20301231`. Ver https://github.com/datosbolivia/gtfs/issues/25.
+
+Añadí `service_name`, aunque no está en el estándar, porque es recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/. Se muestra como info en el validador de GTFS https://gtfs-validator-results.mobilitydata.org/, pero está bien. Es útil para que los desarrolladores puedan entender mejor el significado de `service_id`.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## calendar_dates.txt
 
