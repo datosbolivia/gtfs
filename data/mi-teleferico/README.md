@@ -235,17 +235,25 @@ Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo ent
 
 ## feed_info.txt
 
-Puse "Datos Bolivia" como "feed_publisher_name".
+[Referencia](https://gtfs.org/documentation/schedule/reference/#feed_infotxt).
 
-Puse default_lang a es, porque solo tenemos el español. Si traducimos, se puede poner otro idioma (en?).
+### código
 
-Para feed_lang y default_lang, puse "es", pero podría ser "es-BO" para especificar el español de Bolivia.
+No se definen códigos en este archivo.
 
-Puse feed_start_date y feed_end_date a las mismas fechas que en calendar.txt, es importante que sea el mismo porque sino implica que no hay servicio en las fechas que faltan.
+### justificaciones
 
-Para feed_version, inicie con 1. Sería bueno incrementarlo para cada cambio, o por lo menos para cada cambio importante. Nota: solo es para información de los desarrolladores.
+Puse `Datos Bolivia` como `feed_publisher_name`.
 
-Para simplificar, no incluí el campo vacío: feed_contact_email.
+Puse `default_lang` a `es`, porque solo tenemos el español. Si traducimos, se puede poner otro idioma (`en`?).
+
+Puse `feed_start_date` y `feed_end_date` a las mismas fechas que en `calendar.txt`, es importante que sea el mismo porque sino implica que no hay servicio en las fechas que faltan. Ver https://github.com/datosbolivia/gtfs/issues/25.
+
+Para `feed_version`, inicie con `1`. Sería bueno incrementarlo para cada cambio, o por lo menos para cada cambio importante. Nota: solo es para información de los desarrolladores.
+
+### campos no incluidos
+
+- `feed_contact_email`: como comunidad, no tenemos un email de contacto. Con la URL de las issues de GitHub, es suficiente.
 
 ## attributions.txt
 
