@@ -233,6 +233,31 @@ Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo ent
 
 ## translations.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#translations.txt), [Ejemplo](https://gtfs.org/documentation/schedule/examples/translations/).
+
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+La idea es traducir en inglés lo que vale la pena. Solo pueden traducirse los campos de tipo Text, en algunos archivos.
+
+- `agencia.txt`: no se traduce nada. Solo se puede traducir el nombre de la agencia (Mi Teleférico) - no hay razón para traducirlo, porque es un nombre propio.
+- `stops.txt`: se traduce `stop_desc`. Dentro de los campos que llenamos, solo se pueden traducir el nombre y la descripción de la estación. El nombre es lo que se ve en los carteles, no se traduce. Al contrario, es útil traducir la descripción.
+- `routes.txt`: se traduce `route_desc`. Dentro de los campos que llenamos, solo se pueden traducir el nombre corto, el nombre largo y la descripción de la línea. Los dos nombres son lo que se ve en los carteles, no se traducen. Al contrario, es útil traducir la descripción.
+- `trips.txt`: no se traduce nada. Dentro de los campos que llenamos, solo se puede traducir el texto del cartel `trip_headsign`. Pero no se traduce, es lo que el usuario ve.
+- `stop_times.txt`: no se traduce nada. Ninguno de los campos que llenamos es de tipo Text.
+- `pathways.txt`: no se traduce nada. No hemos creado `pathways.txt` todavía. Volver a analizar si lo creamos.
+- `levels.txt`: no se traduce nada. No hemos creado `levels.txt` todavía. Volver a analizar si lo creamos.
+- `feed_info.txt`: no se traduce nada. Solo se puede traducir nuestro nombre (Datos Bolivia) y la versión del feed: no tiene sentido traducirlos.
+- `attributions.txt`: no se traduce nada. Solo se puede traducir nuestro nombre (Datos Bolivia): no tiene sentido traducirlo.
+
+### campos no incluidos
+
+- `record_sub_id`: no se requiere para `stops` y `routes`.
+- `field_value`: es una forma alternativa a `record_id` para identificar el texto traducido. Usamos `record_id` porque es más robusto a cambios en los valores de los textos, así que no usamos `field_value`.
+
 ## feed_info.txt
 
 [Referencia](https://gtfs.org/documentation/schedule/reference/#feed_infotxt).
