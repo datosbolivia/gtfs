@@ -1,64 +1,64 @@
 stop_id,location_type,stop_name,stop_desc,stop_lat,stop_lon,wheelchair_boarding,parent_station,stop_access
 estacion_ce/stat/001,1,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.491656,-68.144576,1,,
-estacion_ce/stop/001,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Ándenes de la línea roja.",-16.4915020,-68.1447706,1,estacion_ce/stat/001,0
-estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Ándenes de la línea naranja.",-16.4920683,-68.1447801,1,estacion_ce/stat/001,0
+estacion_ce/stop/001,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea roja.",-16.4915020,-68.1447706,1,estacion_ce/stat/001,0
+estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea naranja.",-16.4920683,-68.1447801,1,estacion_ce/stat/001,0
 cementerio_/stat/001,1,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.497913,-68.152902,1,,
-cementerio_/stop/001,0,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio. Ándenes de la línea roja.",-16.4981477,-68.1528137,1,cementerio_/stat/001,0
+cementerio_/stop/001,0,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio. Andenes de la línea roja.",-16.4981477,-68.1528137,1,cementerio_/stat/001,0
 16_de_julio/stat/001,1,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.498093,-68.164672,1,,
-16_de_julio/stop/001,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea roja.",-16.4974263,-68.1645596,1,16_de_julio/stat/001,0
-16_de_julio/stop/002,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea azul.",-16.4983623,-68.1647188,1,16_de_julio/stat/001,0
-16_de_julio/stop/003,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea plateada.",-16.4987228,-68.1644860,1,16_de_julio/stat/001,0
+16_de_julio/stop/001,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Andenes de la línea roja.",-16.4974263,-68.1645596,1,16_de_julio/stat/001,0
+16_de_julio/stop/002,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Andenes de la línea azul.",-16.4983623,-68.1647188,1,16_de_julio/stat/001,0
+16_de_julio/stop/003,0,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Andenes de la línea plateada.",-16.4987228,-68.1644860,1,16_de_julio/stat/001,0
 mirador____/stat/001,1,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales.",-16.518234,-68.150080,1,,
-mirador____/stop/001,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales. Ándenes de la línea amarilla.",-16.5182222,-68.1498873,1,mirador____/stat/001,0
-mirador____/stop/002,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales de televisión. Ándenes de la línea plateada.",-16.5192511,-68.1498635,1,mirador____/stat/001,0
+mirador____/stop/001,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales. Andenes de la línea amarilla.",-16.5182222,-68.1498873,1,mirador____/stat/001,0
+mirador____/stop/002,0,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la región de las antenas satelitales de televisión. Andenes de la línea plateada.",-16.5192511,-68.1498635,1,mirador____/stat/001,0
 buenos_aire/stat/001,1,QUTA UMA - Buenos Aires,"Av. Buenos Aires y Calle Moxos.",-16.515475,-68.144091,1,,
-buenos_aire/stop/001,0,QUTA UMA - Buenos Aires,"Av. Buenos Aires y Calle Moxos. Ándenes de la línea amarilla.",-16.5154431,-68.1440911,1,buenos_aire/stat/001,0
+buenos_aire/stop/001,0,QUTA UMA - Buenos Aires,"Av. Buenos Aires y Calle Moxos. Andenes de la línea amarilla.",-16.5154431,-68.1440911,1,buenos_aire/stat/001,0
 sopocachi__/stat/001,1,SUPU KACHI - Sopocachi,"Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos.",-16.514585,-68.130465,1,,
-sopocachi__/stop/001,0,SUPU KACHI - Sopocachi,"Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Ándenes de la línea amarilla.",-16.5146566,-68.1302667,1,sopocachi__/stat/001,0
+sopocachi__/stop/001,0,SUPU KACHI - Sopocachi,"Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Andenes de la línea amarilla.",-16.5146566,-68.1302667,1,sopocachi__/stat/001,0
 libertador_/stat/001,1,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín.",-16.518774,-68.116094,1,,
-libertador_/stop/001,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín. Ándenes de la línea amarilla.",-16.5190807,-68.1161684,1,libertador_/stat/001,0
-libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín. Ándenes de la línea verde.",-16.5191482,-68.1159577,1,libertador_/stat/001,0
-libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin. Ándenes de la línea celeste.",-16.5185279,-68.1162404,1,libertador_/stat/001,0
+libertador_/stop/001,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín. Andenes de la línea amarilla.",-16.5190807,-68.1161684,1,libertador_/stat/001,0
+libertador_/stop/002,0,CHUQI APU - Libertador,"Av. Libertador, a la altura de la Curva de Holguín. Andenes de la línea verde.",-16.5191482,-68.1159577,1,libertador_/stat/001,0
+libertador_/stop/003,0,CHUQI APU - Libertador,"Curva de Holguin. Andenes de la línea celeste.",-16.5185279,-68.1162404,1,libertador_/stat/001,0
 alto_obraje/stat/001,1,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro.",-16.521240,-68.110182,1,,
-alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.",-16.5215813,-68.1104087,1,alto_obraje/stat/001,0
+alto_obraje/stop/001,0,PATO OBRAJES - Alto Obrajes,"Final Av. Costanera y Av. Del Maestro. Andenes de la línea verde.",-16.5215813,-68.1104087,1,alto_obraje/stat/001,0
 obrajes____/stat/001,1,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza).",-16.526833,-68.100714,1,,
-obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza). Ándenes de la línea verde.",-16.5268092,-68.1007035,1,obrajes____/stat/001,0
+obrajes____/stop/001,0,AYNACHA OBRAJES - Obrajes,"Altura de la calle 17 (cerca al puente Esperanza). Andenes de la línea verde.",-16.5268092,-68.1007035,1,obrajes____/stat/001,0
 irpavi_____/stat/001,1,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.538049,-68.087279,1,,
-irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto. Ándenes de la línea verde.",-16.5381069,-68.0873791,1,irpavi_____/stat/001,0
+irpavi_____/stop/001,0,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto. Andenes de la línea verde.",-16.5381069,-68.0873791,1,irpavi_____/stat/001,0
 rio_seco___/stat/001,1,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana.",-16.490064,-68.209631,1,,
-rio_seco___/stop/001,0,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana. Ándenes de la línea azul.",-16.4899312,-68.2097341,1,rio_seco___/stat/001,0
+rio_seco___/stop/001,0,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana. Andenes de la línea azul.",-16.4899312,-68.2097341,1,rio_seco___/stat/001,0
 upea_______/stat/001,1,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B.",-16.489549,-68.193071,1,,
-upea_______/stop/001,0,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Ándenes de la línea azul.",-16.4894805,-68.1931996,1,upea_______/stat/001,0
+upea_______/stop/001,0,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Andenes de la línea azul.",-16.4894805,-68.1931996,1,upea_______/stat/001,0
 plaza_la_pa/stat/001,1,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz.",-16.492286,-68.183082,1,,
-plaza_la_pa/stop/001,0,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz. Ándenes de la línea azul.",-16.4922800,-68.1830731,1,plaza_la_pa/stat/001,0
+plaza_la_pa/stop/001,0,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz. Andenes de la línea azul.",-16.4922800,-68.1830731,1,plaza_la_pa/stat/001,0
 plaza_liber/stat/001,1,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio.",-16.494850,-68.173496,1,,
-plaza_liber/stop/001,0,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Ándenes de la línea azul.",-16.4948425,-68.1735982,1,plaza_liber/stat/001,0
+plaza_liber/stop/001,0,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Andenes de la línea azul.",-16.4948425,-68.1735982,1,plaza_liber/stat/001,0
 armentia___/stat/001,1,RIOSINHO PAMPA - Armentia,"Armentia.",-16.490308,-68.136919,1,,
-armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia. Ándenes de la línea naranja.",-16.4903582,-68.1368540,1,armentia___/stat/001,0
+armentia___/stop/001,0,RIOSINHO PAMPA - Armentia,"Armentia. Andenes de la línea naranja.",-16.4903582,-68.1368540,1,armentia___/stat/001,0
 periferica_/stat/001,1,APACHITA - Periférica,"Av. Periferica.",-16.486504,-68.131385,1,,
-periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica. Ándenes de la línea naranja.",-16.4864868,-68.1312901,1,periferica_/stat/001,0
+periferica_/stop/001,0,APACHITA - Periférica,"Av. Periferica. Andenes de la línea naranja.",-16.4864868,-68.1312901,1,periferica_/stat/001,0
 villarroel_/stat/001,1,INALMAMA - Héroes de la Revolución,"Plaza Villarroel.",-16.484660,-68.121928,1,,
-villarroel_/stop/001,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel. Ándenes de la línea naranja.",-16.4847532,-68.1221015,1,villarroel_/stat/001,0
-villarroel_/stop/002,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel. Ándenes de la línea blanca.",-16.4846913,-68.1218263,1,villarroel_/stat/001,0
+villarroel_/stop/001,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel. Andenes de la línea naranja.",-16.4847532,-68.1221015,1,villarroel_/stat/001,0
+villarroel_/stop/002,0,INALMAMA - Héroes de la Revolución,"Plaza Villarroel. Andenes de la línea blanca.",-16.4846913,-68.1218263,1,villarroel_/stat/001,0
 busch______/stat/001,1,QHUIRWA UMA - Defensores del Chaco,"Av. Busch.",-16.493736,-68.121096,1,,
-busch______/stop/001,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch. Ándenes de la línea blanca.",-16.4936829,-68.1213664,1,busch______/stat/001,0
-busch______/stop/002,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch. Ándenes de la línea café.",-16.4937997,-68.1208793,1,busch______/stat/001,0
+busch______/stop/001,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch. Andenes de la línea blanca.",-16.4936829,-68.1213664,1,busch______/stat/001,0
+busch______/stop/002,0,QHUIRWA UMA - Defensores del Chaco,"Av. Busch. Andenes de la línea café.",-16.4937997,-68.1208793,1,busch______/stat/001,0
 triangular_/stat/001,1,KIMSACHATA - Próceres de la Independencia,"Miraflores plaza triangular.",-16.504121,-68.120855,1,,
-triangular_/stop/001,0,KIMSACHATA - Próceres de la Independencia,"Miraflores plaza triangular. Ándenes de la línea blanca.",-16.5041008,-68.1208521,1,triangular_/stat/001,0
+triangular_/stop/001,0,KIMSACHATA - Próceres de la Independencia,"Miraflores plaza triangular. Andenes de la línea blanca.",-16.5041008,-68.1208521,1,triangular_/stat/001,0
 del_poeta__/stat/001,1,JALSURI - Del Poeta,"Av. Del Poeta.",-16.510741,-68.121201,1,,
-del_poeta__/stop/001,0,JALSURI - Del Poeta,"Av. Del Poeta. Ándenes de la línea blanca.",-16.5108267,-68.1211001,1,del_poeta__/stat/001,0
-del_poeta__/stop/002,0,JALSURI - Del Poeta,"Av. Del Poeta. Ándenes de la línea celeste.",-16.5112384,-68.1202467,1,del_poeta__/stat/001,0
+del_poeta__/stop/001,0,JALSURI - Del Poeta,"Av. Del Poeta. Andenes de la línea blanca.",-16.5108267,-68.1211001,1,del_poeta__/stat/001,0
+del_poeta__/stop/002,0,JALSURI - Del Poeta,"Av. Del Poeta. Andenes de la línea celeste.",-16.5112384,-68.1202467,1,del_poeta__/stat/001,0
 prado______/stat/001,1,CHUKIYA MARKA - Prado,"Prado.",-16.500657,-68.132654,1,,
-prado______/stop/001,0,CHUKIYA MARKA - Prado,"Prado. Ándenes de la línea celeste.",-16.5004242,-68.1327225,1,prado______/stat/001,0
+prado______/stop/001,0,CHUKIYA MARKA - Prado,"Prado. Andenes de la línea celeste.",-16.5004242,-68.1327225,1,prado______/stat/001,0
 teatro_al_a/stat/001,1,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta.",-16.504152,-68.125994,1,,
-teatro_al_a/stop/001,0,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta. Ándenes de la línea celeste.",-16.5041419,-68.1260507,1,teatro_al_a/stat/001,0
+teatro_al_a/stop/001,0,LAYQA QUTA - Teatro al Aire Libre,"Av. Del Poeta. Andenes de la línea celeste.",-16.5041419,-68.1260507,1,teatro_al_a/stat/001,0
 6_de_marzo_/stat/001,1,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N.",-16.504152,-68.125994,1,,
-6_de_marzo_/stop/001,0,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N. Ándenes de la línea morada.",-16.5227094,-68.1694835,1,6_de_marzo_/stat/001,0
+6_de_marzo_/stop/001,0,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N. Andenes de la línea morada.",-16.5227094,-68.1694835,1,6_de_marzo_/stat/001,0
 faro_murill/stat/001,1,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo.",-16.512255,-68.153648,1,,
-faro_murill/stop/001,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Ándenes de la línea morada, lado El Alto.",-16.5123847,-68.1539026,1,faro_murill/stat/001,0
-faro_murill/stop/002,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Ándenes de la línea morada, lado La Paz.",-16.5121791,-68.1535252,1,faro_murill/stat/001,0
-faro_murill/stop/003,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Ándenes de la línea plateada.",-16.5122591,-68.1537373,1,faro_murill/stat/001,0
+faro_murill/stop/001,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Andenes de la línea morada, lado El Alto.",-16.5123847,-68.1539026,1,faro_murill/stat/001,0
+faro_murill/stop/002,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Andenes de la línea morada, lado La Paz.",-16.5121791,-68.1535252,1,faro_murill/stat/001,0
+faro_murill/stop/003,0,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo. Andenes de la línea plateada.",-16.5122591,-68.1537373,1,faro_murill/stat/001,0
 san_jose___/stat/001,1,UTJÄWI - San José,"Calle Almirante Grau.",-16.500143,-68.135261,1,,
-san_jose___/stop/001,0,UTJÄWI - San José,"Calle Almirante Grau. Ándenes de la línea morada.",-16.5000243,-68.1351531,1,san_jose___/stat/001,0
+san_jose___/stop/001,0,UTJÄWI - San José,"Calle Almirante Grau. Andenes de la línea morada.",-16.5000243,-68.1351531,1,san_jose___/stat/001,0
 las_villas_/stat/001,1,PALLQA THAKI - Las Villas,"Villa Copacabana.",-16.497581,-68.115123,1,,
-las_villas_/stop/001,0,PALLQA THAKI - Las Villas,"Villa Copacabana. Ándenes de la línea café.",-16.4976675,-68.1151193,1,las_villas_/stat/001,0
+las_villas_/stop/001,0,PALLQA THAKI - Las Villas,"Villa Copacabana. Andenes de la línea café.",-16.4976675,-68.1151193,1,las_villas_/stat/001,0
