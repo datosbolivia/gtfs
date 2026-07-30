@@ -104,19 +104,34 @@ Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openst
 
 ## stop_times.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#stop_timestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#stop_timestxt).
+
+### código
+
+`stop_sequence`: el número de la parada en la línea, empezando por 1 en la primera estación de la línea, y aumentando en 1 para cada parada sucesiva.
+
+### justificaciones
+
 Como incluímos el archivo frequencies.txt, no es necesario poner los horarios de llegada y salida de cada cabina en cada estación en cada momento del día. Como recomendado en https://gtfs.org/documentation/schedule/schedule-best-practices/#frequenciestxt, puse unicamente una entrada para el horario ficticio 00:00:00 en la primera estación, y en las siguientes estaciones, para definir el tiempo de recorrido.
 
-Para los tiempos de recorrida entre estaciones, use los valores en https://www.miteleferico.bo/lineas/linea-roja: estación central -> cementerio: 5 min 09 s, cementerio -> 16 de julio: 5 min 38 s.
-
-No puse stop_headsign, lo que implica que se usa el valor de stop_headsign del "trip". Hay que verificar si el panel de destino cambia según la parada, en tal caso, habría que poner el valor de stop_headsign en cada parada.
-
-Puse pickup_type y drop_off_type como 1 (no permitido), porque no se puede subir ni bajar en el medio del trayecto, solo en las estaciones.
-
-No puse shape_dist_traveled, porque no tenemos shapes.txt todavía. Se podría poner un valor una vez se tenga shapes.txt, para indicar la distancia recorrida desde el inicio del trayecto. No estoy seguro si es necesario, sin embargo.
+Para los tiempos de recorrida entre estaciones, use los valores en el sitio del teleférico. Por ejemplo, en https://www.miteleferico.bo/lineas/linea-roja: estación central -> cementerio: 5 min 09 s, cementerio -> 16 de julio: 5 min 38 s. Si más adelante logramos tener más informacón sobre los cambios de velocidad, podremos ajustar, y eventualemente crear más "trips" según la velocidad (ver https://github.com/datosbolivia/gtfs/issues/24).
 
 Puse timepoint como 0, porque el tiempo de recorrida entre estaciones solo es aproximado. Depende de la velocidad del cable, que puede variar según la fecha, la hora, el flujo de pasajeros.
 
-Para simplificar, no incluí los campos vacíos: location_group_id, location_id, stop_headsign,start_pickup_drop_off_window, end_pickup_drop_off_window, pickup_type, drop_off_type, continuous_pickup, continuous_drop_off, shape_dist_traveled, pickup_booking_rule_id and drop_off_booking_rule_id.
+### campos no incluidos
+
+- location_group_id: no aplica
+- location_id: no aplica
+- stop_headsign: se usa el valor de stop_headsign del "trip". Hay que verificar si el panel de destino cambia según la parada, en tal caso, habría que poner el valor de stop_headsign en cada parada. Ver https://github.com/datosbolivia/gtfs/issues/22.
+- start_pickup_drop_off_window: no aplica
+- end_pickup_drop_off_window: no aplica
+- pickup_type: no aplica
+- drop_off_type: no aplica
+- continuous_pickup: no aplica
+- continuous_drop_off: no aplica
+- shape_dist_traveled: no tenemos shapes.txt todavía. Se podría poner un valor una vez se tenga shapes.txt, para indicar la distancia recorrida desde el inicio del trayecto (ver https://github.com/datosbolivia/gtfs/issues/23).
+- pickup_booking_rule_id: no aplica
+- drop_off_booking_rule_id: no aplica
 
 ## calendar.txt
 
