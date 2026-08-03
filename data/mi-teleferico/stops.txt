@@ -1,7 +1,7 @@
 stop_id,location_type,stop_name,stop_desc,stop_lat,stop_lon,wheelchair_boarding,parent_station,stop_access
-estacion_ce/stat/001,1,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.491656,-68.144576,1,,
-estacion_ce/stop/001,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea roja.",-16.4915020,-68.1447706,1,estacion_ce/stat/001,0
-estacion_ce/stop/002,0,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea naranja.",-16.4920683,-68.1447801,1,estacion_ce/stat/001,0
+estacion_ce/stat/001,1,TAYPI UTA - Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.491656,-68.144576,1,,
+estacion_ce/stop/001,0,TAYPI UTA - Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea roja.",-16.4915020,-68.1447706,1,estacion_ce/stat/001,0
+estacion_ce/stop/002,0,TAYPI UTA - Central,"Avenida Manco Cápac, ex-estación de ferrocarriles. Andenes de la línea naranja.",-16.4920683,-68.1447801,1,estacion_ce/stat/001,0
 cementerio_/stat/001,1,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.497913,-68.152902,1,,
 cementerio_/stop/001,0,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio. Andenes de la línea roja.",-16.4981477,-68.1528137,1,cementerio_/stat/001,0
 16_de_julio/stat/001,1,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de julio, Avenida Panorámica Norte.",-16.498093,-68.164672,1,,
