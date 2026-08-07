@@ -1,50 +1,72 @@
-name: Publish to GitHub Pages
+name: Build and Validate GTFS
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
 jobs:
-  publish:
-    runs-on: ubuntu-26.04
+  validate-and-build:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Build GTFS Feeds
+        run: |
+          make build
+
+      - name: Validate GTFS Feeds with MobilityData Validator
+        run: |
+          ./scripts/validate_gtfs.sh
+
+      - name: Upload GTFS Validation Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gtfs-validation-reports
+          path: dist/validation_reports/
+
+  deploy-pages:
+    needs: validate-and-build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v7
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # Uncomment?
-      # # restore the previous dist/ if it exists
-      # - name: Cache built data
-      #   uses: actions/cache@v6
-      #   with:
-      #     path: dist
-      #     key: dist
-
-      - name: Build the GTFS and the index files
+      - name: Build index files
         run: |
-          tree --version
-          make
+          make build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: "./dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4

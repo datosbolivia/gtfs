@@ -1,4 +1,4 @@
-all: build
+all: build validate-gtfs
 
 create_gtfs:
 	./scripts/create_gtfs.sh
@@ -8,10 +8,10 @@ create_indexes: create_gtfs
 
 build: create_indexes
 
-# test: dist/index.html
-# 	./scripts/test.sh
+validate-gtfs: build
+	./scripts/validate_gtfs.sh
 
 clean: ## Clean temporary files 
-	rm -rf dist
+	rm -rf dist .cache
 
-.PHONY: all build clean create_gtfs create_indexes
+.PHONY: all build clean create_gtfs create_indexes validate-gtfs
