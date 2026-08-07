@@ -168,7 +168,7 @@ SORT_KEYS = {
     "stop_times.txt": ["trip_id", "stop_sequence"],
     "shapes.txt": ["shape_id", "shape_pt_sequence"],
     "stops.txt": ["stop_id"],
-    "routes.txt": ["route_id"],
+    "routes.txt": ["route_sort_order"],
     "trips.txt": ["route_id", "service_id", "trip_id"],
     "agency.txt": ["agency_id"],
     "calendar.txt": ["service_id"],
@@ -226,22 +226,27 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
 
             # Ensure timepoint is non-empty if present
             if filename == "stop_times.txt" and "timepoint" in df_reordered.columns:
-                df_reordered["timepoint"] = df_reordered["timepoint"].fillna(0).astype(int)
+                df_reordered["timepoint"] = df_reordered["timepoint"].fillna(
+                    0).astype(int)
 
             # Sort rows by logical keys if present
-            sort_cols = [c for c in SORT_KEYS.get(filename, []) if c in df_reordered.columns]
+            sort_cols = [c for c in SORT_KEYS.get(
+                filename, []) if c in df_reordered.columns]
             if sort_cols:
                 df_reordered = df_reordered.sort_values(by=sort_cols)
 
             out = io.StringIO()
-            df_reordered.to_csv(out, index=False, lineterminator="\n", encoding="utf-8")
+            df_reordered.to_csv(
+                out, index=False, lineterminator="\n", encoding="utf-8")
             formatted_csv = out.getvalue()
             # Clean up pandas NaN representation if any
-            formatted_csv = formatted_csv.replace(",nan,", ",,").replace(",nan\n", ",\n")
+            formatted_csv = formatted_csv.replace(
+                ",nan,", ",,").replace(",nan\n", ",\n")
 
         if raw_existing != formatted_csv:
             is_clean = False
-            print(f"❌ [LINT ERROR] {txt_file.relative_to(feed_dir.parent.parent)}")
+            print(
+                f"❌ [LINT ERROR] {txt_file.relative_to(feed_dir.parent.parent)}")
             print(f"   Original order:  {original_cols}")
             print(f"   Canonical order: {target_cols}")
 
@@ -254,12 +259,15 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
     return is_clean
 
 
-
 def main():
-    parser = argparse.ArgumentParser(description="Order and lint GTFS feed files using gtfs_kit and GTFS Schedule Reference.")
-    parser.add_argument("--data-dir", default="data", help="Directory containing GTFS feeds (default: data)")
-    parser.add_argument("--fix", action="store_true", help="Automatically sort and fix GTFS tables in-place")
-    parser.add_argument("--check", action="store_true", help="Check column order and formatting")
+    parser = argparse.ArgumentParser(
+        description="Order and lint GTFS feed files using gtfs_kit and GTFS Schedule Reference.")
+    parser.add_argument("--data-dir", default="data",
+                        help="Directory containing GTFS feeds (default: data)")
+    parser.add_argument("--fix", action="store_true",
+                        help="Automatically sort and fix GTFS tables in-place")
+    parser.add_argument("--check", action="store_true",
+                        help="Check column order and formatting")
 
     args = parser.parse_args()
     root_dir = Path(__file__).resolve().parent.parent
