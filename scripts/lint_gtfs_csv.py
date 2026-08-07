@@ -163,6 +163,24 @@ def get_canonical_columns(filename: str, current_cols: list[str]) -> list[str]:
     return ordered
 
 
+# Logical primary keys for sorting table rows
+SORT_KEYS = {
+    "stop_times.txt": ["trip_id", "stop_sequence"],
+    "shapes.txt": ["shape_id", "shape_pt_sequence"],
+    "stops.txt": ["stop_id"],
+    "routes.txt": ["route_id"],
+    "trips.txt": ["route_id", "service_id", "trip_id"],
+    "agency.txt": ["agency_id"],
+    "calendar.txt": ["service_id"],
+    "calendar_dates.txt": ["service_id", "date"],
+    "fare_attributes.txt": ["fare_id"],
+    "fare_rules.txt": ["fare_id", "route_id"],
+    "frequencies.txt": ["trip_id", "start_time"],
+    "transfers.txt": ["from_stop_id", "to_stop_id"],
+    "translations.txt": ["table_name", "field_name", "language", "record_id"],
+}
+
+
 def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
     """Reads GTFS feed via gtfs_kit, cleans feed, enforces GTFS column ordering & clean CSV format."""
     print(f"Processing GTFS feed with gtfs_kit at: {feed_dir}")
@@ -195,6 +213,8 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
             w = csv.writer(out, lineterminator="\n", quoting=csv.QUOTE_MINIMAL)
             w.writerow(target_cols)
             for r in rows[1:]:
+                if not r or not any(cell.strip() for cell in r):
+                    continue
                 if len(r) < len(original_cols):
                     r.extend([""] * (len(original_cols) - len(r)))
                 w.writerow([r[i] for i in col_map])
@@ -202,7 +222,16 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
         else:
             original_cols = list(df.columns)
             target_cols = get_canonical_columns(filename, original_cols)
-            df_reordered = df[target_cols]
+            df_reordered = df[target_cols].copy()
+
+            # Ensure timepoint is non-empty if present
+            if filename == "stop_times.txt" and "timepoint" in df_reordered.columns:
+                df_reordered["timepoint"] = df_reordered["timepoint"].fillna(0).astype(int)
+
+            # Sort rows by logical keys if present
+            sort_cols = [c for c in SORT_KEYS.get(filename, []) if c in df_reordered.columns]
+            if sort_cols:
+                df_reordered = df_reordered.sort_values(by=sort_cols)
 
             out = io.StringIO()
             df_reordered.to_csv(out, index=False, lineterminator="\n", encoding="utf-8")
@@ -223,6 +252,7 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
             print(f"✅ [OK] {txt_file.relative_to(feed_dir.parent.parent)}")
 
     return is_clean
+
 
 
 def main():
