@@ -1,0 +1,16 @@
+repos:
+  - repo: local
+    hooks:
+      - id: gtfs-csv-lint
+        name: GTFS CSV Column Order & Formatting Linter
+        entry: python3 scripts/lint_gtfs_csv.py --fix
+        language: system
+        files: ^data/.*\.txt$
+        pass_filenames: false
+
+      - id: gtfs-validator
+        name: MobilityData GTFS Schedule Validator
+        entry: ./scripts/validate_gtfs.sh
+        language: system
+        stages: [pre-push]
+        pass_filenames: false
