@@ -6,7 +6,7 @@ azul,mi_teleferico,Azul,Línea Azul de Mi Teleférico,"El Alto, 16 de Julio ↔ 
 nara,mi_teleferico,Naranja,Línea Naranja de Mi Teleférico,"La Paz, Central ↔ La Paz, Plaza Villarroel",6,https://www.miteleferico.bo/lineas/linea-naranja,ea5b0d,ffffff,4
 blan,mi_teleferico,Blanca,Línea Blanca de Mi Teleférico,"La Paz, Central ↔ La Paz, Avenida Arce",6,https://www.miteleferico.bo/lineas/linea-blanca,ffffff,000000,5
 cele,mi_teleferico,Celeste,Línea Celeste de Mi Teleférico,"La Paz, Curva de Holguin ↔ La Paz, Prado",6,https://www.miteleferico.bo/lineas/linea-celeste,009fe3,ffffff,6
-mor1,mi_teleferico,Morada 2,Línea Morada de Mi Teleférico - 6 de Marzo ↔ Faro Murillo,"El Alto, 6 de Marzo ↔ El Alto, Faro Murillo",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,7
-mor2,mi_teleferico,Morada 1,Línea Morada de Mi Teleférico - Faro Murillo ↔ Obelisco,"El Alto, Faro Murillo ↔ La Paz, Obelisco",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,8
+mor2,mi_teleferico,Morada 2,Línea Morada de Mi Teleférico - 6 de Marzo ↔ Faro Murillo,"El Alto, 6 de Marzo ↔ El Alto, Faro Murillo",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,7
+mor1,mi_teleferico,Morada 1,Línea Morada de Mi Teleférico - Faro Murillo ↔ Obelisco,"El Alto, Faro Murillo ↔ La Paz, Obelisco",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,8
 cafe,mi_teleferico,Café,Línea Café de Mi Teleférico,"La Paz, Monumento Busch ↔ La Paz, Villa Copacabana",6,https://www.miteleferico.bo/lineas/linea-cafe,683b12,ffffff,9
 plat,mi_teleferico,Plateada,Línea Plateada de Mi Teleférico,"El Alto, 16 de Julio ↔ El Alto, Ciudad Satelite",6,https://www.miteleferico.bo/lineas/linea-plateada,9c9aa0,ffffff,10

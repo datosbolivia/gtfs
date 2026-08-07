@@ -19,14 +19,14 @@ cele,fin_de,cele/libertador_/fin_de,CHUQI APU - Libertador,1,shape-ms6srwco-433,
 cele,fin_de,cele/prado______/fin_de,CHUKIYA MARKA - Prado,0,shape-ms6srwcn-432,1,1,2
 cele,semana,cele/libertador_/semana,CHUQI APU - Libertador,1,shape-ms6srwco-433,1,1,2
 cele,semana,cele/prado______/semana,CHUKIYA MARKA - Prado,0,shape-ms6srwcn-432,1,1,2
-mor1,fin_de,mor1/6_de_marzo_/fin_de,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-435,1,1,2
-mor1,fin_de,mor1/san_jose___/fin_de,UTJÄWI - San José,0,shape-ms6srwco-434,1,1,2
-mor1,semana,mor1/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-435,1,1,2
-mor1,semana,mor1/san_jose___/semana,UTJÄWI - San José,0,shape-ms6srwco-434,1,1,2
-mor2,fin_de,mor2/6_de_marzo_/fin_de,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-437,1,1,2
-mor2,fin_de,mor2/san_jose___/fin_de,UTJÄWI - San José,0,shape-ms6srwcp-436,1,1,2
-mor2,semana,mor2/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-437,1,1,2
-mor2,semana,mor2/san_jose___/semana,UTJÄWI - San José,0,shape-ms6srwcp-436,1,1,2
+mor1,fin_de,mor1/6_de_marzo_/fin_de,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-437,1,1,2
+mor1,fin_de,mor1/san_jose___/fin_de,UTJÄWI - San José,0,shape-ms6srwcp-436,1,1,2
+mor1,semana,mor1/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-437,1,1,2
+mor1,semana,mor1/san_jose___/semana,UTJÄWI - San José,0,shape-ms6srwcp-436,1,1,2
+mor2,fin_de,mor2/6_de_marzo_/fin_de,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-435,1,1,2
+mor2,fin_de,mor2/san_jose___/fin_de,UTJÄWI - San José,0,shape-ms6srwco-434,1,1,2
+mor2,semana,mor2/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,shape-ms6srwcp-435,1,1,2
+mor2,semana,mor2/san_jose___/semana,UTJÄWI - San José,0,shape-ms6srwco-434,1,1,2
 nara,fin_de,nara/estacion_ce/fin_de,TAYPI UTA - Central,0,shape-ms6srwcp-438,1,1,2
 nara,fin_de,nara/villarroel_/fin_de,INALMAMA - Héroes de la Revolución,1,shape-ms6srwcq-439,1,1,2
 nara,semana,nara/estacion_ce/semana,TAYPI UTA - Central,0,shape-ms6srwcp-438,1,1,2
