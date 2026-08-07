@@ -22,11 +22,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Set up Java JDK
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Lint GTFS CSV Column Order and Formatting
+        run: |
+          python3 scripts/lint_gtfs_csv.py --check
 
       - name: Build GTFS Feeds
         run: |

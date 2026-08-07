@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Git Pre-Push Hook for GTFS Project
+
+set -e
+
+echo "🔍 Running pre-push checks..."
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+
+echo "1. Checking GTFS CSV column ordering and comma formatting..."
+if ! python3 "$ROOT_DIR/scripts/lint_gtfs_csv.py" --check; then
+    echo "❌ GTFS CSV formatting or column order check failed!"
+    echo "💡 Run 'make fix-columns' to fix column orders automatically, then re-commit and push."
+    exit 1
+fi
+
+echo "2. Building GTFS feeds..."
+make -C "$ROOT_DIR" build
+
+echo "3. Validating GTFS feeds with MobilityData GTFS Validator..."
+if [ -f "$ROOT_DIR/scripts/validate_gtfs.sh" ]; then
+    "$ROOT_DIR/scripts/validate_gtfs.sh"
+fi
+
+echo "✅ Pre-push verification completed successfully! Proceeding with push."
