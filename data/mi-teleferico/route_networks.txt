@@ -1,0 +1,12 @@
+network_id,route_id
+n_rim,roja
+n_rim,amar
+n_rim,verd
+n_rim,azul
+n_rim,nara
+n_rim,blan
+n_rim,cele
+n_rim,mor1
+n_rim,mor2
+n_rim,cafe
+n_rim,plat
