@@ -1,75 +1,75 @@
-table_name,field_name,language,record_id,translation
-stops,stop_desc,en,estacion_ce/stat/001,"Manco Cápac Avenue, old train station."
-stops,stop_desc,en,estacion_ce/stop/001,"Manco Cápac Avenue, old train station. Platforms of the red line (Línea roja)."
-stops,stop_desc,en,estacion_ce/stop/002,"Manco Cápac Avenue, old train station. Platforms of the orange line (Línea naranja)."
-stops,stop_desc,en,cementerio_/stat/001,"Entre Ríos Avenue, behind the Cemetery."
-stops,stop_desc,en,cementerio_/stop/001,"Entre Ríos Avenue, behind the Cemetery. Platforms of the red line (Línea roja)."
-stops,stop_desc,en,16_de_julio/stat/001,"El Alto, 16 de julio area, Panorámica Norte Avenue."
-stops,stop_desc,en,16_de_julio/stop/001,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the red line (Línea roja)."
-stops,stop_desc,en,16_de_julio/stop/002,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the blue line (Línea azul)."
-stops,stop_desc,en,16_de_julio/stop/003,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the silver line (Línea plateada)."
-stops,stop_desc,en,mirador____/stat/001,"El Alto, Panorámica Avenue. In the region of the satellite antennas."
-stops,stop_desc,en,mirador____/stop/001,"El Alto, Panorámica Avenue. In the region of the satellite antennas. Platforms of the yellow line (Línea amarilla)."
-stops,stop_desc,en,mirador____/stop/002,"El Alto, Panorámica Avenue. In the region of the television satellite antennas. Platforms of the silver line (Línea plateada)."
-stops,stop_desc,en,buenos_aire/stat/001,"Buenos Aires Avenue and Moxos Street."
-stops,stop_desc,en,buenos_aire/stop/001,"Buenos Aires Avenue and Moxos Street. Platforms of the yellow line (Línea amarilla)."
-stops,stop_desc,en,sopocachi__/stat/001,"Miguel de Cervantes Street and Saavedra Street, corner with the Méndez Arcos Street."
-stops,stop_desc,en,sopocachi__/stop/001,"Miguel de Cervantes Street and Saavedra Street, corner with the Méndez Arcos Street. Platforms of the yellow line (Línea amarilla)."
-stops,stop_desc,en,libertador_/stat/001,"Libertador Avenue, at the height of the Holguín Curve."
-stops,stop_desc,en,libertador_/stop/001,"Libertador Avenue, at the height of the Holguín Curve. Platforms of the yellow line (Línea amarilla)."
-stops,stop_desc,en,libertador_/stop/002,"Libertador Avenue, at the height of the Holguín Curve. Platforms of the green line (Línea verde)."
-stops,stop_desc,en,libertador_/stop/003,"Holguín Curve. Platforms of the light blue line (Línea celeste)."
-stops,stop_desc,en,alto_obraje/stat/001,"Final of the Costanera Avenue and the Del Maestro Avenue."
-stops,stop_desc,en,alto_obraje/stop/001,"Final of the Costanera Avenue and the Del Maestro Avenue. Platforms of the green line (Línea verde)."
-stops,stop_desc,en,obrajes____/stat/001,"Height of 17th Street (near the Esperanza Bridge)."
-stops,stop_desc,en,obrajes____/stop/001,"Height of 17th Street (near the Esperanza Bridge). Platforms of the green line (Línea verde)."
-stops,stop_desc,en,irpavi_____/stat/001,"Military School of the Army, at the height of 12th Street of Calacoto."
-stops,stop_desc,en,irpavi_____/stop/001,"Military School of the Army, at the height of 12th Street of Calacoto. Platforms of the green line (Línea verde)."
-stops,stop_desc,en,rio_seco___/stat/001,"El Alto, Juan Pablo II Avenue and the detour towards the town of Copacabana."
-stops,stop_desc,en,rio_seco___/stop/001,"El Alto, Juan Pablo II Avenue and the detour towards the town of Copacabana. Platforms of the blue line (Línea azul)."
-stops,stop_desc,en,upea_______/stat/001,"El Alto, 16 de Julio Avenue between Sucre A and Sucre B Avenues."
-stops,stop_desc,en,upea_______/stop/001,"El Alto, 16 de Julio Avenue between Sucre A and Sucre B Avenues. Platforms of the blue line (Línea azul)."
-stops,stop_desc,en,plaza_la_pa/stat/001,"El Alto, 16 de Julio Avenue corner with La Paz Avenue."
-stops,stop_desc,en,plaza_la_pa/stop/001,"El Alto, 16 de Julio Avenue corner with La Paz Avenue. Platforms of the blue line (Línea azul)."
-stops,stop_desc,en,plaza_liber/stat/001,"El Alto, Alfonso Ugarte Avenue and 16 de Julio Avenue."
-stops,stop_desc,en,plaza_liber/stop/001,"El Alto, Alfonso Ugarte Avenue and 16 de Julio Avenue. Platforms of the blue line (Línea azul)."
-stops,stop_desc,en,armentia___/stat/001,"Armentia."
-stops,stop_desc,en,armentia___/stop/001,"Armentia. Platforms of the orange line (Línea naranja)."
-stops,stop_desc,en,periferica_/stat/001,"Av. Periferica."
-stops,stop_desc,en,periferica_/stop/001,"Periferica Avenue. Platforms of the orange line (Línea naranja)."
-stops,stop_desc,en,villarroel_/stat/001,"Villarroel Square."
-stops,stop_desc,en,villarroel_/stop/001,"Villarroel Square. Platforms of the orange line (Línea naranja)."
-stops,stop_desc,en,villarroel_/stop/002,"Villarroel Square. Platforms of the white line (Línea blanca)."
-stops,stop_desc,en,busch______/stat/001,"Busch Avenue."
-stops,stop_desc,en,busch______/stop/001,"Busch Avenue. Platforms of the white line (Línea blanca)."
-stops,stop_desc,en,busch______/stop/002,"Busch Avenue. Platforms of the brown line (Línea café)."
-stops,stop_desc,en,triangular_/stat/001,"Miraflores area, Triangular Square."
-stops,stop_desc,en,triangular_/stop/001,"Miraflores area, Triangular Square. Platforms of the white line (Línea blanca)."
-stops,stop_desc,en,del_poeta__/stat/001,"Av. Del Poeta."
-stops,stop_desc,en,del_poeta__/stop/001,"Del Poeta Avenue. Platforms of the white line (Línea blanca)."
-stops,stop_desc,en,del_poeta__/stop/002,"Del Poeta Avenue. Platforms of the light blue line (Línea celeste)."
-stops,stop_desc,en,prado______/stat/001,"Prado."
-stops,stop_desc,en,prado______/stop/001,"Prado. Platforms of the light blue line (Línea celeste)."
-stops,stop_desc,en,teatro_al_a/stat/001,"Del Poeta Avenue."
-stops,stop_desc,en,teatro_al_a/stop/001,"Del Poeta Avenue. Platforms of the light blue line (Línea celeste)."
-stops,stop_desc,en,6_de_marzo_/stat/001,"El Alto, 6 de marzo Avenue. No number."
-stops,stop_desc,en,6_de_marzo_/stop/001,"El Alto, 6 de marzo Avenue. No number. Platforms of the purple line (Línea morada)."
-stops,stop_desc,en,faro_murill/stat/001,"El Alto, Faro Murillo."
-stops,stop_desc,en,faro_murill/stop/001,"El Alto, Faro Murillo. Platforms of the purple line (Línea morada), El Alto side."
-stops,stop_desc,en,faro_murill/stop/002,"El Alto, Faro Murillo. Platforms of the purple line (Línea morada), La Paz side."
-stops,stop_desc,en,faro_murill/stop/003,"El Alto, Faro Murillo. Platforms of the silver line (Línea plateada)."
-stops,stop_desc,en,san_jose___/stat/001,"Almirante Grau Street."
-stops,stop_desc,en,san_jose___/stop/001,"Almirante Grau Street. Platforms of the purple line (Línea morada)."
-stops,stop_desc,en,las_villas_/stat/001,"Villa Copacabana area."
-stops,stop_desc,en,las_villas_/stop/001,"Villa Copacabana area. Platforms of the brown line (Línea café)."
-routes,route_desc,en,roja,"El Alto, 16 de Julio Avenue ↔ La Paz, Central Train Station"
-routes,route_desc,en,amar,"El Alto, Ciudad Satelite area ↔ La Paz, Holguin Curve"
-routes,route_desc,en,verd,"La Paz, Holguin curve ↔ La Paz, Irpavi area"
-routes,route_desc,en,azul,"El Alto, 16 de Julio Avenue ↔ El Alto, Rio Seco"
-routes,route_desc,en,nara,"La Paz, Central Train Station ↔ La Paz, Villarroel Square"
-routes,route_desc,en,blan,"La Paz, Central Train Station ↔ La Paz, Arce Avenue"
-routes,route_desc,en,cele,"La Paz, Holguin Curve ↔ La Paz, Prado Avenue"
-routes,route_desc,en,mor1,"El Alto, 6 de Marzo Avenue ↔ El Alto, Faro Murillo"
-routes,route_desc,en,mor2,"El Alto, Faro Murillo ↔ La Paz, Obelisk"
-routes,route_desc,en,cafe,"La Paz, Busch Monument ↔ La Paz, Villa Copacabana area"
-routes,route_desc,en,plat,"El Alto, 16 de Julio Avenue ↔ El Alto, Ciudad Satelite area"
+table_name,field_name,language,translation,record_id
+stops,stop_desc,en,"Manco Cápac Avenue, old train station.",estacion_ce/stat/001
+stops,stop_desc,en,"Manco Cápac Avenue, old train station. Platforms of the red line (Línea roja).",estacion_ce/stop/001
+stops,stop_desc,en,"Manco Cápac Avenue, old train station. Platforms of the orange line (Línea naranja).",estacion_ce/stop/002
+stops,stop_desc,en,"Entre Ríos Avenue, behind the Cemetery.",cementerio_/stat/001
+stops,stop_desc,en,"Entre Ríos Avenue, behind the Cemetery. Platforms of the red line (Línea roja).",cementerio_/stop/001
+stops,stop_desc,en,"El Alto, 16 de julio area, Panorámica Norte Avenue.",16_de_julio/stat/001
+stops,stop_desc,en,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the red line (Línea roja).",16_de_julio/stop/001
+stops,stop_desc,en,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the blue line (Línea azul).",16_de_julio/stop/002
+stops,stop_desc,en,"El Alto, 16 de julio area, Panorámica Norte Avenue. Platforms of the silver line (Línea plateada).",16_de_julio/stop/003
+stops,stop_desc,en,"El Alto, Panorámica Avenue. In the region of the satellite antennas.",mirador____/stat/001
+stops,stop_desc,en,"El Alto, Panorámica Avenue. In the region of the satellite antennas. Platforms of the yellow line (Línea amarilla).",mirador____/stop/001
+stops,stop_desc,en,"El Alto, Panorámica Avenue. In the region of the television satellite antennas. Platforms of the silver line (Línea plateada).",mirador____/stop/002
+stops,stop_desc,en,Buenos Aires Avenue and Moxos Street.,buenos_aire/stat/001
+stops,stop_desc,en,Buenos Aires Avenue and Moxos Street. Platforms of the yellow line (Línea amarilla).,buenos_aire/stop/001
+stops,stop_desc,en,"Miguel de Cervantes Street and Saavedra Street, corner with the Méndez Arcos Street.",sopocachi__/stat/001
+stops,stop_desc,en,"Miguel de Cervantes Street and Saavedra Street, corner with the Méndez Arcos Street. Platforms of the yellow line (Línea amarilla).",sopocachi__/stop/001
+stops,stop_desc,en,"Libertador Avenue, at the height of the Holguín Curve.",libertador_/stat/001
+stops,stop_desc,en,"Libertador Avenue, at the height of the Holguín Curve. Platforms of the yellow line (Línea amarilla).",libertador_/stop/001
+stops,stop_desc,en,"Libertador Avenue, at the height of the Holguín Curve. Platforms of the green line (Línea verde).",libertador_/stop/002
+stops,stop_desc,en,Holguín Curve. Platforms of the light blue line (Línea celeste).,libertador_/stop/003
+stops,stop_desc,en,Final of the Costanera Avenue and the Del Maestro Avenue.,alto_obraje/stat/001
+stops,stop_desc,en,Final of the Costanera Avenue and the Del Maestro Avenue. Platforms of the green line (Línea verde).,alto_obraje/stop/001
+stops,stop_desc,en,Height of 17th Street (near the Esperanza Bridge).,obrajes____/stat/001
+stops,stop_desc,en,Height of 17th Street (near the Esperanza Bridge). Platforms of the green line (Línea verde).,obrajes____/stop/001
+stops,stop_desc,en,"Military School of the Army, at the height of 12th Street of Calacoto.",irpavi_____/stat/001
+stops,stop_desc,en,"Military School of the Army, at the height of 12th Street of Calacoto. Platforms of the green line (Línea verde).",irpavi_____/stop/001
+stops,stop_desc,en,"El Alto, Juan Pablo II Avenue and the detour towards the town of Copacabana.",rio_seco___/stat/001
+stops,stop_desc,en,"El Alto, Juan Pablo II Avenue and the detour towards the town of Copacabana. Platforms of the blue line (Línea azul).",rio_seco___/stop/001
+stops,stop_desc,en,"El Alto, 16 de Julio Avenue between Sucre A and Sucre B Avenues.",upea_______/stat/001
+stops,stop_desc,en,"El Alto, 16 de Julio Avenue between Sucre A and Sucre B Avenues. Platforms of the blue line (Línea azul).",upea_______/stop/001
+stops,stop_desc,en,"El Alto, 16 de Julio Avenue corner with La Paz Avenue.",plaza_la_pa/stat/001
+stops,stop_desc,en,"El Alto, 16 de Julio Avenue corner with La Paz Avenue. Platforms of the blue line (Línea azul).",plaza_la_pa/stop/001
+stops,stop_desc,en,"El Alto, Alfonso Ugarte Avenue and 16 de Julio Avenue.",plaza_liber/stat/001
+stops,stop_desc,en,"El Alto, Alfonso Ugarte Avenue and 16 de Julio Avenue. Platforms of the blue line (Línea azul).",plaza_liber/stop/001
+stops,stop_desc,en,Armentia.,armentia___/stat/001
+stops,stop_desc,en,Armentia. Platforms of the orange line (Línea naranja).,armentia___/stop/001
+stops,stop_desc,en,Av. Periferica.,periferica_/stat/001
+stops,stop_desc,en,Periferica Avenue. Platforms of the orange line (Línea naranja).,periferica_/stop/001
+stops,stop_desc,en,Villarroel Square.,villarroel_/stat/001
+stops,stop_desc,en,Villarroel Square. Platforms of the orange line (Línea naranja).,villarroel_/stop/001
+stops,stop_desc,en,Villarroel Square. Platforms of the white line (Línea blanca).,villarroel_/stop/002
+stops,stop_desc,en,Busch Avenue.,busch______/stat/001
+stops,stop_desc,en,Busch Avenue. Platforms of the white line (Línea blanca).,busch______/stop/001
+stops,stop_desc,en,Busch Avenue. Platforms of the brown line (Línea café).,busch______/stop/002
+stops,stop_desc,en,"Miraflores area, Triangular Square.",triangular_/stat/001
+stops,stop_desc,en,"Miraflores area, Triangular Square. Platforms of the white line (Línea blanca).",triangular_/stop/001
+stops,stop_desc,en,Av. Del Poeta.,del_poeta__/stat/001
+stops,stop_desc,en,Del Poeta Avenue. Platforms of the white line (Línea blanca).,del_poeta__/stop/001
+stops,stop_desc,en,Del Poeta Avenue. Platforms of the light blue line (Línea celeste).,del_poeta__/stop/002
+stops,stop_desc,en,Prado.,prado______/stat/001
+stops,stop_desc,en,Prado. Platforms of the light blue line (Línea celeste).,prado______/stop/001
+stops,stop_desc,en,Del Poeta Avenue.,teatro_al_a/stat/001
+stops,stop_desc,en,Del Poeta Avenue. Platforms of the light blue line (Línea celeste).,teatro_al_a/stop/001
+stops,stop_desc,en,"El Alto, 6 de marzo Avenue. No number.",6_de_marzo_/stat/001
+stops,stop_desc,en,"El Alto, 6 de marzo Avenue. No number. Platforms of the purple line (Línea morada).",6_de_marzo_/stop/001
+stops,stop_desc,en,"El Alto, Faro Murillo.",faro_murill/stat/001
+stops,stop_desc,en,"El Alto, Faro Murillo. Platforms of the purple line (Línea morada), El Alto side.",faro_murill/stop/001
+stops,stop_desc,en,"El Alto, Faro Murillo. Platforms of the purple line (Línea morada), La Paz side.",faro_murill/stop/002
+stops,stop_desc,en,"El Alto, Faro Murillo. Platforms of the silver line (Línea plateada).",faro_murill/stop/003
+stops,stop_desc,en,Almirante Grau Street.,san_jose___/stat/001
+stops,stop_desc,en,Almirante Grau Street. Platforms of the purple line (Línea morada).,san_jose___/stop/001
+stops,stop_desc,en,Villa Copacabana area.,las_villas_/stat/001
+stops,stop_desc,en,Villa Copacabana area. Platforms of the brown line (Línea café).,las_villas_/stop/001
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ La Paz, Central Train Station",roja
+routes,route_desc,en,"El Alto, Ciudad Satelite area ↔ La Paz, Holguin Curve",amar
+routes,route_desc,en,"La Paz, Holguin curve ↔ La Paz, Irpavi area",verd
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Rio Seco",azul
+routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Villarroel Square",nara
+routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Arce Avenue",blan
+routes,route_desc,en,"La Paz, Holguin Curve ↔ La Paz, Prado Avenue",cele
+routes,route_desc,en,"El Alto, 6 de Marzo Avenue ↔ El Alto, Faro Murillo",mor1
+routes,route_desc,en,"El Alto, Faro Murillo ↔ La Paz, Obelisk",mor2
+routes,route_desc,en,"La Paz, Busch Monument ↔ La Paz, Villa Copacabana area",cafe
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Ciudad Satelite area",plat
