@@ -10,9 +10,13 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 2
 
-[*.{py,sh,yml,yaml}]
+[*.{py,sh}]
 indent_style = space
 indent_size = 4
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
 
 [Makefile]
 indent_style = tab
