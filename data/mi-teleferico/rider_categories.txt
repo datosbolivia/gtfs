@@ -1,3 +1,3 @@
 rider_category_id,rider_category_name,is_default_fare_category,eligibility_url
-rc_general,General,1,https://www.miteleferico.bo/nosotros/tarjetas
-rc_preferencial,Preferencial o Estudiantil,0,https://www.miteleferico.bo/nosotros/tarjetas
+rc/general,General,1,https://www.miteleferico.bo/nosotros/tarjetas
+rc/preferencial,Preferencial o Estudiantil,0,https://www.miteleferico.bo/nosotros/tarjetas

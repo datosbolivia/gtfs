@@ -184,7 +184,7 @@ No incluido, porque las tarifas son fijas, sin importar el momento del día o de
 
 ### código
 
-- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc_general` y `rc_preferencial`.
+- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc/general` y `rc/preferencial`.
 
 ### justificaciones
 
