@@ -178,6 +178,8 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## timeframes.txt
 
+No incluido, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+
 ## rider_categories.txt
 
 ## fare_media.txt
@@ -196,7 +198,35 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## networks.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#networkstxt).
+
+### código
+
+- `network_id`: solo hay una red, se puso `n_rim`.
+
+### justificaciones
+
+El nombre de la red es Red de Integración Metropolitana.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
+
 ## route_networks.txt
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#route_networkstxt]
+
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Se crea una entrada por cada ruta del teleférico, todas para la red `n_rim`.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## shapes.txt
 
