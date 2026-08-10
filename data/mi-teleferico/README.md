@@ -246,7 +246,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-- `shape_id`: el formato es `roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el código de la línea, y luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios). Los dos subcampos están separados por `/`.
+- `shape_id`: el formato es `sh/roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el prefijo `sh`, luego el código de la línea, y luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios). Los subcampos están separados por `/`.
 
 ### justificaciones
 
