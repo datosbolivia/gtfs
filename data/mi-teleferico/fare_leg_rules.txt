@@ -1,5 +1,5 @@
 leg_group_id,fare_product_id
-leg_regular,tarifa_regular_base_ticket
-leg_regular,tarifa_regular_base_tarjeta
-leg_regular,tarifa_regular_base_movil
-leg_preferencial,tarifa_preferencial_base_tarjeta
+leg_regular,fp/general/ticket/primera_linea
+leg_regular,fp/general/tarjeta/primera_linea
+leg_regular,fp/general/movil/primera_linea
+leg_preferencial,fp/preferencial/tarjeta/primera_linea
