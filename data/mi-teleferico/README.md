@@ -15,7 +15,7 @@ Para todos los archivos:
 
 ### código
 
-`agency_id`: solo hay un registro, y puse "ag_mi_teleferico".
+`agency_id`: solo hay un registro, y puse "ag/mi_teleferico".
 
 ### justificaciones
 

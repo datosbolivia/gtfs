@@ -1,12 +1,12 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order
-ro_roja,ag_mi_teleferico,Roja,Línea Roja de Mi Teleférico,"El Alto, 16 de Julio ↔ La Paz, Central",6,https://www.miteleferico.bo/lineas/linea-roja,e40613,ffffff,0
-ro_amarilla,ag_mi_teleferico,Amarilla,Línea Amarilla de Mi Teleférico,"El Alto, Ciudad Satelite ↔ La Paz, Curva de Holguin",6,https://www.miteleferico.bo/lineas/linea-amarilla,ffed03,000000,1
-ro_verde,ag_mi_teleferico,Verde,Línea Verde de Mi Teleférico,"La Paz, Curva de Holguin ↔ La Paz, Irpavi",6,https://www.miteleferico.bo/lineas/linea-verde,0b983a,ffffff,2
-ro_azul,ag_mi_teleferico,Azul,Línea Azul de Mi Teleférico,"El Alto, 16 de Julio ↔ El Alto, Rio Seco",6,https://www.miteleferico.bo/lineas/linea-azul,26348d,ffffff,3
-ro_naranja,ag_mi_teleferico,Naranja,Línea Naranja de Mi Teleférico,"La Paz, Central ↔ La Paz, Plaza Villarroel",6,https://www.miteleferico.bo/lineas/linea-naranja,ea5b0d,ffffff,4
-ro_blanca,ag_mi_teleferico,Blanca,Línea Blanca de Mi Teleférico,"La Paz, Central ↔ La Paz, Avenida Arce",6,https://www.miteleferico.bo/lineas/linea-blanca,ffffff,000000,5
-ro_celeste,ag_mi_teleferico,Celeste,Línea Celeste de Mi Teleférico,"La Paz, Curva de Holguin ↔ La Paz, Prado",6,https://www.miteleferico.bo/lineas/linea-celeste,009fe3,ffffff,6
-ro_morada_2,ag_mi_teleferico,Morada 2,Línea Morada de Mi Teleférico - 6 de Marzo ↔ Faro Murillo,"El Alto, 6 de Marzo ↔ El Alto, Faro Murillo",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,7
-ro_morada_1,ag_mi_teleferico,Morada 1,Línea Morada de Mi Teleférico - Faro Murillo ↔ Obelisco,"El Alto, Faro Murillo ↔ La Paz, Obelisco",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,8
-ro_cafe,ag_mi_teleferico,Café,Línea Café de Mi Teleférico,"La Paz, Monumento Busch ↔ La Paz, Villa Copacabana",6,https://www.miteleferico.bo/lineas/linea-cafe,683b12,ffffff,9
-ro_plateada,ag_mi_teleferico,Plateada,Línea Plateada de Mi Teleférico,"El Alto, 16 de Julio ↔ El Alto, Ciudad Satelite",6,https://www.miteleferico.bo/lineas/linea-plateada,9c9aa0,ffffff,10
+ro_roja,ag/mi_teleferico,Roja,Línea Roja de Mi Teleférico,"El Alto, 16 de Julio ↔ La Paz, Central",6,https://www.miteleferico.bo/lineas/linea-roja,e40613,ffffff,0
+ro_amarilla,ag/mi_teleferico,Amarilla,Línea Amarilla de Mi Teleférico,"El Alto, Ciudad Satelite ↔ La Paz, Curva de Holguin",6,https://www.miteleferico.bo/lineas/linea-amarilla,ffed03,000000,1
+ro_verde,ag/mi_teleferico,Verde,Línea Verde de Mi Teleférico,"La Paz, Curva de Holguin ↔ La Paz, Irpavi",6,https://www.miteleferico.bo/lineas/linea-verde,0b983a,ffffff,2
+ro_azul,ag/mi_teleferico,Azul,Línea Azul de Mi Teleférico,"El Alto, 16 de Julio ↔ El Alto, Rio Seco",6,https://www.miteleferico.bo/lineas/linea-azul,26348d,ffffff,3
+ro_naranja,ag/mi_teleferico,Naranja,Línea Naranja de Mi Teleférico,"La Paz, Central ↔ La Paz, Plaza Villarroel",6,https://www.miteleferico.bo/lineas/linea-naranja,ea5b0d,ffffff,4
+ro_blanca,ag/mi_teleferico,Blanca,Línea Blanca de Mi Teleférico,"La Paz, Central ↔ La Paz, Avenida Arce",6,https://www.miteleferico.bo/lineas/linea-blanca,ffffff,000000,5
+ro_celeste,ag/mi_teleferico,Celeste,Línea Celeste de Mi Teleférico,"La Paz, Curva de Holguin ↔ La Paz, Prado",6,https://www.miteleferico.bo/lineas/linea-celeste,009fe3,ffffff,6
+ro_morada_2,ag/mi_teleferico,Morada 2,Línea Morada de Mi Teleférico - 6 de Marzo ↔ Faro Murillo,"El Alto, 6 de Marzo ↔ El Alto, Faro Murillo",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,7
+ro_morada_1,ag/mi_teleferico,Morada 1,Línea Morada de Mi Teleférico - Faro Murillo ↔ Obelisco,"El Alto, Faro Murillo ↔ La Paz, Obelisco",6,https://www.miteleferico.bo/lineas/linea-morada,82358c,ffffff,8
+ro_cafe,ag/mi_teleferico,Café,Línea Café de Mi Teleférico,"La Paz, Monumento Busch ↔ La Paz, Villa Copacabana",6,https://www.miteleferico.bo/lineas/linea-cafe,683b12,ffffff,9
+ro_plateada,ag/mi_teleferico,Plateada,Línea Plateada de Mi Teleférico,"El Alto, 16 de Julio ↔ El Alto, Ciudad Satelite",6,https://www.miteleferico.bo/lineas/linea-plateada,9c9aa0,ffffff,10
