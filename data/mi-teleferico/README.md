@@ -23,7 +23,7 @@ Nada especial.
 
 ### campos no incluidos
 
-- `agency_fare_url`. Ver https://github.com/datosbolivia/gtfs/issues/14.
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## stops.txt
 
@@ -98,7 +98,6 @@ Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openst
 
 - `trip_short_name`: no aplica, es más para trenes
 - `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distinctas, pero no se cobra trasbordo cuando uno pasa de `mor1` a `mor2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
-- `shape_id`: llenar cuando se tenga el archivo de `shapes.txt`. Ver https://github.com/datosbolivia/gtfs/issues/23.
 - `safe_duration_factor`: no aplica
 - `safe_duration_offset`: no aplica
 
@@ -211,7 +210,7 @@ No se definen códigos en este archivo.
 
 Utilicé este archivo para indicar el tiempo de espera entre dos cabinas sucesivas, y los horarios de servicio de cada línea. De esta forma, el archivo `stop_times.txt` es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
 
-Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo. Ver https://github.com/datosbolivia/gtfs/issues/24.
+Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo. A notar que se cambió de 20s a 12s (o 9s) según la línea, en #29. La discusión se encuentra en https://github.com/datosbolivia/gtfs/issues/24.
 
 ### campos no incluidos
 
