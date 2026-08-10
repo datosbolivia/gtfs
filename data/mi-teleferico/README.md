@@ -7,7 +7,7 @@ Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay info
 Para todos los archivos:
 - no incluí los campos vacíos para todas las líneas,
 - los campos se ordenan automáticamente según el [GTFS Schedule Reference](https://gtfs.org/documentation/schedule/reference/) mediante el linter (`make lint`). Los campos de identificación van a la izquierda, y los campos menos importantes a la derecha,
-- para los códigos (***_id), establecí un tamaño constante para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo cuando se pueda.
+- para los códigos (***_id), tratamos de que el código sea auto-explicativo cuando se pueda, y que empiece por un prefijo que indica la tabla (por ejemplo: `rc_` para `rider_category`).
 
 ## agency.txt
 
@@ -181,6 +181,18 @@ Todos los campos están incluidos, no hay campos vacíos.
 No incluido, porque las tarifas son fijas, sin importar el momento del día o de la semana.
 
 ## rider_categories.txt
+
+### código
+
+- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc_general` y `rc_preferencial`.
+
+### justificaciones
+
+En realidad, hay tres tipos de pasajeros: General, Preferencial y Estudiantil. Pero como la tarifa preferencial y la tarifa estudiantil son las mismas, no vale la pena distinguirlos aquí.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_media.txt
 
