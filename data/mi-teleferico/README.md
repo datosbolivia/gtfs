@@ -200,6 +200,16 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## shapes.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#shapestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#shapestxt).
+
+### código
+
+- `shape_id`: el formato es `roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el código de la línea, y luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios). Los dos subcampos están separados por `/`.
+
+### justificaciones
+
+### campos no incluidos
+
 ## frequencies.txt
 
 [Referencia](https://gtfs.org/documentation/schedule/reference/#frequenciestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#frequenciestxt).
