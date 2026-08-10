@@ -130,7 +130,7 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 - `drop_off_type`: no aplica
 - `continuous_pickup`: no aplica
 - `continuous_drop_off`: no aplica
-- `shape_dist_traveled`: no tenemos `shapes.txt` todavía. Se podría poner un valor una vez se tenga `shapes.txt`, para indicar la distancia recorrida desde el inicio del trayecto (ver https://github.com/datosbolivia/gtfs/issues/23).
+- `shape_dist_traveled`: Se podría poner un valor, basado en los valores de `shapes.txt`, para indicar la distancia recorrida desde el inicio del trayecto (ver https://github.com/datosbolivia/gtfs/issues/23).
 - `pickup_booking_rule_id`: no aplica
 - `drop_off_booking_rule_id`: no aplica
 
@@ -199,6 +199,20 @@ Todos los campos están incluidos, no hay campos vacíos.
 ## route_networks.txt
 
 ## shapes.txt
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#shapestxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#shapestxt).
+
+### código
+
+- `shape_id`: el formato es `roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el código de la línea, y luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios). Los dos subcampos están separados por `/`.
+
+### justificaciones
+
+Por el momento, solo incluye un punto por estación. Idealmente, tendríamos la ubicación de cada poste de la línea, entre las estaciones. La información está en OpenStreetMap. Ver https://github.com/datosbolivia/gtfs/issues/23.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## frequencies.txt
 
