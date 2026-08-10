@@ -63,7 +63,7 @@ Puse `stop_access` a `0` en todos los stops, porque no se puede acceder a los an
 
 ### código
 
-`route_id`: usar las cuatro primeras letras del color, en minúsculas (`Línea Amarilla` -> `amar`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `mor1` y `mor2`.
+`route_id`: prefijo `ro_` y el color de la línea en minúsculas (`Línea Amarilla` -> `ro_amarilla`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `ro_morada_1` y `ro_morada_2`.
 
 ### justificaciones
 

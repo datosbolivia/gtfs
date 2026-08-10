@@ -62,14 +62,14 @@ stops,stop_desc,en,Almirante Grau Street.,san_jose___/stat/001
 stops,stop_desc,en,Almirante Grau Street. Platforms of the purple line (Línea morada).,san_jose___/stop/001
 stops,stop_desc,en,Villa Copacabana area.,las_villas_/stat/001
 stops,stop_desc,en,Villa Copacabana area. Platforms of the brown line (Línea café).,las_villas_/stop/001
-routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ La Paz, Central Train Station",roja
-routes,route_desc,en,"El Alto, Ciudad Satelite area ↔ La Paz, Holguin Curve",amar
-routes,route_desc,en,"La Paz, Holguin curve ↔ La Paz, Irpavi area",verd
-routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Rio Seco",azul
-routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Villarroel Square",nara
-routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Arce Avenue",blan
-routes,route_desc,en,"La Paz, Holguin Curve ↔ La Paz, Prado Avenue",cele
-routes,route_desc,en,"El Alto, 6 de Marzo Avenue ↔ El Alto, Faro Murillo",mor2
-routes,route_desc,en,"El Alto, Faro Murillo ↔ La Paz, Obelisk",mor1
-routes,route_desc,en,"La Paz, Busch Monument ↔ La Paz, Villa Copacabana area",cafe
-routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Ciudad Satelite area",plat
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ La Paz, Central Train Station",ro_roja
+routes,route_desc,en,"El Alto, Ciudad Satelite area ↔ La Paz, Holguin Curve",ro_amarilla
+routes,route_desc,en,"La Paz, Holguin curve ↔ La Paz, Irpavi area",ro_verde
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Rio Seco",ro_azul
+routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Villarroel Square",ro_naranja
+routes,route_desc,en,"La Paz, Central Train Station ↔ La Paz, Arce Avenue",ro_blanca
+routes,route_desc,en,"La Paz, Holguin Curve ↔ La Paz, Prado Avenue",ro_celeste
+routes,route_desc,en,"El Alto, 6 de Marzo Avenue ↔ El Alto, Faro Murillo",ro_morada_2
+routes,route_desc,en,"El Alto, Faro Murillo ↔ La Paz, Obelisk",ro_morada_1
+routes,route_desc,en,"La Paz, Busch Monument ↔ La Paz, Villa Copacabana area",ro_cafe
+routes,route_desc,en,"El Alto, 16 de Julio Avenue ↔ El Alto, Ciudad Satelite area",ro_plateada
