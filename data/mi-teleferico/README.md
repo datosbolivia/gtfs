@@ -98,7 +98,6 @@ Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openst
 
 - `trip_short_name`: no aplica, es más para trenes
 - `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distinctas, pero no se cobra trasbordo cuando uno pasa de `mor1` a `mor2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
-- `shape_id`: llenar cuando se tenga el archivo de `shapes.txt`. Ver https://github.com/datosbolivia/gtfs/issues/23.
 - `safe_duration_factor`: no aplica
 - `safe_duration_offset`: no aplica
 
