@@ -6,7 +6,7 @@ Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay info
 
 Para todos los archivos:
 - no incluí los campos vacíos para todas las líneas,
-- ordene los campos poniendo los campos de identificacióna a la izquierda, y los campos menos importantes a la derecha,
+- los campos se ordenan automáticamente según el [GTFS Schedule Reference](https://gtfs.org/documentation/schedule/reference/) mediante el linter (`make lint`). Los campos de identificación van a la izquierda, y los campos menos importantes a la derecha,
 - para los códigos (***_id), establecí un tamaño constante para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo cuando se pueda.
 
 ## agency.txt
