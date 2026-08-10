@@ -343,7 +343,7 @@ Para `feed_version`, inicie con `1`. Sería bueno incrementarlo para cada cambio
 
 ### código
 
-- `attribution_id`: puse `at_datos_bolivia`, porque es la organización que genera los datos (data producer). Ver https://gtfs.org/documentation/schedule/examples/attributions/.
+- `attribution_id`: puse `at/datos_bolivia`, porque es la organización que genera los datos (data producer). Ver https://gtfs.org/documentation/schedule/examples/attributions/.
 
 ### justificaciones
 
