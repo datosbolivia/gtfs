@@ -23,7 +23,7 @@ Nada especial.
 
 ### campos no incluidos
 
-- `agency_fare_url`. Ver https://github.com/datosbolivia/gtfs/issues/14.
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## stops.txt
 
