@@ -86,7 +86,7 @@ Para `route_desc`, describí las dos zonas que conecta cada línea para dar más
 
 ### código
 
-`trip_id`: el formato es `roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación de destino (minusculas y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de_semana`). Los tres subcampos están separados por `/`.
+`trip_id`: el formato es `tr/roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el prefijo `tr`, luego el código de la línea, luego el nombre de la estación de destino (minusculas y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de_semana`). Los subcampos están separados por `/`.
 
 ### justificaciones
 
