@@ -1,9 +1,9 @@
 fare_product_id,fare_product_name,rider_category_id,fare_media_id,amount,currency
-tarifa_regular_base_ticket,Tarifa Regular Primera Línea,rc/general,ticket,3.00,BOB
-transbordo_regular_ticket,Transbordo Regular,rc/general,ticket,2.00,BOB
-tarifa_regular_base_tarjeta,Tarifa Regular Primera Línea,rc/general,tarjeta,3.00,BOB
-transbordo_regular_tarjeta,Transbordo Regular,rc/general,tarjeta,2.00,BOB
-tarifa_regular_base_movil,Tarifa Regular Primera Línea,rc/general,movil,3.00,BOB
-transbordo_regular_movil,Transbordo Regular,rc/general,movil,2.00,BOB
-tarifa_preferencial_base_tarjeta,Tarifa Preferencial / Estudiantil Primera Línea,rc/preferencial,tarjeta,1.50,BOB
-transbordo_preferencial_tarjeta,Transbordo Preferencial / Estudiantil,rc/preferencial,tarjeta,1.00,BOB
+tarifa_regular_base_ticket,Tarifa Regular Primera Línea,rc/general,fm/ticket,3.00,BOB
+transbordo_regular_ticket,Transbordo Regular,rc/general,fm/ticket,2.00,BOB
+tarifa_regular_base_tarjeta,Tarifa Regular Primera Línea,rc/general,fm/tarjeta,3.00,BOB
+transbordo_regular_tarjeta,Transbordo Regular,rc/general,fm/tarjeta,2.00,BOB
+tarifa_regular_base_movil,Tarifa Regular Primera Línea,rc/general,fm/movil,3.00,BOB
+transbordo_regular_movil,Transbordo Regular,rc/general,fm/movil,2.00,BOB
+tarifa_preferencial_base_tarjeta,Tarifa Preferencial / Estudiantil Primera Línea,rc/preferencial,fm/tarjeta,1.50,BOB
+transbordo_preferencial_tarjeta,Transbordo Preferencial / Estudiantil,rc/preferencial,fm/tarjeta,1.00,BOB

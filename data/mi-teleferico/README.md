@@ -196,6 +196,20 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_media.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#fare_mediatxt).
+
+### código
+
+- `fare_media_id`: solo hay tres tipos de medios de pago: Boleto, Tarjeta y App Móvil. Los códigos son: `fm/ticket`, `fm/tarjeta` y `fm/movil`.
+
+### justificaciones
+
+Nada específico.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
+
 ## fare_products.txt
 
 ## fare_leg_rules.txt
