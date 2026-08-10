@@ -1,7 +1,7 @@
 fare_id,price,currency_type,payment_method,transfers,agency_id,transfer_duration
-preferencial,1.5,BOB,1,0,mi_teleferico,
-preferencial_1_transfer,2.5,BOB,1,1,mi_teleferico,7200
-preferencial_2_transfers,3.5,BOB,1,2,mi_teleferico,7200
-regular,3.0,BOB,1,0,mi_teleferico,
-regular_1_transfer,5.0,BOB,1,1,mi_teleferico,7200
-regular_2_transfers,7.0,BOB,1,2,mi_teleferico,7200
+preferencial,1.5,BOB,1,0,ag/mi_teleferico,
+preferencial_1_transfer,2.5,BOB,1,1,ag/mi_teleferico,7200
+preferencial_2_transfers,3.5,BOB,1,2,ag/mi_teleferico,7200
+regular,3.0,BOB,1,0,ag/mi_teleferico,
+regular_1_transfer,5.0,BOB,1,1,ag/mi_teleferico,7200
+regular_2_transfers,7.0,BOB,1,2,ag/mi_teleferico,7200

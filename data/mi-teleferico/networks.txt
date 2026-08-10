@@ -1,2 +1,2 @@
 network_id,network_name
-n_rim,Red de Integración Metropolitana
+ne/rim,Red de Integración Metropolitana

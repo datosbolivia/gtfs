@@ -7,7 +7,7 @@ Creo que no tiene sentido generar un GTFS de tipo "Realtime", porque no hay info
 Para todos los archivos:
 - no incluí los campos vacíos para todas las líneas,
 - los campos se ordenan automáticamente según el [GTFS Schedule Reference](https://gtfs.org/documentation/schedule/reference/) mediante el linter (`make lint`). Los campos de identificación van a la izquierda, y los campos menos importantes a la derecha,
-- para los códigos (***_id), establecí un tamaño constante para facilitar el alineamiento vertical. También traté de que el código sea auto-explicativo cuando se pueda.
+- para los códigos (***_id), tratamos de que el código sea auto-explicativo cuando se pueda, y que empiece por un prefijo que indica la tabla (por ejemplo: `rc_` para `rider_category`).
 
 ## agency.txt
 
@@ -15,7 +15,7 @@ Para todos los archivos:
 
 ### código
 
-`agency_id`: solo hay un registro, y puse "mi_teleferico".
+`agency_id`: solo hay un registro, y puse "ag/mi_teleferico".
 
 ### justificaciones
 
@@ -31,13 +31,13 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-`stop_id`: el formato es `estacion_c/stat/001` para el stop de tipo `station` de la Estación Central, y `estacion_c/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos, y truncando a 10 caracteres. Luego, el tipo de "stop" (ver `location_type`, codificada con 4 caracteres: `stop`, `stat`, `entr`, `gene`, `boar`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los tres subcampos están separados por `/`.
+`stop_id`: el formato es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central, y `st/estacion_central/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los subcampos están separados por `/`.
 
 ### justificaciones
 
 Para la ubicación de los stops de tipo `stop`, usé las coordenadas de OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para los andenes de la línea Roja en la Estación Central).
 
-Para la ubicación de los stops de tipo `stat`, usé las coordenadas del punto de la etiqueta del polígono de la estación en OSM (por ejemplo, https://www.openstreetmap.org/way/549632678#map=19/-16.491656/-68.144576, mientras la estación es https://www.openstreetmap.org/relation/8703332).
+Para la ubicación de los stops de tipo `station`, usé las coordenadas del punto de la etiqueta del polígono de la estación en OSM (por ejemplo, https://www.openstreetmap.org/way/549632678#map=19/-16.491656/-68.144576, mientras la estación es https://www.openstreetmap.org/relation/8703332).
 
 Para los nombres, evité poner `Estación` al inicio, como recomendado en https://gtfs.org/documentation/schedule/best-practices/#stopstxt. Excepción: `Estación Central`, porque se refiere a la estación central de trenes.
 
@@ -63,7 +63,7 @@ Puse `stop_access` a `0` en todos los stops, porque no se puede acceder a los an
 
 ### código
 
-`route_id`: usar las cuatro primeras letras del color, en minúsculas (`Línea Amarilla` -> `amar`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `mor1` y `mor2`.
+`route_id`: prefijo `ro/` y el color de la línea en minúsculas (`Línea Amarilla` -> `ro/amarilla`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `ro/morada_1` y `ro/morada_2`.
 
 ### justificaciones
 
@@ -86,11 +86,11 @@ Para `route_desc`, describí las dos zonas que conecta cada línea para dar más
 
 ### código
 
-`trip_id`: el formato es `roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de`). Los tres subcampos están separados por `/`.
+`trip_id`: el formato es `tr/roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el prefijo `tr`, luego el código de la línea, luego el nombre de la estación de destino (minusculas y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de_semana`). Los subcampos están separados por `/`.
 
 ### justificaciones
 
-Para cada ruta, hay cuatro trips: dos direcciones, y uno para la semana y otro para fin de semana. Por ejemplo, para la línea Roja, hay cuatro trips: `roja/16_de_julio/semana`, `roja/16_de_julio/fin_de`, `roja/estacion_c/semana` y `roja/estacion_c/fin_de`.
+Para cada ruta, hay cuatro trips: dos direcciones, y uno para la semana y otro para fin de semana. Por ejemplo, para la línea Roja, hay cuatro trips: `roja/16_de_julio/semana`, `roja/16_de_julio/fin_de_semana`, `roja/estacion_c/semana` y `roja/estacion_c/fin_de_semana`.
 
 Para la dirección, hay que ser coherente entre las líneas, para que la dirección `0` sea la misma para dos líneas sucesivas.
 
@@ -99,7 +99,7 @@ Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openst
 ### campos no incluidos
 
 - `trip_short_name`: no aplica, es más para trenes
-- `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distinctas, pero no se cobra trasbordo cuando uno pasa de `mor1` a `mor2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
+- `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distintas, pero no se cobra trasbordo cuando uno pasa de `morada_1` a `morada_2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
 - `safe_duration_factor`: no aplica
 - `safe_duration_offset`: no aplica
 
@@ -140,7 +140,7 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 
 ### código
 
-`service_id`: puse `semana` para los días de la semana, y `fin_de` para los fines de semana y feriados.
+`service_id`: puse `se/semana` para los días de la semana, y `se/fin_de_semana` para los fines de semana y feriados.
 
 ### justificaciones
 
@@ -162,7 +162,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `semana` y di de alta el servicio `fin_de`, porque se aplica el horario de fin de semana en feriados.
+Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `se/semana` y di de alta el servicio `se/fin_de_semana`, porque se aplica el horario de fin de semana en feriados.
 
 Abrá que actualizar este archivo, porque el estándar recomienda no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/). Ver https://github.com/datosbolivia/gtfs/issues/25.
 
@@ -181,6 +181,18 @@ Todos los campos están incluidos, no hay campos vacíos.
 No incluido, porque las tarifas son fijas, sin importar el momento del día o de la semana.
 
 ## rider_categories.txt
+
+### código
+
+- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc/general` y `rc/preferencial`.
+
+### justificaciones
+
+En realidad, hay tres tipos de pasajeros: General, Preferencial y Estudiantil. Pero como la tarifa preferencial y la tarifa estudiantil son las mismas, no vale la pena distinguirlos aquí.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_media.txt
 
@@ -202,7 +214,7 @@ No incluido, porque las tarifas son fijas, sin importar el momento del día o de
 
 ### código
 
-- `network_id`: solo hay una red, se puso `n_rim`.
+- `network_id`: solo hay una red, se puso `ne/rim`.
 
 ### justificaciones
 
@@ -222,7 +234,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Se crea una entrada por cada ruta del teleférico, todas para la red `n_rim`.
+Se crea una entrada por cada ruta del teleférico, todas para la red `ne/rim`.
 
 ### campos no incluidos
 
@@ -234,7 +246,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-- `shape_id`: el formato es `roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el código de la línea, y luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios). Los dos subcampos están separados por `/`.
+- `shape_id`: el formato es `sh/roja/16_de_julio` para el trayecto de la línea Roja hacia la estación 16 de Julio: primero el prefijo `sh`, luego el código de la línea, y luego el nombre de la estación de destino (minusculas y guiones bajos en vez de espacios). Los subcampos están separados por `/`.
 
 ### justificaciones
 
@@ -331,7 +343,7 @@ Para `feed_version`, inicie con `1`. Sería bueno incrementarlo para cada cambio
 
 ### código
 
-- `attribution_id`: puse `datos_bolivia`, porque es la organización que genera los datos (data producer). Ver https://gtfs.org/documentation/schedule/examples/attributions/.
+- `attribution_id`: puse `at/datos_bolivia`, porque es la organización que genera los datos (data producer). Ver https://gtfs.org/documentation/schedule/examples/attributions/.
 
 ### justificaciones
 
