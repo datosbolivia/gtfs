@@ -31,7 +31,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-`stop_id`: el formato es `estacion_c/stat/001` para el stop de tipo `station` de la Estación Central, y `estacion_c/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`, codificada con 4 caracteres: `stop`, `stat`, `entr`, `gene`, `boar`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los tres subcampos están separados por `/`.
+`stop_id`: el formato es `estacion_c/station/001` para el stop de tipo `station` de la Estación Central, y `estacion_c/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los tres subcampos están separados por `/`.
 
 ### justificaciones
 
@@ -99,7 +99,7 @@ Para `trip_headsign`, utilicé los datos de OSM (por ejemplo: https://www.openst
 ### campos no incluidos
 
 - `trip_short_name`: no aplica, es más para trenes
-- `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distinctas, pero no se cobra trasbordo cuando uno pasa de `morada_1` a `morada_2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
+- `block_id`: podría ser necesario para la línea Morada, porque tuve que cortarla en dos rutas distintas, pero no se cobra trasbordo cuando uno pasa de `morada_1` a `morada_2` (por lo menos, eso supongo). Ver https://github.com/datosbolivia/gtfs/issues/14.
 - `safe_duration_factor`: no aplica
 - `safe_duration_offset`: no aplica
 
