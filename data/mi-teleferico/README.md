@@ -130,7 +130,7 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 - `drop_off_type`: no aplica
 - `continuous_pickup`: no aplica
 - `continuous_drop_off`: no aplica
-- `shape_dist_traveled`: no tenemos `shapes.txt` todavía. Se podría poner un valor una vez se tenga `shapes.txt`, para indicar la distancia recorrida desde el inicio del trayecto (ver https://github.com/datosbolivia/gtfs/issues/23).
+- `shape_dist_traveled`: Se podría poner un valor, basado en los valores de `shapes.txt`, para indicar la distancia recorrida desde el inicio del trayecto (ver https://github.com/datosbolivia/gtfs/issues/23).
 - `pickup_booking_rule_id`: no aplica
 - `drop_off_booking_rule_id`: no aplica
 
@@ -208,7 +208,11 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### justificaciones
 
+Por el momento, solo incluye un punto por estación. Idealmente, tendríamos la ubicación de cada poste de la línea, entre las estaciones. La información está en OpenStreetMap. Ver https://github.com/datosbolivia/gtfs/issues/23.
+
 ### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## frequencies.txt
 
