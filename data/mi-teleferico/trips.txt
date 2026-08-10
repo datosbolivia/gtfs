@@ -1,45 +1,45 @@
 route_id,service_id,trip_id,trip_headsign,direction_id,shape_id,wheelchair_accessible,bikes_allowed,cars_allowed
-ro_amarilla,se_fin_de_semana,amarilla/libertador_/fin_de_semana,CHUQI APU - Libertador,0,sh/amarilla/libertador_,1,1,2
-ro_amarilla,se_fin_de_semana,amarilla/mirador____/fin_de_semana,QHANA PATA - Mirador,1,sh/amarilla/mirador____,1,1,2
-ro_amarilla,se_semana,amarilla/libertador_/semana,CHUQI APU - Libertador,0,sh/amarilla/libertador_,1,1,2
-ro_amarilla,se_semana,amarilla/mirador____/semana,QHANA PATA - Mirador,1,sh/amarilla/mirador____,1,1,2
-ro_azul,se_fin_de_semana,azul/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,1,sh/azul/16_de_julio,1,1,2
-ro_azul,se_fin_de_semana,azul/rio_seco___/fin_de_semana,WAÑA JAWIRA - Rio Seco,0,sh/azul/rio_seco___,1,1,2
-ro_azul,se_semana,azul/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,1,sh/azul/16_de_julio,1,1,2
-ro_azul,se_semana,azul/rio_seco___/semana,WAÑA JAWIRA - Rio Seco,0,sh/azul/rio_seco___,1,1,2
-ro_blanca,se_fin_de_semana,blanca/del_poeta__/fin_de_semana,JALSURI - Del Poeta,1,sh/blanca/del_poeta__,1,1,2
-ro_blanca,se_fin_de_semana,blanca/villarroel_/fin_de_semana,INALMAMA - Héroes de la Revolución,0,sh/blanca/villarroel_,1,1,2
-ro_blanca,se_semana,blanca/del_poeta__/semana,JALSURI - Del Poeta,1,sh/blanca/del_poeta__,1,1,2
-ro_blanca,se_semana,blanca/villarroel_/semana,INALMAMA - Héroes de la Revolución,0,sh/blanca/villarroel_,1,1,2
-ro_cafe,se_fin_de_semana,cafe/busch______/fin_de_semana,QHUIRWA UMA - Defensores del Chaco,1,sh/cafe/busch______,1,1,2
-ro_cafe,se_fin_de_semana,cafe/las_villas_/fin_de_semana,PALLQA THAKI - Las Villas,0,sh/cafe/las_villas_,1,1,2
-ro_cafe,se_semana,cafe/busch______/semana,QHUIRWA UMA - Defensores del Chaco,1,sh/cafe/busch______,1,1,2
-ro_cafe,se_semana,cafe/las_villas_/semana,PALLQA THAKI - Las Villas,0,sh/cafe/las_villas_,1,1,2
-ro_celeste,se_fin_de_semana,celeste/libertador_/fin_de_semana,CHUQI APU - Libertador,1,sh/celeste/libertador_,1,1,2
-ro_celeste,se_fin_de_semana,celeste/prado______/fin_de_semana,CHUKIYA MARKA - Prado,0,sh/celeste/prado______,1,1,2
-ro_celeste,se_semana,celeste/libertador_/semana,CHUQI APU - Libertador,1,sh/celeste/libertador_,1,1,2
-ro_celeste,se_semana,celeste/prado______/semana,CHUKIYA MARKA - Prado,0,sh/celeste/prado______,1,1,2
-ro_morada_1,se_fin_de_semana,morada_1/6_de_marzo_/fin_de_semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_1/6_de_marzo_,1,1,2
-ro_morada_1,se_fin_de_semana,morada_1/san_jose___/fin_de_semana,UTJÄWI - San José,0,sh/morada_1/san_jose___,1,1,2
-ro_morada_1,se_semana,morada_1/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_1/6_de_marzo_,1,1,2
-ro_morada_1,se_semana,morada_1/san_jose___/semana,UTJÄWI - San José,0,sh/morada_1/san_jose___,1,1,2
-ro_morada_2,se_fin_de_semana,morada_2/6_de_marzo_/fin_de_semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_2/6_de_marzo_,1,1,2
-ro_morada_2,se_fin_de_semana,morada_2/san_jose___/fin_de_semana,UTJÄWI - San José,0,sh/morada_2/san_jose___,1,1,2
-ro_morada_2,se_semana,morada_2/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_2/6_de_marzo_,1,1,2
-ro_morada_2,se_semana,morada_2/san_jose___/semana,UTJÄWI - San José,0,sh/morada_2/san_jose___,1,1,2
-ro_naranja,se_fin_de_semana,naranja/estacion_ce/fin_de_semana,TAYPI UTA - Central,0,sh/naranja/estacion_ce,1,1,2
-ro_naranja,se_fin_de_semana,naranja/villarroel_/fin_de_semana,INALMAMA - Héroes de la Revolución,1,sh/naranja/villarroel_,1,1,2
-ro_naranja,se_semana,naranja/estacion_ce/semana,TAYPI UTA - Central,0,sh/naranja/estacion_ce,1,1,2
-ro_naranja,se_semana,naranja/villarroel_/semana,INALMAMA - Héroes de la Revolución,1,sh/naranja/villarroel_,1,1,2
-ro_plateada,se_fin_de_semana,plateada/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,1,sh/plateada/16_de_julio,1,1,2
-ro_plateada,se_fin_de_semana,plateada/mirador____/fin_de_semana,QHANA PATA - Mirador,0,sh/plateada/mirador____,1,1,2
-ro_plateada,se_semana,plateada/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,1,sh/plateada/16_de_julio,1,1,2
-ro_plateada,se_semana,plateada/mirador____/semana,QHANA PATA - Mirador,0,sh/plateada/mirador____,1,1,2
-ro_roja,se_fin_de_semana,roja/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,0,sh/roja/16_de_julio,1,1,2
-ro_roja,se_fin_de_semana,roja/estacion_ce/fin_de_semana,TAYPI UTA - Central,1,sh/roja/estacion_ce,1,1,2
-ro_roja,se_semana,roja/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,0,sh/roja/16_de_julio,1,1,2
-ro_roja,se_semana,roja/estacion_ce/semana,TAYPI UTA - Central,1,sh/roja/estacion_ce,1,1,2
-ro_verde,se_fin_de_semana,verde/irpavi_____/fin_de_semana,IRPAWI - Irpavi,0,sh/verde/irpavi_____,1,1,2
-ro_verde,se_fin_de_semana,verde/libertador_/fin_de_semana,CHUQI APU - Libertador,1,sh/verde/libertador_,1,1,2
-ro_verde,se_semana,verde/irpavi_____/semana,IRPAWI - Irpavi,0,sh/verde/irpavi_____,1,1,2
-ro_verde,se_semana,verde/libertador_/semana,CHUQI APU - Libertador,1,sh/verde/libertador_,1,1,2
+ro_amarilla,se/fin_de_semana,amarilla/libertador_/fin_de_semana,CHUQI APU - Libertador,0,sh/amarilla/libertador_,1,1,2
+ro_amarilla,se/fin_de_semana,amarilla/mirador____/fin_de_semana,QHANA PATA - Mirador,1,sh/amarilla/mirador____,1,1,2
+ro_amarilla,se/semana,amarilla/libertador_/semana,CHUQI APU - Libertador,0,sh/amarilla/libertador_,1,1,2
+ro_amarilla,se/semana,amarilla/mirador____/semana,QHANA PATA - Mirador,1,sh/amarilla/mirador____,1,1,2
+ro_azul,se/fin_de_semana,azul/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,1,sh/azul/16_de_julio,1,1,2
+ro_azul,se/fin_de_semana,azul/rio_seco___/fin_de_semana,WAÑA JAWIRA - Rio Seco,0,sh/azul/rio_seco___,1,1,2
+ro_azul,se/semana,azul/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,1,sh/azul/16_de_julio,1,1,2
+ro_azul,se/semana,azul/rio_seco___/semana,WAÑA JAWIRA - Rio Seco,0,sh/azul/rio_seco___,1,1,2
+ro_blanca,se/fin_de_semana,blanca/del_poeta__/fin_de_semana,JALSURI - Del Poeta,1,sh/blanca/del_poeta__,1,1,2
+ro_blanca,se/fin_de_semana,blanca/villarroel_/fin_de_semana,INALMAMA - Héroes de la Revolución,0,sh/blanca/villarroel_,1,1,2
+ro_blanca,se/semana,blanca/del_poeta__/semana,JALSURI - Del Poeta,1,sh/blanca/del_poeta__,1,1,2
+ro_blanca,se/semana,blanca/villarroel_/semana,INALMAMA - Héroes de la Revolución,0,sh/blanca/villarroel_,1,1,2
+ro_cafe,se/fin_de_semana,cafe/busch______/fin_de_semana,QHUIRWA UMA - Defensores del Chaco,1,sh/cafe/busch______,1,1,2
+ro_cafe,se/fin_de_semana,cafe/las_villas_/fin_de_semana,PALLQA THAKI - Las Villas,0,sh/cafe/las_villas_,1,1,2
+ro_cafe,se/semana,cafe/busch______/semana,QHUIRWA UMA - Defensores del Chaco,1,sh/cafe/busch______,1,1,2
+ro_cafe,se/semana,cafe/las_villas_/semana,PALLQA THAKI - Las Villas,0,sh/cafe/las_villas_,1,1,2
+ro_celeste,se/fin_de_semana,celeste/libertador_/fin_de_semana,CHUQI APU - Libertador,1,sh/celeste/libertador_,1,1,2
+ro_celeste,se/fin_de_semana,celeste/prado______/fin_de_semana,CHUKIYA MARKA - Prado,0,sh/celeste/prado______,1,1,2
+ro_celeste,se/semana,celeste/libertador_/semana,CHUQI APU - Libertador,1,sh/celeste/libertador_,1,1,2
+ro_celeste,se/semana,celeste/prado______/semana,CHUKIYA MARKA - Prado,0,sh/celeste/prado______,1,1,2
+ro_morada_1,se/fin_de_semana,morada_1/6_de_marzo_/fin_de_semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_1/6_de_marzo_,1,1,2
+ro_morada_1,se/fin_de_semana,morada_1/san_jose___/fin_de_semana,UTJÄWI - San José,0,sh/morada_1/san_jose___,1,1,2
+ro_morada_1,se/semana,morada_1/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_1/6_de_marzo_,1,1,2
+ro_morada_1,se/semana,morada_1/san_jose___/semana,UTJÄWI - San José,0,sh/morada_1/san_jose___,1,1,2
+ro_morada_2,se/fin_de_semana,morada_2/6_de_marzo_/fin_de_semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_2/6_de_marzo_,1,1,2
+ro_morada_2,se/fin_de_semana,morada_2/san_jose___/fin_de_semana,UTJÄWI - San José,0,sh/morada_2/san_jose___,1,1,2
+ro_morada_2,se/semana,morada_2/6_de_marzo_/semana,JACH'A THAKI - 6 de Marzo,1,sh/morada_2/6_de_marzo_,1,1,2
+ro_morada_2,se/semana,morada_2/san_jose___/semana,UTJÄWI - San José,0,sh/morada_2/san_jose___,1,1,2
+ro_naranja,se/fin_de_semana,naranja/estacion_ce/fin_de_semana,TAYPI UTA - Central,0,sh/naranja/estacion_ce,1,1,2
+ro_naranja,se/fin_de_semana,naranja/villarroel_/fin_de_semana,INALMAMA - Héroes de la Revolución,1,sh/naranja/villarroel_,1,1,2
+ro_naranja,se/semana,naranja/estacion_ce/semana,TAYPI UTA - Central,0,sh/naranja/estacion_ce,1,1,2
+ro_naranja,se/semana,naranja/villarroel_/semana,INALMAMA - Héroes de la Revolución,1,sh/naranja/villarroel_,1,1,2
+ro_plateada,se/fin_de_semana,plateada/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,1,sh/plateada/16_de_julio,1,1,2
+ro_plateada,se/fin_de_semana,plateada/mirador____/fin_de_semana,QHANA PATA - Mirador,0,sh/plateada/mirador____,1,1,2
+ro_plateada,se/semana,plateada/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,1,sh/plateada/16_de_julio,1,1,2
+ro_plateada,se/semana,plateada/mirador____/semana,QHANA PATA - Mirador,0,sh/plateada/mirador____,1,1,2
+ro_roja,se/fin_de_semana,roja/16_de_julio/fin_de_semana,JACH'A QHATHU - 16 de Julio,0,sh/roja/16_de_julio,1,1,2
+ro_roja,se/fin_de_semana,roja/estacion_ce/fin_de_semana,TAYPI UTA - Central,1,sh/roja/estacion_ce,1,1,2
+ro_roja,se/semana,roja/16_de_julio/semana,JACH'A QHATHU - 16 de Julio,0,sh/roja/16_de_julio,1,1,2
+ro_roja,se/semana,roja/estacion_ce/semana,TAYPI UTA - Central,1,sh/roja/estacion_ce,1,1,2
+ro_verde,se/fin_de_semana,verde/irpavi_____/fin_de_semana,IRPAWI - Irpavi,0,sh/verde/irpavi_____,1,1,2
+ro_verde,se/fin_de_semana,verde/libertador_/fin_de_semana,CHUQI APU - Libertador,1,sh/verde/libertador_,1,1,2
+ro_verde,se/semana,verde/irpavi_____/semana,IRPAWI - Irpavi,0,sh/verde/irpavi_____,1,1,2
+ro_verde,se/semana,verde/libertador_/semana,CHUQI APU - Libertador,1,sh/verde/libertador_,1,1,2

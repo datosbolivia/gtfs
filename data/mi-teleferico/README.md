@@ -140,7 +140,7 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 
 ### código
 
-`service_id`: puse `se_semana` para los días de la semana, y `se_fin_de_semana` para los fines de semana y feriados.
+`service_id`: puse `se/semana` para los días de la semana, y `se/fin_de_semana` para los fines de semana y feriados.
 
 ### justificaciones
 
@@ -162,7 +162,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `se_semana` y di de alta el servicio `se_fin_de_semana`, porque se aplica el horario de fin de semana en feriados.
+Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `se/semana` y di de alta el servicio `se/fin_de_semana`, porque se aplica el horario de fin de semana en feriados.
 
 Abrá que actualizar este archivo, porque el estándar recomienda no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/). Ver https://github.com/datosbolivia/gtfs/issues/25.
 
