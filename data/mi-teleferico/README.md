@@ -178,6 +178,8 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## timeframes.txt
 
+No incluido, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+
 ## rider_categories.txt
 
 ## fare_media.txt
