@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Git Pre-Commit Hook for GTFS Project
+
+set -e
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+
+echo "🔍 Running pre-commit CSV column order check..."
+if ! python3 "$ROOT_DIR/scripts/lint_gtfs_csv.py" --check; then
+    echo "⚠️ Column order or CSV format warnings found. Auto-formatting..."
+    python3 "$ROOT_DIR/scripts/lint_gtfs_csv.py" --fix
+    
+    # Re-stage fixed GTFS files
+    git add "$ROOT_DIR/data/"*.txt 2>/dev/null || true
+    git add "$ROOT_DIR/data/"*/*.txt 2>/dev/null || true
+    echo "✨ Re-formatted files staged!"
+fi

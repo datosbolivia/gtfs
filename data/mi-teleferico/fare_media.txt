@@ -1,0 +1,4 @@
+fare_media_id,fare_media_name,fare_media_type
+ticket,Boleto / Ticket,1
+tarjeta,Tarjeta,2
+movil,App Móvil Yala,4
