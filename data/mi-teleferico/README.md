@@ -43,6 +43,8 @@ Para los nombres, evité poner `Estación` al inicio, como recomendado en https:
 
 En `stop_desc`, copié la información en https://www.miteleferico.bo/lineas/linea-roja, y mencioné que son andenes, con el nombre de la línea cuando corresponda.
 
+En #29, en varias estaciones, se creó dos stops: uno para ida, y uno para vuelta, separados de algunos metros. Ver #16.
+
 Puse `stop_access` a `0` en todos los stops, porque no se puede acceder a los andenes directamente desde la calle, hay que ingresar a la estación primero.
 
 ### campos no incluidos
