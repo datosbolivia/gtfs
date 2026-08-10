@@ -31,13 +31,13 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-`stop_id`: el formato es `estacion_c/station/001` para el stop de tipo `station` de la Estación Central, y `estacion_c/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los tres subcampos están separados por `/`.
+`stop_id`: el formato es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central, y `st/estacion_central/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los subcampos están separados por `/`.
 
 ### justificaciones
 
 Para la ubicación de los stops de tipo `stop`, usé las coordenadas de OSM (por ejemplo, https://www.openstreetmap.org/node/2838067901 para los andenes de la línea Roja en la Estación Central).
 
-Para la ubicación de los stops de tipo `stat`, usé las coordenadas del punto de la etiqueta del polígono de la estación en OSM (por ejemplo, https://www.openstreetmap.org/way/549632678#map=19/-16.491656/-68.144576, mientras la estación es https://www.openstreetmap.org/relation/8703332).
+Para la ubicación de los stops de tipo `station`, usé las coordenadas del punto de la etiqueta del polígono de la estación en OSM (por ejemplo, https://www.openstreetmap.org/way/549632678#map=19/-16.491656/-68.144576, mientras la estación es https://www.openstreetmap.org/relation/8703332).
 
 Para los nombres, evité poner `Estación` al inicio, como recomendado en https://gtfs.org/documentation/schedule/best-practices/#stopstxt. Excepción: `Estación Central`, porque se refiere a la estación central de trenes.
 
@@ -63,7 +63,7 @@ Puse `stop_access` a `0` en todos los stops, porque no se puede acceder a los an
 
 ### código
 
-`route_id`: prefijo `ro_` y el color de la línea en minúsculas (`Línea Amarilla` -> `ro_amarilla`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `ro_morada_1` y `ro_morada_2`.
+`route_id`: prefijo `ro/` y el color de la línea en minúsculas (`Línea Amarilla` -> `ro/amarilla`). Para la línea Morada, como está discontinuida en la estación Faro Murillo, puse dos rutas con los códigos `ro/morada_1` y `ro/morada_2`.
 
 ### justificaciones
 
