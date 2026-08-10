@@ -214,7 +214,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-- `network_id`: solo hay una red, se puso `ne_rim`.
+- `network_id`: solo hay una red, se puso `ne/rim`.
 
 ### justificaciones
 
@@ -234,7 +234,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Se crea una entrada por cada ruta del teleférico, todas para la red `ne_rim`.
+Se crea una entrada por cada ruta del teleférico, todas para la red `ne/rim`.
 
 ### campos no incluidos
 
