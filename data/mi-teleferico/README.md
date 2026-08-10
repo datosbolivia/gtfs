@@ -86,11 +86,11 @@ Para `route_desc`, describí las dos zonas que conecta cada línea para dar más
 
 ### código
 
-`trip_id`: el formato es `roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de`). Los tres subcampos están separados por `/`.
+`trip_id`: el formato es `roja/16_de_julio/semana` para el trayecto de la línea Roja hacia la estación 16 de Julio en días de la semana: primero el código de la línea, luego el nombre de la estación de destino (11 carácteres, minusculas, y guiones bajos en vez de espacios), y luego el código del servicio (`semana` o `fin_de_semana`). Los tres subcampos están separados por `/`.
 
 ### justificaciones
 
-Para cada ruta, hay cuatro trips: dos direcciones, y uno para la semana y otro para fin de semana. Por ejemplo, para la línea Roja, hay cuatro trips: `roja/16_de_julio/semana`, `roja/16_de_julio/fin_de`, `roja/estacion_c/semana` y `roja/estacion_c/fin_de`.
+Para cada ruta, hay cuatro trips: dos direcciones, y uno para la semana y otro para fin de semana. Por ejemplo, para la línea Roja, hay cuatro trips: `roja/16_de_julio/semana`, `roja/16_de_julio/fin_de_semana`, `roja/estacion_c/semana` y `roja/estacion_c/fin_de_semana`.
 
 Para la dirección, hay que ser coherente entre las líneas, para que la dirección `0` sea la misma para dos líneas sucesivas.
 
@@ -140,7 +140,7 @@ Puse `timepoint` como `0`, porque el tiempo de recorrida entre estaciones solo e
 
 ### código
 
-`service_id`: puse `semana` para los días de la semana, y `fin_de` para los fines de semana y feriados.
+`service_id`: puse `semana` para los días de la semana, y `fin_de_semana` para los fines de semana y feriados.
 
 ### justificaciones
 
@@ -162,7 +162,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `semana` y di de alta el servicio `fin_de`, porque se aplica el horario de fin de semana en feriados.
+Puse los próximos feriados en 2026 en La Paz, según https://www.feriados.com.bo/: 6 de agosto, 7 de agosto, 2 de noviembre y 25 de diciembre. Para estos cuatro días, di de baja el servicio `semana` y di de alta el servicio `fin_de_semana`, porque se aplica el horario de fin de semana en feriados.
 
 Abrá que actualizar este archivo, porque el estándar recomienda no incluir datos del pasado (https://gtfs.org/documentation/schedule/schedule-best-practices/). Ver https://github.com/datosbolivia/gtfs/issues/25.
 
