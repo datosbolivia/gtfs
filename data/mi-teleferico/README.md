@@ -237,8 +237,6 @@ Ver https://www.miteleferico.bo/nosotros/tarjetas para las tarifas.
 
 Todos los campos están incluidos, no hay campos vacíos.
 
-## fare_products_join_rules.txt
-
 ## fare_leg_rules.txt
 
 ## fare_leg_join_rules.txt
