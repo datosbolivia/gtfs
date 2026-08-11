@@ -181,7 +181,11 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_attributes.txt
 
+No usado, porque es para la versión obsoleta GTFS-Fares V1. Usamos GTFS-Fares V2 (ver https://gtfs.org/documentation/schedule/reference/#fare_attributestxt).
+
 ## fare_rules.txt
+
+No usado, porque es para la versión obsoleta GTFS-Fares V1. Usamos GTFS-Fares V2 (ver https://gtfs.org/documentation/schedule/reference/#fare_attributestxt).
 
 ## timeframes.txt
 
