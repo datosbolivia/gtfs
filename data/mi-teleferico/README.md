@@ -38,7 +38,10 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-`stop_id`: el formato es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central, y `st/estacion_central/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los subcampos están separados por `/`.
+`stop_id`: el formato depende del tipo:
+  - Para los stops de tipo `station`, es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa.
+  - Para los stops de tipo `stop`, es `st/estacion_central/stop/roja/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego el tipo de "stop" (ver `location_type`), luego el código de la ruta, y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa.
+  Los subcampos están separados por `/`.
 
 ### justificaciones
 
