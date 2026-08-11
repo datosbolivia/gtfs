@@ -364,9 +364,15 @@ Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo ent
 
 ## transfers.txt
 
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
+
 ## pathways.txt
 
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
+
 ## levels.txt
+
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
 
 ## location_groups.txt
 
