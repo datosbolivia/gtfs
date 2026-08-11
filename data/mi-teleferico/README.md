@@ -14,6 +14,7 @@ Para todos los archivos:
 - [GTFS](https://gtfs.org/documentation/schedule/reference)
 - [Sitio oficial de Mi Teleférico](https://www.miteleferico.bo/)
 - [Guía independiente de Mi Teleférico](https://lapazteleferico.com/)
+- [Documentos técnicos sobre el teleférico](https://drive.google.com/drive/folders/1C8TW2mDMnm2g3xe3RJD53TL8Vr6XaRDI)
 
 ## agency.txt
 
