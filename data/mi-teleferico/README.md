@@ -9,6 +9,12 @@ Para todos los archivos:
 - los campos se ordenan automáticamente según el [GTFS Schedule Reference](https://gtfs.org/documentation/schedule/reference/) mediante el linter (`make lint`). Los campos de identificación van a la izquierda, y los campos menos importantes a la derecha,
 - para los códigos (***_id), tratamos de que el código sea auto-explicativo cuando se pueda, y que empiece por un prefijo que indica la tabla (por ejemplo: `rc_` para `rider_category`).
 
+## Sitios de referencia
+
+- [GTFS](https://gtfs.org/documentation/schedule/reference)
+- [Sitio oficial de Mi Teleférico](https://www.miteleferico.bo/)
+- [Guía independiente de Mi Teleférico](https://lapazteleferico.com/)
+
 ## agency.txt
 
 [Referencia](https://gtfs.org/documentation/schedule/reference/#agencytxt), [Buenas prácticas](https://gtfs.org/documentation/schedule/schedule-best-practices/#agencytxt).
