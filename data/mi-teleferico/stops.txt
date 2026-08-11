@@ -6,32 +6,32 @@ st/16_de_julio/stop/roja/001,JACH'A QHATHU - 16 de Julio - Anden Final Linea Roj
 st/6_de_marzo/station/001,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N.",-16.504152,-68.125994,1,,1,
 st/6_de_marzo/stop/morada_2/001,JACH'A THAKI - 6 de Marzo - Anden Final Linea Morada 2do Tramo,"El Alto, Av. 6 de marzo S/N. Ándenes de la línea morada.",-16.522709,-68.169483,0,st/6_de_marzo/station/001,1,0
 st/alto_obrajes/station/001,PATO OBRAJES - Alto Obrajes,Final Av. Costanera y Av. Del Maestro.,-16.52124,-68.110182,1,,1,
-st/alto_obrajes/stop/verde/001,PATO OBRAJES - Alto Obrajes - Anden Ida Linea Verde,Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.,-16.521522,-68.110563,0,st/alto_obrajes/station/001,1,0
-st/alto_obrajes/stop/verde/002,PATO OBRAJES - Alto Obrajes - Anden Vuelta Linea Verde,Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.,-16.521615,-68.11029,0,st/alto_obrajes/station/001,1,0
+st/alto_obrajes/stop/verde/001,PATO OBRAJES - Alto Obrajes - Anden Linea Verde hacia Irpavi,Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.,-16.521522,-68.110563,0,st/alto_obrajes/station/001,1,0
+st/alto_obrajes/stop/verde/002,PATO OBRAJES - Alto Obrajes - Anden Linea Verde hacia Libertador,Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.,-16.521615,-68.11029,0,st/alto_obrajes/station/001,1,0
 st/armentia/station/001,RIOSINHO PAMPA - Armentia,Armentia.,-16.490308,-68.136919,1,,1,
-st/armentia/stop/naranja/001,RIOSINHO PAMPA - Armentia - Anden Ida Linea Naranja,Armentia. Ándenes de la línea naranja.,-16.490406,-68.13692,0,st/armentia/station/001,1,0
-st/armentia/stop/naranja/002,RIOSINHO PAMPA - Armentia - Anden Vuelta Linea Naranja,Armentia. Ándenes de la línea naranja.,-16.490271,-68.136799,0,st/armentia/station/001,1,0
+st/armentia/stop/naranja/001,RIOSINHO PAMPA - Armentia - Anden Linea Naranja hacia Villarroel,Armentia. Ándenes de la línea naranja.,-16.490406,-68.13692,0,st/armentia/station/001,1,0
+st/armentia/stop/naranja/002,RIOSINHO PAMPA - Armentia - Anden Linea Naranja hacia Estación Central,Armentia. Ándenes de la línea naranja.,-16.490271,-68.136799,0,st/armentia/station/001,1,0
 st/buenos_aires/station/001,QUTA UMA - Buenos Aires,Av. Buenos Aires y Calle Moxos.,-16.515475,-68.144091,1,,1,
-st/buenos_aires/stop/amarilla/001,QUTA UMA - Buenos Aires - Anden Ida Linea Amarilla,Av. Buenos Aires y Calle Moxos. Ándenes de la línea amarilla.,-16.515525,-68.144205,0,st/buenos_aires/station/001,1,0
-st/buenos_aires/stop/amarilla/002,QUTA UMA - Buenos Aires - Anden Vuelta Linea Amarilla,Av. Buenos Aires y Calle Moxos. Ándenes de la línea amarilla.,-16.5154,-68.143946,0,st/buenos_aires/station/001,1,0
+st/buenos_aires/stop/amarilla/001,QUTA UMA - Buenos Aires - Anden Linea Amarilla hacia Libertador,Av. Buenos Aires y Calle Moxos. Ándenes de la línea amarilla.,-16.515525,-68.144205,0,st/buenos_aires/station/001,1,0
+st/buenos_aires/stop/amarilla/002,QUTA UMA - Buenos Aires - Anden Linea Amarilla hacia Mirador,Av. Buenos Aires y Calle Moxos. Ándenes de la línea amarilla.,-16.5154,-68.143946,0,st/buenos_aires/station/001,1,0
 st/busch/station/001,QHUIRWA UMA - Defensores del Chaco,Av. Busch.,-16.493736,-68.121096,1,,1,
-st/busch/stop/blanca/001,QHUIRWA UMA - Defensores del Chaco - Anden Ida Linea Blanca,Av. Busch. Ándenes de la línea blanca.,-16.493615,-68.121394,0,st/busch/station/001,1,0
-st/busch/stop/blanca/002,QHUIRWA UMA - Defensores del Chaco - Anden Vuelta Linea Blanca,Av. Busch. Ándenes de la línea blanca.,-16.493825,-68.121336,0,st/busch/station/001,1,0
+st/busch/stop/blanca/001,QHUIRWA UMA - Defensores del Chaco - Anden Linea Blanca hacia Avenida del Poeta,Av. Busch. Ándenes de la línea blanca.,-16.493615,-68.121394,0,st/busch/station/001,1,0
+st/busch/stop/blanca/002,QHUIRWA UMA - Defensores del Chaco - Anden Linea Blanca hacia Villarroel,Av. Busch. Ándenes de la línea blanca.,-16.493825,-68.121336,0,st/busch/station/001,1,0
 st/busch/stop/cafe/001,QHUIRWA UMA - Defensores del Chaco - Anden Inicial Linea Cafe,Av. Busch. Ándenes de la línea café.,-16.4938,-68.120879,0,st/busch/station/001,1,0
 st/cementerio/station/001,AJAYUNI - Cementerio,"Avenida Entre Ríos, detrás del Cementerio.",-16.497913,-68.152902,1,,1,
-st/cementerio/stop/roja/001,AJAYUNI - Cementerio - Anden Vuelta Linea Roja,"Avenida Entre Ríos, detrás del Cementerio. Ándenes de la línea roja.",-16.498164,-68.152969,0,st/cementerio/station/001,1,0
+st/cementerio/stop/roja/001,AJAYUNI - Cementerio - Andenes Linea Roja,"Avenida Entre Ríos, detrás del Cementerio. Ándenes de la línea roja.",-16.498164,-68.152969,0,st/cementerio/station/001,1,0
 st/del_poeta/station/001,JALSURI - Del Poeta,Av. Del Poeta.,-16.510741,-68.121201,1,,1,
 st/del_poeta/stop/blanca/001,JALSURI - Del Poeta - Anden Final Linea Blanca,Av. Del Poeta. Ándenes de la línea blanca.,-16.510827,-68.1211,0,st/del_poeta/station/001,1,0
-st/del_poeta/stop/celeste/001,JALSURI - Del Poeta - Anden Ida Linea Celeste,Av. Del Poeta. Ándenes de la línea celeste.,-16.511154,-68.120352,0,st/del_poeta/station/001,1,0
-st/del_poeta/stop/celeste/002,JALSURI - Del Poeta - Anden Vuelta Linea Celeste,Av. Del Poeta. Ándenes de la línea celeste.,-16.511341,-68.120159,0,st/del_poeta/station/001,1,0
+st/del_poeta/stop/celeste/001,JALSURI - Del Poeta - Anden Linea Celeste hacia Libertador,Av. Del Poeta. Ándenes de la línea celeste.,-16.511154,-68.120352,0,st/del_poeta/station/001,1,0
+st/del_poeta/stop/celeste/002,JALSURI - Del Poeta - Anden Linea Celeste hacia Prado,Av. Del Poeta. Ándenes de la línea celeste.,-16.511341,-68.120159,0,st/del_poeta/station/001,1,0
 st/estacion_central/station/001,TAYPI UTA - Estación Central,"Avenida Manco Cápac, ex-estación de ferrocarriles.",-16.491656,-68.144576,1,,1,
 st/estacion_central/stop/naranja/001,TAYPI UTA - Estación Central - Anden Inicio Linea Naranja ,"Avenida Manco Cápac, ex-estación de ferrocarriles. Ándenes de la línea naranja.",-16.492068,-68.14478,0,st/estacion_central/station/001,1,0
 st/estacion_central/stop/roja/001,TAYPI UTA - Estación Central - Anden Inicio Linea Roja,"Avenida Manco Cápac, ex-estación de ferrocarriles. Ándenes de la línea roja.",-16.491502,-68.144771,0,st/estacion_central/station/001,1,0
 st/faro_murillo/station/001,TIQUIRA - Faro Murillo,"El Alto, Faro Murillo.",-16.512255,-68.153648,1,,1,
 st/faro_murillo/stop/morada_1/001,TIQUIRA - Faro Murillo - Anden Inicial Linea Morada 1er Tramo,"El Alto, Faro Murillo. Ándenes de la línea morada, lado La Paz.",-16.512179,-68.153525,0,st/faro_murillo/station/001,1,0
 st/faro_murillo/stop/morada_2/001,TIQUIRA - Faro Murillo - Anden Inicial Linea Morada 2do Tramo,"El Alto, Faro Murillo. Ándenes de la línea morada, lado El Alto.",-16.512385,-68.153903,0,st/faro_murillo/station/001,1,0
-st/faro_murillo/stop/plateada/001,TIQUIRA - Faro Murillo - Anden Ida Linea Plateada,"El Alto, Faro Murillo. Ándenes de la línea plateada.",-16.512119,-68.15387,0,st/faro_murillo/station/001,1,0
-st/faro_murillo/stop/plateada/002,TIQUIRA - Faro Murillo - Anden Vuelta Linea Plateada,"El Alto, Faro Murillo. Ándenes de la línea plateada.",-16.512409,-68.153604,0,st/faro_murillo/station/001,1,0
+st/faro_murillo/stop/plateada/001,TIQUIRA - Faro Murillo - Anden Linea Plateada hacia Mirador,"El Alto, Faro Murillo. Ándenes de la línea plateada.",-16.512119,-68.15387,0,st/faro_murillo/station/001,1,0
+st/faro_murillo/stop/plateada/002,TIQUIRA - Faro Murillo - Anden Linea Plateada hacia 16 de Julio,"El Alto, Faro Murillo. Ándenes de la línea plateada.",-16.512409,-68.153604,0,st/faro_murillo/station/001,1,0
 st/irpavi/station/001,IRPAWI - Irpavi,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto.",-16.538049,-68.087279,1,,1,
 st/irpavi/stop/verde/001,IRPAWI - Irpavi - Anden Final Linea Verde,"Colegio Militar del Ejército, a la altura de calle 12 de Calacoto. Ándenes de la línea verde.",-16.538107,-68.087379,0,st/irpavi/station/001,1,0
 st/las_villas/station/001,PALLQA THAKI - Las Villas,Villa Copacabana.,-16.497581,-68.115123,1,,1,
@@ -44,16 +44,16 @@ st/mirador/station/001,QHANA PATA - Mirador,"El Alto, Av. Panorámica. En la reg
 st/mirador/stop/amarilla/001,QHANA PATA - Mirador - Anden Inicio Linea Amarilla ,"El Alto, Av. Panorámica. En la región de las antenas satelitales. Ándenes de la línea amarilla.",-16.518222,-68.149887,0,st/mirador/station/001,1,0
 st/mirador/stop/plateada/001,QHANA PATA - Mirador - Anden Final Linea Plateada,"El Alto, Av. Panorámica. En la región de las antenas satelitales de televisión. Ándenes de la línea plateada.",-16.519251,-68.149863,0,st/mirador/station/001,1,0
 st/obrajes/station/001,AYNACHA OBRAJES - Obrajes,Altura de la calle 17 (cerca al puente Esperanza).,-16.526833,-68.100714,1,,1,
-st/obrajes/stop/verde/001,AYNACHA OBRAJES - Obrajes - Anden Ida Linea Verde,Altura de la calle 17 (cerca al puente Esperanza). Ándenes de la línea verde.,-16.526761,-68.100856,0,st/obrajes/station/001,1,0
-st/obrajes/stop/verde/002,AYNACHA OBRAJES - Obrajes - Anden Vuelta Linea Verde,Altura de la calle 17 (cerca al puente Esperanza). Ándenes de la línea verde.,-16.526873,-68.100599,0,st/obrajes/station/001,1,0
+st/obrajes/stop/verde/001,AYNACHA OBRAJES - Obrajes - Anden Linea Verde hacia Irpavi,Altura de la calle 17 (cerca al puente Esperanza). Ándenes de la línea verde.,-16.526761,-68.100856,0,st/obrajes/station/001,1,0
+st/obrajes/stop/verde/002,AYNACHA OBRAJES - Obrajes - Anden Linea Verde hacia Libertador,Altura de la calle 17 (cerca al puente Esperanza). Ándenes de la línea verde.,-16.526873,-68.100599,0,st/obrajes/station/001,1,0
 st/periferica/station/001,APACHITA - Periférica,Av. Periferica.,-16.486504,-68.131385,1,,1,
-st/periferica/stop/naranja/001,APACHITA - Periférica - Anden Ida Linea Naranja,Av. Periferica. Ándenes de la línea naranja.,-16.486618,-68.131401,0,st/periferica/station/001,1,0
+st/periferica/stop/naranja/001,APACHITA - Periférica - Andenes Linea Naranja,Av. Periferica. Ándenes de la línea naranja.,-16.486618,-68.131401,0,st/periferica/station/001,1,0
 st/plaza_la_paz/station/001,SUMA QAMAÑA - Plaza La Paz,"El Alto, Av. 16 de Julio esquina Av. La Paz.",-16.492286,-68.183082,1,,1,
-st/plaza_la_paz/stop/azul/001,SUMA QAMAÑA - Plaza La Paz - Anden Ida Linea Azul,"El Alto, Av. 16 de Julio esquina Av. La Paz. Ándenes de la línea azul.",-16.49229,-68.183146,0,st/plaza_la_paz/station/001,1,0
-st/plaza_la_paz/stop/azul/002,SUMA QAMAÑA - Plaza La Paz - Anden Vuelta Linea Azul,"El Alto, Av. 16 de Julio esquina Av. La Paz. Ándenes de la línea azul.",-16.492278,-68.183022,0,st/plaza_la_paz/station/001,1,0
+st/plaza_la_paz/stop/azul/001,SUMA QAMAÑA - Plaza La Paz - Anden Linea Azul hacia 16 de Julio,"El Alto, Av. 16 de Julio esquina Av. La Paz. Ándenes de la línea azul.",-16.49229,-68.183146,0,st/plaza_la_paz/station/001,1,0
+st/plaza_la_paz/stop/azul/002,SUMA QAMAÑA - Plaza La Paz - Anden Linea Azul hacia Rio Seco,"El Alto, Av. 16 de Julio esquina Av. La Paz. Ándenes de la línea azul.",-16.492278,-68.183022,0,st/plaza_la_paz/station/001,1,0
 st/plaza_libertad/station/001,QHANA THAKI - Plaza Libertad,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio.",-16.49485,-68.173496,1,,1,
-st/plaza_libertad/stop/azul/001,QHANA THAKI - Plaza Libertad - Anden Ida Linea Azul ,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Ándenes de la línea azul.",-16.494842,-68.173668,0,st/plaza_libertad/station/001,1,0
-st/plaza_libertad/stop/azul/002,QHANA THAKI - Plaza Libertad - Anden Vuelta Linea Azul,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Ándenes de la línea azul.",-16.494846,-68.17352,0,st/plaza_libertad/station/001,1,0
+st/plaza_libertad/stop/azul/001,QHANA THAKI - Plaza Libertad - Anden Linea Azul hacia 16 de Julio,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Ándenes de la línea azul.",-16.494842,-68.173668,0,st/plaza_libertad/station/001,1,0
+st/plaza_libertad/stop/azul/002,QHANA THAKI - Plaza Libertad - Anden Linea Azul hacia Rio Seco,"El Alto, Av. Alfonso Ugarte y la Av. 16 de Julio. Ándenes de la línea azul.",-16.494846,-68.17352,0,st/plaza_libertad/station/001,1,0
 st/prado/station/001,CHUKIYA MARKA - Prado,Prado.,-16.500657,-68.132654,1,,1,
 st/prado/stop/celeste/001,CHUKIYA MARKA - Prado - Anden Inicio Linea Celeste,Prado. Ándenes de la línea celeste.,-16.500424,-68.132722,0,st/prado/station/001,1,0
 st/rio_seco/station/001,WAÑA JAWIRA - Rio Seco,"El Alto, Av. Juan Pablo II y el desvió hacia la localidad de Copacabana.",-16.490064,-68.209631,1,,1,
@@ -61,17 +61,17 @@ st/rio_seco/stop/azul/001,WAÑA JAWIRA - Rio Seco - Anden Inicio Linea Azul,"El 
 st/san_jose/station/001,UTJÄWI - San José,Calle Almirante Grau.,-16.500143,-68.135261,1,,1,
 st/san_jose/stop/morada_2/001,UTJÄWI - San José - Anden Final Linea Morada 2do Tramo,Calle Almirante Grau. Ándenes de la línea morada.,-16.500024,-68.135153,0,st/san_jose/station/001,1,0
 st/sopocachi/station/001,SUPU KACHI - Sopocachi,Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos.,-16.514585,-68.130465,1,,1,
-st/sopocachi/stop/amarilla/001,SUPU KACHI - Sopocachi - Anden Ida Linea Amarilla,Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Ándenes de la línea amarilla.,-16.514698,-68.130424,0,st/sopocachi/station/001,1,0
-st/sopocachi/stop/amarilla/002,SUPU KACHI - Sopocachi - Anden Vuelta Linea Amarilla,Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Ándenes de la línea amarilla.,-16.514675,-68.130178,0,st/sopocachi/station/001,1,0
+st/sopocachi/stop/amarilla/001,SUPU KACHI - Sopocachi - Anden Linea Amarilla hacia Libertador,Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Ándenes de la línea amarilla.,-16.514698,-68.130424,0,st/sopocachi/station/001,1,0
+st/sopocachi/stop/amarilla/002,SUPU KACHI - Sopocachi - Anden Linea Amarilla hacia Mirador,Calle Miguel de Cervantes y Saavedra esquina Calle Méndez Arcos. Ándenes de la línea amarilla.,-16.514675,-68.130178,0,st/sopocachi/station/001,1,0
 st/teatro_al_aire_libre/station/001,LAYQA QUTA - Teatro al Aire Libre,Av. Del Poeta.,-16.504152,-68.125994,1,,1,
-st/teatro_al_aire_libre/stop/celeste/001,LAYQA QUTA - Teatro al Aire Libre - Anden Ida Linea Celeste,Av. Del Poeta. Ándenes de la línea celeste.,-16.504113,-68.126161,0,st/teatro_al_aire_libre/station/001,1,0
-st/teatro_al_aire_libre/stop/celeste/002,LAYQA QUTA - Teatro al Aire Libre - Anden Vuelta Linea Celeste,Av. Del Poeta. Ándenes de la línea celeste.,-16.504213,-68.125954,0,st/teatro_al_aire_libre/station/001,1,0
+st/teatro_al_aire_libre/stop/celeste/001,LAYQA QUTA - Teatro al Aire Libre - Anden Linea Celeste hacia Libertador,Av. Del Poeta. Ándenes de la línea celeste.,-16.504113,-68.126161,0,st/teatro_al_aire_libre/station/001,1,0
+st/teatro_al_aire_libre/stop/celeste/002,LAYQA QUTA - Teatro al Aire Libre - Anden Linea Celeste hacia Prado,Av. Del Poeta. Ándenes de la línea celeste.,-16.504213,-68.125954,0,st/teatro_al_aire_libre/station/001,1,0
 st/triangular/station/001,KIMSACHATA - Próceres de la Independencia,Miraflores plaza triangular.,-16.504121,-68.120855,1,,1,
-st/triangular/stop/blanca/001,KIMSACHATA - Próceres de la Independencia - Anden Ida Linea Blanca,Miraflores plaza triangular. Ándenes de la línea blanca.,-16.504008,-68.12089,0,st/triangular/station/001,1,0
-st/triangular/stop/blanca/002,KIMSACHATA - Próceres de la Independencia - Anden Vuelta Linea Blanca,Miraflores plaza triangular. Ándenes de la línea blanca.,-16.504231,-68.12082,0,st/triangular/station/001,1,0
+st/triangular/stop/blanca/001,KIMSACHATA - Próceres de la Independencia - Anden Linea Blanca hacia Avenida del Poeta,Miraflores plaza triangular. Ándenes de la línea blanca.,-16.504008,-68.12089,0,st/triangular/station/001,1,0
+st/triangular/stop/blanca/002,KIMSACHATA - Próceres de la Independencia - Anden Linea Blanca hacia Villarroel,Miraflores plaza triangular. Ándenes de la línea blanca.,-16.504231,-68.12082,0,st/triangular/station/001,1,0
 st/upea/station/001,YATIÑA UTA - UPEA,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B.",-16.489549,-68.193071,1,,1,
-st/upea/stop/azul/001,YATIÑA UTA - UPEA - Anden Ida Linea Azul ,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Ándenes de la línea azul.",-16.489495,-68.193357,0,st/upea/station/001,1,0
-st/upea/stop/azul/002,YATIÑA UTA - UPEA - Anden Vuelta Linea Azul,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Ándenes de la línea azul.",-16.48947,-68.193082,0,st/upea/station/001,1,0
+st/upea/stop/azul/001,YATIÑA UTA - UPEA - Anden Linea Azul hacia 16 de Julio,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Ándenes de la línea azul.",-16.489495,-68.193357,0,st/upea/station/001,1,0
+st/upea/stop/azul/002,YATIÑA UTA - UPEA - Anden Linea Azul hacia Rio Seco,"El Alto, Av. 16 de Julio entre las Av. Sucre A y Sucre B. Ándenes de la línea azul.",-16.48947,-68.193082,0,st/upea/station/001,1,0
 st/villarroel/station/001,INALMAMA - Héroes de la Revolución,Plaza Villarroel.,-16.48466,-68.121928,1,,1,
 st/villarroel/stop/blanca/001,INALMAMA - Héroes de la Revolución - Anden Inicio Linea Blanca,Plaza Villarroel. Ándenes de la línea blanca.,-16.484691,-68.121826,0,st/villarroel/station/001,1,0
 st/villarroel/stop/naranja/001,INALMAMA - Héroes de la Revolución - Anden Final Linea Naranja,Plaza Villarroel. Ándenes de la línea naranja.,-16.484753,-68.122101,0,st/villarroel/station/001,1,0
