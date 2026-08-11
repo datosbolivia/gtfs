@@ -245,11 +245,38 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## areas.txt
 
-No es necesario incluir este archivo porque las tarifas no dependen de areas.
+[Referencia](https://gtfs.org/documentation/schedule/reference/#areastxt).
+
+### código
+
+- `area_id`: por ejemplo, `ar/roja` para la línea Roja. Primero el prefijo `ar`, luego el nombre de la línea en minúsculas. Los subcampos están separados por `/`.
+
+### justificaciones
+
+La tarifa depende de la línea: se paga por la primera línea, y luego por cada transbordo. Así que definimos un area por cada línea.
+
+En particular, se define una sola area para la línea Morada. Permite tener una tarifa única para esta línea, aunque haya que hacer transbordo en Faro Murillo.
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## stop_areas.txt
 
-No es necesario incluir este archivo porque las tarifas no dependen de areas.
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#stop_areastxt).
+
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Solamente se incluye las paradas de tipo `stop` (andenes de la estación), y no las paradas de tipo `station` (estaciones).
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
 
 ## networks.txt
 

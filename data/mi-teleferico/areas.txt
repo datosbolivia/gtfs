@@ -1,0 +1,11 @@
+area_id,area_name
+ar/roja,Linea Roja
+ar/amarilla,Línea Amarilla
+ar/verde,Línea Verde
+ar/azul,Línea Azul
+ar/naranja,Línea Naranja
+ar/blanca,Línea Blanca
+ar/celeste,Línea Celeste
+ar/morada,Línea Morada (incluye Morada 1 y Morada 2)
+ar/cafe,Línea Café
+ar/plateada,Línea Plateada
