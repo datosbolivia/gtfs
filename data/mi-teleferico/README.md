@@ -299,11 +299,19 @@ Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo ent
 
 ## location_groups.txt
 
+No aplica para el teleférico.
+
 ## location_group_stops.txt
+
+No aplica para el teleférico.
 
 ## locations.geojson
 
+No aplica para el teleférico.
+
 ## booking_rules.txt
+
+No aplica para el teleférico.
 
 ## translations.txt
 
