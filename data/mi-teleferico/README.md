@@ -243,7 +243,11 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## areas.txt
 
+No es necesario incluir este archivo porque las tarifas no dependen de areas.
+
 ## stop_areas.txt
+
+No es necesario incluir este archivo porque las tarifas no dependen de areas.
 
 ## networks.txt
 
