@@ -1,5 +1,5 @@
 area_id,area_name
-ar/roja,Linea Roja
+ar/roja,Línea Roja
 ar/amarilla,Línea Amarilla
 ar/verde,Línea Verde
 ar/azul,Línea Azul
