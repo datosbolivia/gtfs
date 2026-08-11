@@ -230,7 +230,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-- `fare_product_id`: por ejemplo, `fp/general/ticket/primera_linea` para la tarifa regular de la primera línea, pagada con boleto. Primero el prefijo `fp`, luego el tipo de pasajero (`general` o `preferencial`), luego el medio de pago (`ticket`, `tarjeta` o `movil`), y luego el tipo de tarifa (`primera_linea` o `transbordo`). Los subcampos están separados por `/`.
+- `fare_product_id`: solo hay dos grupos de tarifas: `fp/primera_linea` y `fp/transbordo`. Para cada grupo, se incluye los detalles según el modo de pago y los beneficiadores. Primero el prefijo `fp`, luego el tipo de tarifa (`primera_linea` o `transbordo`). Los subcampos están separados por `/`.
 
 ### justificaciones
 
