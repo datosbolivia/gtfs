@@ -275,7 +275,7 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Para `duration_limit`, se puso `7200` segundos (2 horas) para indicar que el último transbordo debe hacerse dentro de las 2 horas después de haber tomado la primera línea (`duration_limit_type = 1`). A verificar.
+Para `duration_limit`, se puso `7200` segundos (2 horas) para indicar que el último transbordo debe hacerse dentro de las 2 horas después de haber tomado la primera línea (`duration_limit_type = 1`). A verificar, ver https://github.com/datosbolivia/gtfs/issues/43.
 
 Se pone `fare_transfer_type` a `0` para indicar que se paga el primer tramo, y luego se paga cada transbordo.
 
