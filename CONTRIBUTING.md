@@ -126,8 +126,12 @@ Todas estas herramientas se configuran automáticamente con `make setup-hooks`.
 Para validar un GTFS manualmente antes de hacer merge:
 
 1. Genera el GTFS con `make build`
-2. Sube el GTFS en https://gtfs-validator.mobilitydata.org
-3. Verifica que no haya errores (o warnings, si es posible)
+2. Verifica el GTFS en:
+  - https://gtfs-validator.mobilitydata.org
+  - https://validator.blinktag.com/
+  - https://transport.data.gouv.fr/validation (con precaución porque no parece muy actualizado, pero detecta errores en la ubicación de los stops por ejemplo)
+  - https://gtfsvtor.mecatran.com/utw-test/web/pub/gtfsvtor (con precaución porque no parece muy actualizado, pero detecta errores en la ubicación de los stops por ejemplo)
+  - https://reflect.foursquareitp.com/validator/ (cuidado: requieren tu email)
 
 ## Comandos disponibles
 
