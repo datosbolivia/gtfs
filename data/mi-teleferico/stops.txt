@@ -3,7 +3,7 @@ st/16_de_julio/station/001,JACH'A QHATHU - 16 de Julio,"El Alto, zona 16 de juli
 st/16_de_julio/stop/azul/001,JACH'A QHATHU - 16 de Julio - Anden Final Línea Azul,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea azul.",-16.498362,-68.164719,0,st/16_de_julio/station/001,1,0
 st/16_de_julio/stop/plateada/001,JACH'A QHATHU - 16 de Julio - Anden Inicial Línea Plateada,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea plateada.",-16.498723,-68.164486,0,st/16_de_julio/station/001,1,0
 st/16_de_julio/stop/roja/001,JACH'A QHATHU - 16 de Julio - Anden Final Línea Roja,"El Alto, zona 16 de julio, Avenida Panorámica Norte. Ándenes de la línea roja.",-16.497426,-68.16456,0,st/16_de_julio/station/001,1,0
-st/6_de_marzo/station/001,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N.",-16.504152,-68.125994,1,,1,
+st/6_de_marzo/station/001,JACH'A THAKI - 6 de Marzo,"El Alto, Av. 6 de marzo S/N.",-16.522289,-68.169339,1,,1,
 st/6_de_marzo/stop/morada_2/001,JACH'A THAKI - 6 de Marzo - Anden Final Línea Morada 2do Tramo,"El Alto, Av. 6 de marzo S/N. Ándenes de la línea morada.",-16.522709,-68.169483,0,st/6_de_marzo/station/001,1,0
 st/alto_obrajes/station/001,PATO OBRAJES - Alto Obrajes,Final Av. Costanera y Av. Del Maestro.,-16.52124,-68.110182,1,,1,
 st/alto_obrajes/stop/verde/001,PATO OBRAJES - Alto Obrajes - Anden Línea Verde hacia Irpavi,Final Av. Costanera y Av. Del Maestro. Ándenes de la línea verde.,-16.521522,-68.110563,0,st/alto_obrajes/station/001,1,0
