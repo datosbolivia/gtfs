@@ -198,11 +198,11 @@ No incluido, porque las tarifas son fijas, sin importar el momento del día o de
 
 ### código
 
-- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc/general` y `rc/preferencial`.
+- `rider_category_id`: prefijo `rc`, seguido por la categoría de los pasajeros, en minúsculas. Los subcampos están separados por `/`.
 
 ### justificaciones
 
-En realidad, hay tres tipos de pasajeros: General, Preferencial y Estudiantil. Pero como la tarifa preferencial y la tarifa estudiantil son las mismas, no vale la pena distinguirlos aquí.
+Cuatro tipos de pasajeros: General, Personas con discapacidad, Adultos mayores de 60 años y Estudiantes.
 
 ### campos no incluidos
 
