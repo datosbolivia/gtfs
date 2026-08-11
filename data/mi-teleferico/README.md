@@ -242,9 +242,48 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_leg_rules.txt
 
+[Referencia](https://gtfs.org/documentation/schedule/reference/#fare_leg_rulestxt).
+
+*Leg*: tramo.
+
+### código
+
+- `leg_group_id`: primero el prefijo `fl`, luego el área de la línea (`roja`, `amarilla`, `verde`...) Los subcampos están separados por `/`.
+
+### justificaciones
+
+En este archivo, solamente se especifica el costo para ir de una estación a otra estación de la misma línea. Para los transbordos, ver el archivo `fare_transfer_rules.txt`.
+
+### campos no incluidos
+
+- `network_id`: no aplica, porque el GTFS incluye una sola red.
+- `from_timeframe_group_id`: no aplica, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+- `to_timeframe_group_id`: no aplica, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+- `rule_priority`: no se requiere, porque no hay conflictos entre las reglas.
+
 ## fare_leg_join_rules.txt
 
+No se necesita en el caso del teleférico.
+
 ## fare_transfer_rules.txt
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#fare_transfer_rulestxt).
+
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Para `duration_limit`, se puso `7200` segundos (2 horas) para indicar que el último transbordo debe hacerse dentro de las 2 horas después de haber tomado la primera línea (`duration_limit_type = 1`). A verificar.
+
+Se pone `fare_transfer_type` a `0` para indicar que se paga el primer tramo, y luego se paga cada transbordo.
+
+### campos no incluidos
+
+- `from_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de origen.
+- `to_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de destino.
+- `transfer_count`: es prohibido incluir el campo en nuestro caso (solo es requerido cuando `from_leg_group_id` es igual a `to_leg_group_id`).
 
 ## areas.txt
 
