@@ -1,5 +1,11 @@
-leg_group_id,fare_product_id
-leg_regular,fp/general/ticket/primera_linea
-leg_regular,fp/general/tarjeta/primera_linea
-leg_regular,fp/general/movil/primera_linea
-leg_preferencial,fp/preferencial/tarjeta/primera_linea
+leg_group_id,from_area_id,to_area_id,fare_product_id
+fl/roja,ar/roja,ar/roja,fp/primera_linea
+fl/amarilla,ar/amarilla,ar/amarilla,fp/primera_linea
+fl/verde,ar/verde,ar/verde,fp/primera_linea
+fl/azul,ar/azul,ar/azul,fp/primera_linea
+fl/naranja,ar/naranja,ar/naranja,fp/primera_linea
+fl/blanca,ar/blanca,ar/blanca,fp/primera_linea
+fl/celeste,ar/celeste,ar/celeste,fp/primera_linea
+fl/morada,ar/morada,ar/morada,fp/primera_linea
+fl/cafe,ar/cafe,ar/cafe,fp/primera_linea
+fl/plateada,ar/plateada,ar/plateada,fp/primera_linea

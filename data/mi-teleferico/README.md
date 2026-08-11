@@ -38,7 +38,10 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-`stop_id`: el formato es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central, y `st/estacion_central/stop/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa. Los subcampos están separados por `/`.
+`stop_id`: el formato depende del tipo:
+  - Para los stops de tipo `station`, es `st/estacion_central/station/001` para el stop de tipo `station` de la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego, el tipo de "stop" (ver `location_type`), y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa.
+  - Para los stops de tipo `stop`, es `st/estacion_central/stop/roja/001` para el primer punto de tipo `stop` (andenes de la línea roja) en la Estación Central. Primero el prefijo `st`. Luego el nombre de la estación en minusculas, con espacios remplazados por guiones bajos. Luego el tipo de "stop" (ver `location_type`), luego el código de la ruta, y luego el número de punto (`001`, `002`, `003`, ...) de forma iterativa.
+  Los subcampos están separados por `/`.
 
 ### justificaciones
 
@@ -181,7 +184,11 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ## fare_attributes.txt
 
+No usado, porque es para la versión obsoleta GTFS-Fares V1. Usamos GTFS-Fares V2 (ver https://gtfs.org/documentation/schedule/reference/#fare_attributestxt).
+
 ## fare_rules.txt
+
+No usado, porque es para la versión obsoleta GTFS-Fares V1. Usamos GTFS-Fares V2 (ver https://gtfs.org/documentation/schedule/reference/#fare_attributestxt).
 
 ## timeframes.txt
 
@@ -191,11 +198,11 @@ No incluido, porque las tarifas son fijas, sin importar el momento del día o de
 
 ### código
 
-- `rider_category_id`: solo hay dos tipos de pasajeros: General y Preferencial o Estudiantil. Los códigos son: `rc/general` y `rc/preferencial`.
+- `rider_category_id`: prefijo `rc`, seguido por la categoría de los pasajeros, en minúsculas. Los subcampos están separados por `/`.
 
 ### justificaciones
 
-En realidad, hay tres tipos de pasajeros: General, Preferencial y Estudiantil. Pero como la tarifa preferencial y la tarifa estudiantil son las mismas, no vale la pena distinguirlos aquí.
+Cuatro tipos de pasajeros: General, Personas con discapacidad, Adultos mayores de 60 años y Estudiantes.
 
 ### campos no incluidos
 
@@ -223,7 +230,7 @@ Todos los campos están incluidos, no hay campos vacíos.
 
 ### código
 
-- `fare_product_id`: por ejemplo, `fp/general/ticket/primera_linea` para la tarifa regular de la primera línea, pagada con boleto. Primero el prefijo `fp`, luego el tipo de pasajero (`general` o `preferencial`), luego el medio de pago (`ticket`, `tarjeta` o `movil`), y luego el tipo de tarifa (`primera_linea` o `transbordo`). Los subcampos están separados por `/`.
+- `fare_product_id`: solo hay dos grupos de tarifas: `fp/primera_linea` y `fp/transbordo`. Para cada grupo, se incluye los detalles según el modo de pago y los beneficiadores. Primero el prefijo `fp`, luego el tipo de tarifa (`primera_linea` o `transbordo`). Los subcampos están separados por `/`.
 
 ### justificaciones
 
@@ -233,37 +240,34 @@ Ver https://www.miteleferico.bo/nosotros/tarjetas para las tarifas.
 
 Todos los campos están incluidos, no hay campos vacíos.
 
-## fare_products_join_rules.txt
-
 ## fare_leg_rules.txt
 
-## fare_leg_join_rules.txt
+[Referencia](https://gtfs.org/documentation/schedule/reference/#fare_leg_rulestxt).
 
-## fare_transfer_rules.txt
-
-## areas.txt
-
-## stop_areas.txt
-
-## networks.txt
-
-[Referencia](https://gtfs.org/documentation/schedule/reference/#networkstxt).
+*Leg*: tramo.
 
 ### código
 
-- `network_id`: solo hay una red, se puso `ne/rim`.
+- `leg_group_id`: primero el prefijo `fl`, luego el área de la línea (`roja`, `amarilla`, `verde`...) Los subcampos están separados por `/`.
 
 ### justificaciones
 
-El nombre de la red es Red de Integración Metropolitana.
+En este archivo, solamente se especifica el costo para ir de una estación a otra estación de la misma línea. Para los transbordos, ver el archivo `fare_transfer_rules.txt`.
 
 ### campos no incluidos
 
-Todos los campos están incluidos, no hay campos vacíos.
+- `network_id`: no aplica, porque el GTFS incluye una sola red.
+- `from_timeframe_group_id`: no aplica, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+- `to_timeframe_group_id`: no aplica, porque las tarifas son fijas, sin importar el momento del día o de la semana.
+- `rule_priority`: no se requiere, porque no hay conflictos entre las reglas.
 
-## route_networks.txt
+## fare_leg_join_rules.txt
 
-[Referencia](https://gtfs.org/documentation/schedule/reference/#route_networkstxt]
+No se necesita en el caso del teleférico.
+
+## fare_transfer_rules.txt
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#fare_transfer_rulestxt).
 
 ### código
 
@@ -271,11 +275,58 @@ No se definen códigos en este archivo.
 
 ### justificaciones
 
-Se crea una entrada por cada ruta del teleférico, todas para la red `ne/rim`.
+Para `duration_limit`, se puso `7200` segundos (2 horas) para indicar que el último transbordo debe hacerse dentro de las 2 horas después de haber tomado la primera línea (`duration_limit_type = 1`). A verificar.
+
+Se pone `fare_transfer_type` a `0` para indicar que se paga el primer tramo, y luego se paga cada transbordo.
+
+### campos no incluidos
+
+- `from_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de origen.
+- `to_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de destino.
+- `transfer_count`: es prohibido incluir el campo en nuestro caso (solo es requerido cuando `from_leg_group_id` es igual a `to_leg_group_id`).
+
+## areas.txt
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#areastxt).
+
+### código
+
+- `area_id`: por ejemplo, `ar/roja` para la línea Roja. Primero el prefijo `ar`, luego el nombre de la línea en minúsculas. Los subcampos están separados por `/`.
+
+### justificaciones
+
+La tarifa depende de la línea: se paga por la primera línea, y luego por cada transbordo. Así que definimos un area por cada línea.
+
+En particular, se define una sola area para la línea Morada. Permite tener una tarifa única para esta línea, aunque haya que hacer transbordo en Faro Murillo.
 
 ### campos no incluidos
 
 Todos los campos están incluidos, no hay campos vacíos.
+
+## stop_areas.txt
+
+
+[Referencia](https://gtfs.org/documentation/schedule/reference/#stop_areastxt).
+
+### código
+
+No se definen códigos en este archivo.
+
+### justificaciones
+
+Solamente se incluye las paradas de tipo `stop` (andenes de la estación), y no las paradas de tipo `station` (estaciones).
+
+### campos no incluidos
+
+Todos los campos están incluidos, no hay campos vacíos.
+
+## networks.txt
+
+No es necesario incluir este archivo porque el GTFS incluye una sola red.
+
+## route_networks.txt
+
+No es necesario incluir este archivo porque el GTFS incluye una sola red.
 
 ## shapes.txt
 
@@ -313,17 +364,31 @@ Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo ent
 
 ## transfers.txt
 
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
+
 ## pathways.txt
+
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
 
 ## levels.txt
 
+No incluido todavía. Ver https://github.com/datosbolivia/gtfs/issues/17.
+
 ## location_groups.txt
+
+No aplica para el teleférico.
 
 ## location_group_stops.txt
 
+No aplica para el teleférico.
+
 ## locations.geojson
 
+No aplica para el teleférico.
+
 ## booking_rules.txt
+
+No aplica para el teleférico.
 
 ## translations.txt
 

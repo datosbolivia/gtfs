@@ -1,3 +1,5 @@
 rider_category_id,rider_category_name,is_default_fare_category,eligibility_url
 rc/general,General,1,https://www.miteleferico.bo/nosotros/tarjetas
-rc/preferencial,Preferencial o Estudiantil,0,https://www.miteleferico.bo/nosotros/tarjetas
+rc/personas_con_discapacidad,Personas con discapacidad,0,https://www.miteleferico.bo/odeco/reglamento-de-uso-del-teleferico-para-personas-con-discapacidad
+rc/adultos_mayores,Adultos mayores de 60 años,0,https://www.miteleferico.bo/odeco/reglamento-de-uso-del-teleferico-para-personas-adultos-mayores
+rc/estudiantes,Estudiantes de 3 a 24 años,0,https://www.miteleferico.bo/odeco/reglamento-de-uso-del-teleferico-para-estudiantes

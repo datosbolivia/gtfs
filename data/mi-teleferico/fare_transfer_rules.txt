@@ -1,5 +1,2 @@
-from_leg_group_id,to_leg_group_id,transfer_count,duration_limit,duration_limit_type,fare_transfer_type,fare_product_id
-leg_regular,leg_regular,1,7200,1,2,fp/general/ticket/transbordo
-leg_regular,leg_regular,1,7200,1,2,fp/general/tarjeta/transbordo
-leg_regular,leg_regular,1,7200,1,2,fp/general/movil/transbordo
-leg_preferencial,leg_preferencial,1,7200,1,2,fp/preferencial/tarjeta/transbordo
+duration_limit,duration_limit_type,fare_transfer_type,fare_product_id
+7200,1,0,fp/transbordo

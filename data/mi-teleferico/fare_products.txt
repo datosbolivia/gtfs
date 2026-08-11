@@ -1,9 +1,13 @@
 fare_product_id,fare_product_name,rider_category_id,fare_media_id,amount,currency
-fp/general/ticket/primera_linea,Tarifa general con boleto para la primera línea,rc/general,fm/ticket,3.00,BOB
-fp/general/ticket/transbordo,Tarifa general con boleto para cada transbordo,rc/general,fm/ticket,2.00,BOB
-fp/general/tarjeta/primera_linea,Tarifa general con tarjeta para la primera línea,rc/general,fm/tarjeta,3.00,BOB
-fp/general/tarjeta/transbordo,Tarifa general con tarjeta para cada transbordo,rc/general,fm/tarjeta,2.00,BOB
-fp/general/movil/primera_linea,Tarifa general con app móvil para la primera línea,rc/general,fm/movil,3.00,BOB
-fp/general/movil/transbordo,Tarifa general con app móvil para cada transbordo,rc/general,fm/movil,2.00,BOB
-fp/preferencial/tarjeta/primera_linea,Tarifa preferencial / estudiantil con tarjeta para la primera línea,rc/preferencial,fm/tarjeta,1.50,BOB
-fp/preferencial/tarjeta/transbordo,Tarifa preferencial / estudiantil con tarjeta para cada transbordo,rc/preferencial,fm/tarjeta,1.00,BOB
+fp/primera_linea,Tarifa general con boleto para la primera línea,rc/general,fm/ticket,3.00,BOB
+fp/primera_linea,Tarifa general con tarjeta para la primera línea,rc/general,fm/tarjeta,3.00,BOB
+fp/primera_linea,Tarifa general con app móvil para la primera línea,rc/general,fm/movil,3.00,BOB
+fp/primera_linea,Tarifa para personas con discapacidad con tarjeta para la primera línea,rc/personas_con_discapacidad,fm/tarjeta,1.50,BOB
+fp/primera_linea,Tarifa para adultos mayores de 60 años con tarjeta para la primera línea,rc/adultos_mayores,fm/tarjeta,1.50,BOB
+fp/primera_linea,Tarifa para estudiantes de 3 a 24 años con tarjeta para la primera línea,rc/estudiantes,fm/tarjeta,1.50,BOB
+fp/transbordo,Tarifa general con boleto para cada transbordo,rc/general,fm/ticket,2.00,BOB
+fp/transbordo,Tarifa general con tarjeta para cada transbordo,rc/general,fm/tarjeta,2.00,BOB
+fp/transbordo,Tarifa general con app móvil para cada transbordo,rc/general,fm/movil,2.00,BOB
+fp/transbordo,Tarifa para personas con discapacidad con tarjeta para cada transbordo,rc/personas_con_discapacidad,fm/tarjeta,1.00,BOB
+fp/transbordo,Tarifa para adultos mayores de 60 años con tarjeta para cada transbordo,rc/adultos_mayores,fm/tarjeta,1.00,BOB
+fp/transbordo,Tarifa para estudiantes de 3 a 24 años con tarjeta para cada transbordo,rc/estudiantes,fm/tarjeta,1.00,BOB
