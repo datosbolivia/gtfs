@@ -14,6 +14,11 @@ El proyecto está empezando. Los primeros pasos son:
 2. si existen GTFS de calidad suficiente, proponerlos para inclusión en los catálogos de GTFS ([Transitous](https://transitous.org/doc/#adding-a-region), [Mobility Database](https://mobilitydatabase.org/contribute), [Transitland](https://www.transit.land/documentation/atlas#how-to-add-a-new-feed)),
 3. juntar esfuerzos para generar, mantener y publicar nuevos GTFS de manera comunitaria, agencia por agencia (Teleférico, La Paz Bus, Mi Tren, etc.)
 
+El primer GTFS es el de Teleférico de la ciudad de La Paz:
+
+- GTFS: https://datosbolivia.github.io/gtfs/mi-teleferico.zip
+- Visualización: https://app.transit-lens.com/?feed=https://datosbolivia.github.io/gtfs/mi-teleferico.zip&at=-16.51139,-68.14851,14
+
 ## Cómo colaborar
 
 Lee la [guía de contribución](CONTRIBUTING.md) para aprender a instalar el proyecto, configurar tu entorno de desarrollo y contribuir cambios.
