@@ -60,7 +60,7 @@ Puse `stop_access` a `0` en todos los stops, porque no se puede acceder a los an
 ### campos no incluidos
 
 - `stop_code`: no existe tal código de estación, se usa el nombre completo en los carteles.
-- `tts_stop_name`: no creo que sea necesario, todos los nombres de estaciones deberían ser pronunciables.
+- `tts_stop_name`: no creo que sea necesario, todos los nombres de estaciones deberían ser pronunciables. Ver https://github.com/datosbolivia/gtfs/issues/52 en caso que trabajemos en ello.
 - `zone_id`: ver https://github.com/datosbolivia/gtfs/issues/14.
 - `stop_url`: hay una página oficial para la línea Roja: https://www.miteleferico.bo/lineas/linea-roja, y haciendo clic en una estación, se actualiza el estado interno de la página para mostrar los detalles de esa estación, pero no hay una URL directa hacia esta página.
 - `stop_timezone`: se utiliza la zona horaria de la agencia (`America/La_Paz`) por defecto.
