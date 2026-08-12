@@ -279,10 +279,10 @@ Para `duration_limit`, se puso `7200` segundos (2 horas) para indicar que el úl
 
 Se pone `fare_transfer_type` a `0` para indicar que se paga el primer tramo, y luego se paga cada transbordo.
 
+Se listan todas las posibles conexiones (transbordos). Al inicio, solo había puesto una entrada genérica sin `from_leg_group_id` ni `to_leg_group_id`, pero, probando en Motis (calculador de itinerario), solo se paga el primer transbordo pero no los siguientes.
+
 ### campos no incluidos
 
-- `from_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de origen.
-- `to_leg_group_id`: no aplica, porque los transbordos no dependen del tramo de destino.
 - `transfer_count`: es prohibido incluir el campo en nuestro caso (solo es requerido cuando `from_leg_group_id` es igual a `to_leg_group_id`).
 
 ## areas.txt
