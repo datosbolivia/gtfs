@@ -133,6 +133,21 @@ Para validar un GTFS manualmente antes de hacer merge:
   - https://gtfsvtor.mecatran.com/utw-test/web/pub/gtfsvtor (con precaución porque no parece muy actualizado, pero detecta errores en la ubicación de los stops por ejemplo)
   - https://reflect.foursquareitp.com/validator/ (cuidado: requieren tu email)
 
+También se puede probar el cálculo de itinerario localmente con [Motis](https://github.com/motis-project/motis#quick-start):
+
+- crear un directorio dedicado
+- descargar el binario de Motis desde la página de [releases](https://github.com/motis-project/motis/releases) y extraerlo en la carpeta `tar -xf motis...tar.bz2`
+- descargar el dump OSM de Bolivia desde [Geofabrik](https://download.geofabrik.de/south-america/bolivia-latest.osm.pbf): ver https://download.geofabrik.de/south-america/bolivia.html para más detalles.
+- copiar el archivo GTFS en el mismo directorio
+- ejecutar los comandos:
+
+  ```bash
+  ./motis config my.osm.pbf gtfs.zip  # generates a minimal config.yml
+  ./motis import                      # preprocesses data
+  ./motis server                      # starts a HTTP server on port 8080
+  ```
+- entrar a http://localhost:8080/ y usar generar un itinerario.
+
 ## Comandos disponibles
 
 ### Make
@@ -171,6 +186,12 @@ El repositorio usa [pre-commit](https://pre-commit.com/) para validar y formatea
 - **Calidad:** Se recomienda empezar con lo mínimo, pero con calidad, y luego ampliar si se puede. Para cada GTFS, trataremos de analizar y publicar las funcionalidades incluidas y las fechas de actualización.
 
 - **Validación:** El GTFS será generado, validado y publicado automáticamente usando una GitHub Action. El esfuerzo principal está en la generación y actualización de los datos.
+
+## Alternativa: editores en línea
+
+Alternativamente, puedes usar un editor en línea para editar los archivos de datos, por ejemplo https://gtfs-viz-production-f1a4.up.railway.app (https://github.com/gabrielAHN/gtfs-viz).
+
+Hay más herrammientas en https://gtfs.org/resources/overview/ o github.com/andredarcie/awesome-gtfs.
 
 ## Cómo colaborar
 
