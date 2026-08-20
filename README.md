@@ -16,7 +16,7 @@ El proyecto está empezando. Los primeros pasos son:
 
 El primer GTFS es el de Teleférico de la ciudad de La Paz:
 
-- GTFS: https://datosbolivia.github.io/gtfs/mi-teleferico.zip
+- GTFS: https://datosbolivia.github.io/gtfs/mi-teleferico.zip (ver en [Mobility Database](https://mobilitydatabase.org/feeds/gtfs/mdb-3491) y en [Transitous](https://github.com/public-transport/transitous/blob/main/feeds/bo.json))
 - Visualización: https://app.transit-lens.com/?feed=https://datosbolivia.github.io/gtfs/mi-teleferico.zip&at=-16.51139,-68.14851,14
 
 ## Cómo colaborar
