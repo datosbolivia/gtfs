@@ -356,7 +356,7 @@ No se definen códigos en este archivo.
 
 Utilicé este archivo para indicar el tiempo de espera entre dos cabinas sucesivas, y los horarios de servicio de cada línea. De esta forma, el archivo `stop_times.txt` es más simple, y solo sirve para indicar la duración de viaje entre estaciones.
 
-Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo. La discusión se encuentra en https://github.com/datosbolivia/gtfs/issues/24.
+Medí `headway_secs` a 20 segundos entre dos cabinas. Escuché que el tiempo entre cabinas cambia según la hora del día o el día de la semana (al igual que el tiempo de recorrida entre estaciones, obviamente), porque adaptan la velocidad al flujo de pasajeros. Podremos adecuar eso más adelante si el cambio es significativo. La discusión se encuentra en https://github.com/datosbolivia/gtfs/issues/24. Como un validador (https://ttezer.github.io/gtfs-analyzer/) recomiendo un mínimo de 60 segundos (tal vez para simplificar la vida de los calculadores de itinerarios), y que no importa realmente al momento de calcular tiempos de viage, puse 60 segundos.
 
 ### campos no incluidos
 
