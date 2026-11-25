@@ -22,6 +22,7 @@ for directory in $directories; do
   archive_path="$DIST_DIR/${directory}.zip"
 
   if [ -d "$source_dir" ]; then
+    rm -f "$archive_path"
     (cd "$source_dir" && zip -j "$archive_path" *.txt >/dev/null)
   fi
 done
