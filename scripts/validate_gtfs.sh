@@ -20,19 +20,31 @@ if [ ! -f "$VALIDATOR_JAR" ]; then
     echo "Downloaded GTFS Validator jar to $VALIDATOR_JAR"
 fi
 
-# 2. Check if Java is available
+# 2. Check if Java and jq are available
 if ! command -v java >/dev/null 2>&1; then
-    echo "Error: Java runtime (JRE/JDK) is required to run MobilityData GTFS Validator."
+    echo "Error: Java runtime (JRE/JDK) is required to run MobilityData GTFS Validator." >&2
+    exit 1
+fi
+
+if ! command -v jq >/dev/null 2>&1; then
+    echo "Error: jq is required to parse GTFS validation reports." >&2
     exit 1
 fi
 
 # 3. Find GTFS zip files in dist directory
+shopt -s nullglob
 gtfs_zips=("$DIST_DIR"/*.zip)
 
-if [ ${#gtfs_zips[@]} -eq 0 ] || [ ! -f "${gtfs_zips[0]}" ]; then
+if [ ${#gtfs_zips[@]} -eq 0 ]; then
     echo "No GTFS zip files found in $DIST_DIR. Running 'make build'..."
     make -C "$ROOT_DIR" build
     gtfs_zips=("$DIST_DIR"/*.zip)
+fi
+shopt -u nullglob
+
+if [ ${#gtfs_zips[@]} -eq 0 ]; then
+    echo "❌ Error: No GTFS zip files found in $DIST_DIR." >&2
+    exit 1
 fi
 
 echo "=========================================="
@@ -55,12 +67,29 @@ for zip_file in "${gtfs_zips[@]}"; do
             --country_code BO
 
         report_json="$output_report_dir/report.json"
-        if [ -f "$report_json" ]; then
-            error_count=$(grep -o '"severity":"ERROR"' "$report_json" | wc -l || true)
-            warning_count=$(grep -o '"severity":"WARNING"' "$report_json" | wc -l || true)
+        system_errors_json="$output_report_dir/system_errors.json"
+
+        if [ -f "$system_errors_json" ]; then
+            if ! system_error_count=$(jq -e 'if (.notices | type) == "array" then (.notices | length) else error("invalid system_errors.json") end' "$system_errors_json" 2>/dev/null); then
+                echo "❌ Error: Could not parse $system_errors_json for $feed_name." >&2
+                HAS_ERRORS=1
+            elif [ "$system_error_count" -gt 0 ]; then
+                echo "❌ System errors found for $feed_name ($system_error_count) in $system_errors_json." >&2
+                HAS_ERRORS=1
+            fi
+        fi
+
+        if [ ! -f "$report_json" ]; then
+            echo "❌ Error: Validator did not generate $report_json for $feed_name." >&2
+            HAS_ERRORS=1
+        elif ! counts=$(jq -r -e 'if (.notices | type) == "array" then "\([.notices[] | select(.severity == "ERROR")] | length) \([.notices[] | select(.severity == "WARNING")] | length)" else error("invalid report.json") end' "$report_json" 2>/dev/null); then
+            echo "❌ Error: Could not parse $report_json for $feed_name." >&2
+            HAS_ERRORS=1
+        else
+            read -r error_count warning_count <<< "$counts"
             echo "Report generated for $feed_name: $error_count Error(s), $warning_count Warning(s)."
             echo "HTML report available at: $output_report_dir/report.html"
-            
+
             if [ "$error_count" -gt 0 ]; then
                 HAS_ERRORS=1
             fi

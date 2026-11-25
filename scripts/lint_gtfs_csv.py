@@ -10,6 +10,7 @@ import os
 import io
 import csv
 import argparse
+from enum import Enum
 from pathlib import Path
 
 try:
@@ -181,7 +182,15 @@ SORT_KEYS = {
 }
 
 
-def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
+class FeedStatus(Enum):
+    """Outcome of linting/fixing a GTFS feed directory."""
+
+    CLEAN = "clean"
+    DIRTY = "dirty"
+    ERROR = "error"
+
+
+def process_feed_dir(feed_dir: Path, fix: bool) -> FeedStatus:
     """Reads GTFS feed via gtfs_kit, cleans feed, enforces GTFS column ordering & clean CSV format."""
     print(f"Processing GTFS feed with gtfs_kit at: {feed_dir}")
 
@@ -190,73 +199,80 @@ def process_feed_dir(feed_dir: Path, fix: bool) -> bool:
         feed = feed.clean()
     except Exception as e:
         print(f"❌ Error loading feed at {feed_dir} with gtfs_kit: {e}")
-        return False
+        return FeedStatus.ERROR
 
     is_clean = True
+    has_error = False
 
     for txt_file in sorted(feed_dir.glob("*.txt")):
-        filename = txt_file.name
-        table_name = txt_file.stem
-        df = getattr(feed, table_name, None)
+        try:
+            filename = txt_file.name
+            table_name = txt_file.stem
+            df = getattr(feed, table_name, None)
 
-        raw_existing = txt_file.read_text(encoding="utf-8-sig")
+            raw_existing = txt_file.read_text(encoding="utf-8-sig")
 
-        if df is None or df.empty:
-            rows = list(csv.reader(io.StringIO(raw_existing)))
-            if not rows:
-                continue
-            original_cols = [c.strip() for c in rows[0]]
-            target_cols = get_canonical_columns(filename, original_cols)
-            col_map = [original_cols.index(c) for c in target_cols]
-
-            out = io.StringIO()
-            w = csv.writer(out, lineterminator="\n", quoting=csv.QUOTE_MINIMAL)
-            w.writerow(target_cols)
-            for r in rows[1:]:
-                if not r or not any(cell.strip() for cell in r):
+            if df is None or df.empty:
+                rows = list(csv.reader(io.StringIO(raw_existing)))
+                if not rows:
                     continue
-                if len(r) < len(original_cols):
-                    r.extend([""] * (len(original_cols) - len(r)))
-                w.writerow([r[i] for i in col_map])
-            formatted_csv = out.getvalue()
-        else:
-            original_cols = list(df.columns)
-            target_cols = get_canonical_columns(filename, original_cols)
-            df_reordered = df[target_cols].copy()
+                original_cols = [c.strip() for c in rows[0]]
+                target_cols = get_canonical_columns(filename, original_cols)
+                col_map = [original_cols.index(c) for c in target_cols]
 
-            # Ensure timepoint is non-empty if present
-            if filename == "stop_times.txt" and "timepoint" in df_reordered.columns:
-                df_reordered["timepoint"] = df_reordered["timepoint"].fillna(
-                    0).astype(int)
+                out = io.StringIO()
+                w = csv.writer(out, lineterminator="\n", quoting=csv.QUOTE_MINIMAL)
+                w.writerow(target_cols)
+                for r in rows[1:]:
+                    if not r or not any(cell.strip() for cell in r):
+                        continue
+                    if len(r) < len(original_cols):
+                        r.extend([""] * (len(original_cols) - len(r)))
+                    w.writerow([r[i] for i in col_map])
+                formatted_csv = out.getvalue()
+            else:
+                original_cols = list(df.columns)
+                target_cols = get_canonical_columns(filename, original_cols)
+                df_reordered = df[target_cols].copy()
 
-            # Sort rows by logical keys if present
-            sort_cols = [c for c in SORT_KEYS.get(
-                filename, []) if c in df_reordered.columns]
-            if sort_cols:
-                df_reordered = df_reordered.sort_values(by=sort_cols)
+                # Ensure timepoint is non-empty if present
+                if filename == "stop_times.txt" and "timepoint" in df_reordered.columns:
+                    df_reordered["timepoint"] = df_reordered["timepoint"].fillna(
+                        0).astype(int)
 
-            out = io.StringIO()
-            df_reordered.to_csv(
-                out, index=False, lineterminator="\n", encoding="utf-8")
-            formatted_csv = out.getvalue()
-            # Clean up pandas NaN representation if any
-            formatted_csv = formatted_csv.replace(
-                ",nan,", ",,").replace(",nan\n", ",\n")
+                # Sort rows by logical keys if present
+                sort_cols = [c for c in SORT_KEYS.get(
+                    filename, []) if c in df_reordered.columns]
+                if sort_cols:
+                    df_reordered = df_reordered.sort_values(by=sort_cols)
 
-        if raw_existing != formatted_csv:
-            is_clean = False
-            print(
-                f"❌ [LINT ERROR] {txt_file.relative_to(feed_dir.parent.parent)}")
-            print(f"   Original order:  {original_cols}")
-            print(f"   Canonical order: {target_cols}")
+                out = io.StringIO()
+                df_reordered.to_csv(
+                    out, index=False, lineterminator="\n", encoding="utf-8")
+                formatted_csv = out.getvalue()
+                # Clean up pandas NaN representation if any
+                formatted_csv = formatted_csv.replace(
+                    ",nan,", ",,").replace(",nan\n", ",\n")
 
-            if fix:
-                txt_file.write_text(formatted_csv, encoding="utf-8")
-                print(f"   ✅ Reordered & formatted per GTFS spec: {filename}")
-        else:
-            print(f"✅ [OK] {txt_file.relative_to(feed_dir.parent.parent)}")
+            if raw_existing != formatted_csv:
+                is_clean = False
+                print(
+                    f"❌ [LINT ERROR] {txt_file.relative_to(feed_dir.parent.parent)}")
+                print(f"   Original order:  {original_cols}")
+                print(f"   Canonical order: {target_cols}")
 
-    return is_clean
+                if fix:
+                    txt_file.write_text(formatted_csv, encoding="utf-8")
+                    print(f"   ✅ Reordered & formatted per GTFS spec: {filename}")
+            else:
+                print(f"✅ [OK] {txt_file.relative_to(feed_dir.parent.parent)}")
+        except Exception as e:
+            print(f"❌ Error processing {txt_file}: {e}")
+            has_error = True
+
+    if has_error:
+        return FeedStatus.ERROR
+    return FeedStatus.CLEAN if is_clean else FeedStatus.DIRTY
 
 
 def main():
@@ -278,16 +294,17 @@ def main():
         print(f"No GTFS feed subdirectories found in {data_dir}")
         sys.exit(0)
 
-    all_clean = True
-    for fdir in feed_dirs:
-        clean = process_feed_dir(fdir, fix=args.fix)
-        if not clean:
-            all_clean = False
+    statuses = [process_feed_dir(fdir, fix=args.fix) for fdir in feed_dirs]
+    has_errors = FeedStatus.ERROR in statuses
+    has_dirty = FeedStatus.DIRTY in statuses
 
-    if not all_clean and not args.fix:
+    if has_errors:
+        print("\n❌ Errors occurred while processing GTFS feeds.")
+        sys.exit(1)
+    elif has_dirty and not args.fix:
         print("\n❌ GTFS CSV lint errors found! Run 'python3 scripts/lint_gtfs_csv.py --fix' or 'make fix-columns' to fix.")
         sys.exit(1)
-    elif not all_clean and args.fix:
+    elif has_dirty and args.fix:
         print("\n✨ All GTFS feeds successfully processed and formatted!")
     else:
         print("\n🎉 All GTFS feeds adhere to GTFS Schedule Reference column ordering and sorting!")
